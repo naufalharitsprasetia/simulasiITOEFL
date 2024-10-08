@@ -12,13 +12,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#E5D9F2",
-        secondary: "#F5EFFF",
-        third: "#CDC1FF",
-        fourth: "#A594F9",
+        primary: "#A594F9",
+        secondary: "#CDC1FF",
+        third: "#F5EFFF",
+        fourth: "#E5D9F2",
       },
       fontFamily: {
         poppins: ["Poppins"],
+        crimson: ["Crimson Text"],
         montserrat: ["Montserrat"],
         montaga: ["Montaga"],
       },

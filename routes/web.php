@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BeginnerController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,7 +25,8 @@ Route::middleware('guest')->group(
     function () {
         Route::get('/login', [AuthController::class, 'login'])->name('login');
         Route::post('/login', [AuthController::class, 'authenticate'])->name('authenticate');
-        Route::get('/register', [AuthController::class, 'register'])->name('register');
+        // Route::get('/register', [AuthController::class, 'register'])->name('register');
+        // Route::post('/register', [AuthController::class, 'addUser'])->name('auth.addUser');
     }
 );
 // Auth
@@ -31,13 +35,14 @@ Route::middleware('auth')->group(
         // admin
         Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-        // Blog
-        // Route::get('/blog-list', [BlogController::class, 'list'])->name('blog.list');
-        // Route::get('/blog-create', [BlogController::class, 'create'])->name('blog.create');
-        // Route::post('/blog-create', [BlogController::class, 'store'])->name('blog.store');
-        // Route::get('/blog-edit/{blog}', [BlogController::class, 'edit'])->name('blog.edit');
-        // Route::put('/blog-edit/{blog}', [BlogController::class, 'update'])->name('blog.update');
-        // Route::delete('/blog-delete/{blog}', [BlogController::class, 'destroy'])->name('blog.destroy');
+        // Simulasi
+        Route::get('/simulasi', [HomeController::class, 'simulasi'])->name('home.simulasi');
+        // Beginner 
+        Route::get('/beginner', [BeginnerController::class, 'index'])->name('beginner.index');
+        Route::get('/beginner/exam', [BeginnerController::class, 'exam'])->name('beginner.exam');
+        // routes/web.php
+        // Route::post('/save-answer', [BeginnerController::class, 'saveAnswer']);
+        // Route::get('/get-question/{id}', [BeginnerController::class, 'getNextQuestion']);
     }
 );
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Answer;
 use Illuminate\Http\Request;
 
 class BeginnerController extends Controller
@@ -14,49 +15,51 @@ class BeginnerController extends Controller
     public function exam()
     {
         $active = 'examination';
-        $page = '1';
+        $page = request()->get('page', 1); // Mengambil nilai page dari request
 
-        // Cek apakah ada parameter 'page' di URL
-        if (isset($_GET['page'])) {
-            $page = $_GET['page'];
-        }
+        // Ambil jawaban dari database untuk pengguna yang sedang login
+        $answers = Answer::where('user_id', auth()->id())->pluck('answer', 'question_id')->toArray();
 
-        // Path untuk folder resources/beginner/partials
+        // Menghitung jumlah file
         $directory = resource_path('views/beginner/partials');
-
-        // Menghitung jumlah file yang ada di folder tersebut
-        $files = array_diff(scandir($directory), ['..', '.']); // Ambil isi folder, kecuali '.' dan '..'
-        $fileCount = count($files); // Hitung jumlah file
-
-        // Menentukan nama view berdasarkan halaman yang dipilih
+        $files = array_diff(scandir($directory), ['..', '.']);
+        $fileCount = count($files);
         $viewName = 'beginner.partials.page' . $page;
 
-        // Cek apakah view tersebut ada
         if (view()->exists($viewName)) {
-            return view('beginner.exam', compact('active', 'page', 'fileCount'));
+            return view('beginner.exam', compact('active', 'page', 'fileCount', 'answers'));
         } else {
-            // Redirect dengan pesan error jika view tidak ditemukan
             return redirect()->back()->with('error', 'Halaman yang diminta tidak ada');
         }
     }
 
-    // public function saveAnswer(Request $request)
-    // {
-    //     $userAnswer = $request->input('answer');
-    //     $questionId = $request->input('question_id');
+    public function submit(Request $request)
+    {
+        // Ambil jawaban dari input
+        $answers = $request->input('answers', []);
 
-    //     // Logika untuk menyimpan jawaban ke database atau session
-    //     Answer::updateOrCreate(
-    //         ['user_id' => auth()->id(), 'question_id' => $questionId],
-    //         ['answer' => $userAnswer]
-    //     );
+        // Jika tidak ada jawaban yang dikirimkan, langsung redirect ke halaman berikutnya
+        $currentPage = $request->input('pageNow');
+        if (empty($answers)) {
+            // dd($currentPage);
+            return redirect()->route('beginner.exam', ['page' => $currentPage + 1]);
+        }
 
-    //     // Kirim respons dengan ID soal berikutnya
-    //     return response()->json(['success' => true, 'nextQuestionId' => $request->input('next_question_id')]);
-    // }
-    // public function getNextQuestion($id)
-    // {
-    //     $question = Question::find($id);
-    //     return view('partials.question', compact('question'))->render(); // Return partial view
-    // }
+        // Validasi jawaban
+        $validated = $request->validate([
+            'answers.*' => 'nullable|string', // Validasi jawaban
+        ]);
+
+        // Simpan jawaban ke database
+        foreach ($validated['answers'] as $questionId => $answer) {
+            // Simpan ke dalam database
+            Answer::updateOrCreate(
+                ['user_id' => auth()->id(), 'question_id' => $questionId],
+                ['answer' => $answer]
+            );
+        }
+
+        // Redirect ke halaman selanjutnya
+        return redirect()->route('beginner.exam', ['page' => $currentPage + 1]);
+    }
 }

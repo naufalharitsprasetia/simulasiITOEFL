@@ -18,15 +18,10 @@
             // Buat URL dengan page yang sudah dikurangi
             $previousPageUrl = request()->url() . '?page=' . $previousPage;
         @endphp
-
         <a href="{{ $previousPageUrl }}" class="absolute top-5 left-5 rounded-lg px-2 py-2 bg-primary text-white">
             Back
         </a>
         {{-- TOTAL PAGES MID --}}
-        @php
-            $currentPage = request()->get('page', 1); // Halaman saat ini
-        @endphp
-
         <div class="absolute top-5 left-1/2 transform -translate-x-1/2 rounded-lg p-2 bg-primary text-white flex gap-2">
             @for ($i = 1; $i <= $fileCount; $i++)
                 <div
@@ -40,15 +35,32 @@
             @endfor
         </div>
         {{-- END TOTAL PAGES MID --}}
+        {{-- Times --}}
         <div class="absolute top-5 right-5 rounded-lg px-2 py-2 bg-primary text-white">Time Left : <span
                 id="countdown"></span></div>
         {{-- NEXT PAGE --}}
-        @php
-            $halaman = 'beginner.partials.page' . $page;
-        @endphp
-        @include($halaman)
+        {{-- CORE --}}
+        <form id="examForm" method="POST" action="{{ route('exam.submit') }}">
+            @csrf
+            <input type="hidden" name="pageNow" value="{{ $page }}">
+            <div id="content">
+                @php
+                    $halaman = 'beginner.partials.page' . $page;
+                @endphp
+                @include($halaman)
+            </div>
+            <button type="submit" class="bg-primary text-white rounded-lg px-12 py-2 shadow-md mt-4 inline-block">
+                Next
+            </button>
+        </form>
+
     </div>
 </div>
+{{-- AJAX --}}
+<script></script>
+{{-- Membersihkan Local Storage Yang Tersimpan setelah submit --}}
+<script></script>
+
 {{-- TIMER --}}
 <script>
     var time = localStorage.getItem('remainingTime') || 7200; // 2 hours in seconds

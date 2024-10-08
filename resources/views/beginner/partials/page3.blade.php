@@ -85,8 +85,4 @@
             </div>
         </div>
     </div>
-    <br>
-    <a href="/beginner/exam?page=4"
-        class="bg-primary text-white rounded-lg px-12 py-2 shadow-md mt-4 inline-block">Next</a>
-</div>
 </div>

@@ -10,8 +10,5 @@
             all he questions on the basis of what is stated by the speaker in the test. Try to work on practice Part
             A in the same way
         </p>
-        <br>
-        <a href="/beginner/exam?page=2"
-            class="bg-primary text-white rounded-lg px-12 py-2 shadow-md mt-12 inline-block">Next</a>
     </div>
 </div>

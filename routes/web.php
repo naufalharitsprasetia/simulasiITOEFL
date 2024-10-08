@@ -41,8 +41,7 @@ Route::middleware('auth')->group(
         Route::get('/beginner', [BeginnerController::class, 'index'])->name('beginner.index');
         Route::get('/beginner/exam', [BeginnerController::class, 'exam'])->name('beginner.exam');
         // routes/web.php
-        // Route::post('/save-answer', [BeginnerController::class, 'saveAnswer']);
-        // Route::get('/get-question/{id}', [BeginnerController::class, 'getNextQuestion']);
+        Route::post('/exam/submit', [BeginnerController::class, 'submit'])->name('exam.submit');
     }
 );
 

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
+use App\Models\Exam;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -18,9 +19,13 @@ class DatabaseSeeder extends Seeder
 
         User::create([
             'name' => 'Naufal Harits Prasetia',
-            'nim' => '432022611051',
+            'username' => 'naufalharisprasetia',
             'email' => 'naufal@unida.gontor.ac.id',
             'password' => bcrypt('bismillah'),
+        ]);
+        Exam::create([
+            'title' => 'practice1',
+            'description' => 'Exam For Beginner'
         ]);
     }
 }

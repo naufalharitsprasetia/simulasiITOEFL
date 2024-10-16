@@ -37,15 +37,16 @@
             <form action="/login" method="POST" class="space-y-6">
                 @csrf
 
-                <!-- NIM_or_email Input -->
+                <!-- username_or_email Input -->
                 <div class="relative">
-                    <label for="nim_or_email"
-                        class="block text-sm lg:text-base font-medium text-gray-700 dark:text-gray-300 mb-2">NIM atau
+                    <label for="username_or_email"
+                        class="block text-sm lg:text-base font-medium text-gray-700 dark:text-gray-300 mb-2">Username
+                        atau
                         Email</label>
-                    <input type="text" name="nim_or_email" value="{{ old('nim_or_email') }}" required
-                        placeholder="Masukkan NIM atau email"
-                        class="w-full px-4 py-3 rounded-lg dark:bg-black border dark:border-zinc-600 text-black @error('nim_or_email') bg-red-100 border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
-                    @error('nim_or_email')
+                    <input type="text" name="username_or_email" value="{{ old('username_or_email') }}" required
+                        placeholder="Masukkan Username atau email"
+                        class="w-full px-4 py-3 rounded-lg dark:bg-black border dark:border-zinc-600 text-black @error('username_or_email') bg-red-100 border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
+                    @error('username_or_email')
                         <p class="text-red-500 dark:text-red-400 text-sm mt-2">{{ $message }}</p>
                     @enderror
                 </div>
@@ -68,6 +69,13 @@
                     <label for="togglePasswordVisibility"
                         class="text-sm lg:text-base text-gray-700 dark:text-gray-300">Tampilkan kata sandi</label>
                 </div>
+
+                {{-- sudah punya akun --}}
+                <div class="text-sm text-center lg:text-base text-gray-700 dark:text-gray-300">
+                    <a class="hover:text-accent transition-colors" href="{{ route('auth.addUser') }}">Belum punya
+                        akun?</a>
+                </div>
+
 
                 <!-- Login Button -->
                 <div>

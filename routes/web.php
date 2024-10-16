@@ -25,8 +25,8 @@ Route::middleware('guest')->group(
     function () {
         Route::get('/login', [AuthController::class, 'login'])->name('login');
         Route::post('/login', [AuthController::class, 'authenticate'])->name('authenticate');
-        // Route::get('/register', [AuthController::class, 'register'])->name('register');
-        // Route::post('/register', [AuthController::class, 'addUser'])->name('auth.addUser');
+        Route::get('/register', [AuthController::class, 'register'])->name('register');
+        Route::post('/register', [AuthController::class, 'addUser'])->name('auth.addUser');
     }
 );
 // Auth
@@ -40,6 +40,7 @@ Route::middleware('auth')->group(
         // Beginner 
         Route::get('/beginner', [BeginnerController::class, 'index'])->name('beginner.index');
         Route::get('/beginner/exam', [BeginnerController::class, 'exam'])->name('beginner.exam');
+        Route::get('/exam/result', [BeginnerController::class, 'result'])->name('exam.result');
         // routes/web.php
         Route::post('/exam/submit', [BeginnerController::class, 'submit'])->name('exam.submit');
     }

@@ -5,8 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Answer extends Model
+class Exam extends Model
 {
     use HasFactory;
-    protected $fillable = ['user_id', 'question_id', 'answer'];
+    protected $fillable = [
+        'title',
+        'description',
+        'created_at',
+        'updated_at',
+    ];
 }

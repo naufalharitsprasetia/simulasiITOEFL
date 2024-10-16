@@ -1,35 +1,152 @@
 <div class="begginer-wrapper px-28 py-24">
-    <div class="title-container text-center font-bold font-crimson mb-6">
-        <h1 class="text-3xl">PART B</h1>
-        <h1 class="text-2xl">DIRECTION</h1>
+    <div class="title-container font-bold font-poppins mb-6">
+        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
     </div>
     <div class="body-container mt-12">
-        <p class="font-semibold text-center">
-            In part B, you will hear short conversation between two people. After each conversation, you will hear a
-            question about the conversation. The conversations and the questions will not be repeated. After you hear a
-            question, read the four possible answers in the screen and choose the best answer and click it
-        </p>
-        <hr class="my-6">
-        <div class="text-left">
-            <p class="text-left">Here is the example:</p>
-            <br>
-            <p class="text-left mb-2">On the recorder you will hear:</p>
-            <p>Man : I lost my notebook on the way home. Is it possible for me to
-                borrow yours before exam?<br>
-                Woman : I'm sorry. I've to take it with me to my office so I can study on my
-                breaksfa-border <br>
-                Question (narrator) : What does the man want the woman do?</p>
-            <br>
-            <p>
-                In the screen you will read: <br>
-                a.       take the man’s notebook <br>
-                b.      help him during the test <br>
-                c.       Lend him her notebook <br>
-                d.      Study together on her breaks <br>
-                <br>
-                Cross the answer on the answer sheet A,B, C, or D <br>
-                Now begin work on the questions
+        <!-- Question 11 -->
+        <div class="mb-8">
+            <p class="text-lg">11. ____ 362 miles between the cities of Albany and Buffalo in New York State, the Eric
+                Canal helped link the Atlantic Ocean with the Great Lakes. </p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="A" class="mr-2"> (A) The extension of
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="B" class="mr-2"> (B) The extension
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="C" class="mr-2"> (C) Extending
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="D" class="mr-2"> (D) Extends
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="mb-8">
+            <p class="text-lg">12. The chief sources of B12, a water-soluble vitamin ____ stored in the body, include
+                meat, milk and eggs.</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="A" class="mr-2"> (A) is not
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="B" class="mr-2"> (B) that is not
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="C" class="mr-2"> (C) not that is
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="D" class="mr-2"> (D) that not
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="mb-8">
+            <p class="text-lg">13. ____ is rooted in experiments in iron and steel conducted in the nineteenth century.
             </p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="A" class="mr-2"> (A) While the history of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="B" class="mr-2"> (B) The history of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="C" class="mr-2"> (C) That the history of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="D" class="mr-2"> (D) Both twentieth-century
+                        architecture and its history
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="mb-8">
+            <p class="text-lg">14. The primary source of energy for tropical cyclones is the latent heat released when
+                ____</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="A" class="mr-2"> (A) does water vapor
+                        condense
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="B" class="mr-2"> (B) condensed water vapor
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="C" class="mr-2"> (C) water vapor condenses
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="D" class="mr-2"> (D) the condensation of
+                        water vapor
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="mb-8">
+            <p class="text-lg">15. Manufacturing is Canada’s most important economic activity, ____17 percent of the
+                workforce.</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="A" class="mr-2"> (A) engages
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="B" class="mr-2"> (B) and to engage
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="C" class="mr-2"> (C) that it engage
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="D" class="mr-2"> (D) engaging
+                    </label>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

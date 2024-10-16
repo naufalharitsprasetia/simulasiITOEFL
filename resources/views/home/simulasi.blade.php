@@ -20,20 +20,19 @@
                 </div>
             @endif
             <h1 class="text-3xl font-semibold">PILIH JENIS UJIAN </h1>
-            <h2 class="text-xl italic font-medium">"BEGINNER / ADVANCED"</h2>
             <br><br>
             <div class="card-wrapper flex justify-center items-center gap-8">
                 <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Beginner EXAM</h3>
+                    <h3 class="text-lg font-semibold">Examination 1</h3>
                     <br>
                     <a href="/beginner"
                         class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-1 py-2 block">Attempt now</a>
                 </div>
                 <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Advanced EXAM</h3>
+                    <h3 class="text-lg font-semibold">Examination 2</h3>
+                    <span class="text-xs text-gray-200">(belum tersedia)</span>
                     <br>
-                    <a href="/advance"
-                        class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-1 py-2 block">Attempt now</a>
+                    <a class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-1 py-2 block">Attempt now</a>
                 </div>
             </div>
         </div>

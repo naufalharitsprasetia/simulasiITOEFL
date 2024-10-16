@@ -23,15 +23,15 @@ class AuthController extends Controller
     public function authenticate(Request $request)
     {
         $request->validate([
-            'nim_or_email' => 'required|string',
+            'username_or_email' => 'required|string',
             'password' => 'required|string',
         ]);
 
         $user = null;
-        if (filter_var($request->input('nim_or_email'), FILTER_VALIDATE_EMAIL)) {
-            $user = User::where('email', $request->input('nim_or_email'))->first();
+        if (filter_var($request->input('username_or_email'), FILTER_VALIDATE_EMAIL)) {
+            $user = User::where('email', $request->input('username_or_email'))->first();
         } else {
-            $user = User::where('nim', $request->input('nim_or_email'))->first();
+            $user = User::where('username', $request->input('username_or_email'))->first();
         }
 
         if ($user) {
@@ -46,7 +46,7 @@ class AuthController extends Controller
             }
         } else {
             return back()->withErrors([
-                'nim_or_email' => 'nim atau Email tidak ditemukan.',
+                'username_or_email' => 'username atau Email tidak ditemukan.',
             ])->withInput();
         }
         // Alert::alert('Berhasil', 'selamat ! anda berhasil masuk !', 'success');
@@ -66,5 +66,23 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
 
         return redirect('/');
+    }
+    public function addUser(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'username' => 'required|string|max:255|unique:users,username',
+            'email' => 'required|email|max:255|unique:users,email',
+            'password' => 'required|string|min:8|confirmed',
+        ]);
+
+        $user = new User();
+        $user->name = $request->input('name');
+        $user->username = $request->input('username');
+        $user->email = $request->input('email');
+        $user->password = Hash::make($request->input('password'));
+        $user->save();
+
+        return redirect('/login')->with('success', 'Registrasi berhasil, silakan login.');
     }
 }

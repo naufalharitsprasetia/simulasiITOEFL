@@ -15,14 +15,15 @@
                             <form action="/logout" id="logout-form" method="post">
                                 @csrf
                                 <button type="button" onclick="confirmLogout()"
-                                    class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'logout' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Logout</a>
+                                    class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'logout' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Logout</button>
                             </form>
+                            <p class="text-third">Welcome Back, {{ auth()->user()->name }} !</p>
                         @else
                             <a href="/login"
                                 class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'login' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Login</a>
+                            <a href="/register"
+                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'register' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Register</a>
                         @endauth
-                        {{-- <a href="/register"
-                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'register' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Register</a> --}}
                     </div>
                 </div>
                 <!-- SMALL NAV-->

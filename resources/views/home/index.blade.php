@@ -24,7 +24,11 @@
             @guest
                 <div class="mt-8">
                     <a href="/login" class="px-3 py-2 bg-primary text-white">Login</a>
-                    {{-- <a href="/register" class="px-3 py-2 text-primary">Register</a> --}}
+                    <a href="/register" class="px-3 py-2 text-primary">Register</a>
+                </div>
+            @else
+                <div class="mt-8">
+                    <a href="/simulasi" class="px-3 py-2 bg-primary text-white">Go To Exam</a>
                 </div>
             @endguest
         </div>

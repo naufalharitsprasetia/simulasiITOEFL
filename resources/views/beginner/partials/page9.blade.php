@@ -86,28 +86,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question1" value="A" class="mr-2"> (A)
                                  Philadelphia's
                                  significance in agriculture
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question1" value="B" class="mr-2"> (B)
                                  Philadelphia's growth
                                  as a marketing hub
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="C" class="mr-2"> (C) The trade of
+                                 <input type="radio" name="section3question1" value="C" class="mr-2"> (C) The
+                                 trade of
                                  imported
                                  goods in Philadelphia
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="D" class="mr-2"> (D) The
+                                 <input type="radio" name="section3question1" value="D" class="mr-2"> (D) The
                                  governance of the
                                  city of Philadelphia
                              </label>
@@ -123,14 +124,16 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="A" class="mr-2"> (A) They offered
+                                 <input type="radio" name="section3question2" value="A" class="mr-2"> (A) They
+                                 offered
                                  more
                                  modern facilities than the older markets
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="B" class="mr-2"> (B) The High
+                                 <input type="radio" name="section3question2" value="B" class="mr-2"> (B) The
+                                 High
                                  Street
                                  Market
                                  was forced to close.
@@ -138,14 +141,16 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="C" class="mr-2"> (C) Existing
+                                 <input type="radio" name="section3question2" value="C" class="mr-2"> (C)
+                                 Existing
                                  markets
                                  couldn't accommodate the growing population.
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="D" class="mr-2"> (D) Farmers
+                                 <input type="radio" name="section3question2" value="D" class="mr-2"> (D)
+                                 Farmers
                                  wanted
                                  markets
                                  closer to their farms.</label>
@@ -159,22 +164,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question3" value="A" class="mr-2"> (A)
                                  Harvest</label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="B" class="mr-2"> (B) Tradition
+                                 <input type="radio" name="section3question3" value="B" class="mr-2"> (B)
+                                 Tradition
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="C" class="mr-2"> (C) Product
+                                 <input type="radio" name="section3question3" value="C" class="mr-2"> (C)
+                                 Product
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="D" class="mr-2"> (D) Hinterland
+                                 <input type="radio" name="section3question3" value="D" class="mr-2"> (D)
+                                 Hinterland
                              </label>
                          </li>
                      </ul>
@@ -186,22 +194,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Organize
+                                 <input type="radio" name="section3question4" value="A" class="mr-2"> (A)
+                                 Organize
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Decline
+                                 <input type="radio" name="section3question4" value="B" class="mr-2"> (B)
+                                 Decline
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Request
+                                 <input type="radio" name="section3question4" value="C" class="mr-2"> (C)
+                                 Request
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Eliminate
+                                 <input type="radio" name="section3question4" value="D" class="mr-2"> (D)
+                                 Eliminate
                              </label>
                          </li>
                      </ul>
@@ -213,27 +225,31 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) on the same
+                                 <input type="radio" name="section3question5" value="A" class="mr-2"> (A) on
+                                 the same
                                  day as
                                  market
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) as often as
+                                 <input type="radio" name="section3question5" value="B" class="mr-2"> (B) as
+                                 often as
                                  possible
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) a couple of
+                                 <input type="radio" name="section3question5" value="C" class="mr-2"> (C) a
+                                 couple of
                                  times a
                                  year
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) whenever
+                                 <input type="radio" name="section3question5" value="D" class="mr-2"> (D)
+                                 whenever
                                  the
                                  government allowed it
                              </label>
@@ -248,25 +264,27 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Imported
+                                 <input type="radio" name="section3question6" value="A" class="mr-2"> (A)
+                                 Imported
                                  luxury items
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question6" value="B" class="mr-2"> (B)
                                  Germantown linens and stockings
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Livestock
+                                 <input type="radio" name="section3question6" value="C" class="mr-2"> (C)
+                                 Livestock
                                  and vegetables
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question6" value="D" class="mr-2"> (D)
                                  Handcrafted furniture
                              </label>
                          </li>
@@ -279,25 +297,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Retail
+                                 <input type="radio" name="section3question7" value="A" class="mr-2"> (A)
+                                 Retail
                                  merchants were unwilling to sell them
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) They
+                                 <input type="radio" name="section3question7" value="B" class="mr-2"> (B)
+                                 They
                                  weren't available in Philadelphia stores
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) They were
+                                 <input type="radio" name="section3question7" value="C" class="mr-2"> (C)
+                                 They were
                                  more popular in Germantown than in Philadelphia
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) They were
+                                 <input type="radio" name="section3question7" value="D" class="mr-2"> (D)
+                                 They were
                                  easy to transport.
                              </label>
                          </li>
@@ -310,22 +332,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Resisted
+                                 <input type="radio" name="section3question8" value="A" class="mr-2"> (A)
+                                 Resisted
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Support
+                                 <input type="radio" name="section3question8" value="B" class="mr-2"> (B)
+                                 Support
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Offered
+                                 <input type="radio" name="section3question8" value="C" class="mr-2"> (C)
+                                 Offered
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Operated
+                                 <input type="radio" name="section3question8" value="D" class="mr-2"> (D)
+                                 Operated
                              </label>
                          </li>
                      </ul>
@@ -338,24 +364,28 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Merchants
+                                 <input type="radio" name="section3question9" value="A" class="mr-2"> (A)
+                                 Merchants
                                  had a significant influence on economic growth
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Economic
+                                 <input type="radio" name="section3question9" value="B" class="mr-2"> (B)
+                                 Economic
                                  trends allowed merchants to succeed </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Merchants
+                                 <input type="radio" name="section3question9" value="C" class="mr-2"> (C)
+                                 Merchants
                                  needed to collaborate to achieve economic independence
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Specialty
+                                 <input type="radio" name="section3question9" value="D" class="mr-2"> (D)
+                                 Specialty
                                  shops near large markets were more likely to be economically successful
                              </label>
                          </li>
@@ -369,25 +399,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) It
+                                 <input type="radio" name="section3question10" value="A" class="mr-2"> (A)
+                                 It
                                  provided access to exclusive international trade agreements </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) It
+                                 <input type="radio" name="section3question10" value="B" class="mr-2"> (B)
+                                 It
                                  attracted a steady flow of influential visitors for legislative, council, and court
                                  activities.
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) It
+                                 <input type="radio" name="section3question10" value="C" class="mr-2"> (C)
+                                 It
                                  offered merchants significant tax exemptions and financial incentives
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) It gave
+                                 <input type="radio" name="section3question10" value="D" class="mr-2"> (D)
+                                 It gave
                                  merchants control over the distribution of agricultural products in the region
                              </label>
                          </li>

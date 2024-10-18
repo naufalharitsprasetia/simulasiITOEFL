@@ -74,7 +74,7 @@
          <!-- Right Column (Questions) -->
          <div class="w-full p-4">
              <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
-                 <h2 class="text-xl font-bold mb-4">Questions 1-10</h2>
+                 <h2 class="text-xl font-bold mb-4">Questions 11-22</h2>
 
                  <!-- Question 11 -->
                  <div class="mb-6">
@@ -135,7 +135,7 @@
 
                  <!-- Question 13 -->
                  <div class="mb-6">
-                     <p class="text-md">13. . In paragraph 2, when the sides and bottom of the egg are cooler than the
+                     <p class="text-md">13. In paragraph 2, when the sides and bottom of the egg are cooler than the
                          top, what happens is:</p>
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
@@ -218,162 +218,213 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)reach the
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) reach the
                                  bottom of the eggs.
                              </label>
                          </li>
                      </ul>
                  </div>
 
-                 <!-- Question 6 -->
+                 <!-- Question 16 -->
                  <div class="mb-6">
-                     <p class="text-md">6. What type of goods was particularly popular at the twice-yearly fairs in
-                         Philadelphia?</p>
+                     <p class="text-md">16. All of the following are included in a parrot’s incubation method EXCEPT:
+                     </p>
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Imported
-                                 luxury items
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) heating
+                                 the water vapor as it rises from the bottom of the nest
                              </label>
                          </li>
                          <li>
                              <label>
                                  <input type="radio" name="question4" value="B" class="mr-2"> (B)
-                                 Germantown linens and stockings
+                                 arranging nesting material at the bottom of the nest
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Livestock
-                                 and vegetables
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 transferring heat from the parent to the top of the eggshell
                              </label>
                          </li>
                          <li>
                              <label>
                                  <input type="radio" name="question4" value="D" class="mr-2"> (D)
-                                 Handcrafted furniture
+                                 keeping a constant temperature on the eggshell.
                              </label>
                          </li>
                      </ul>
                  </div>
 
-                 <!-- Question 7 -->
+                 <!-- Question 17 -->
                  <div class="mb-6">
-                     <p class="text-md">7. What can be inferred about "linens and stockings" mentioned in line 10?</p>
+                     <p class="text-md">17. The word "insulate" in line 14 most closely means:</p>
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Retail
-                                 merchants were unwilling to sell them
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) establish
                              </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) protect
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) hang
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) move
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 18 -->
+                 <div class="mb-6">
+                     <p class="text-md">18. The word "fatal" in line 15 is closest in meaning to: </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) benign
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) deadly
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) natural
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) harmless
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 19 -->
+                 <div class="mb-6">
+                     <p class="text-md">19. The word "secure" in line 17. is closest in meaning to: </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 unreliable
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 vulnerable </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) protected
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) fresh
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 20 -->
+                 <div class="mb-6">
+                     <p class="text-md">20. According to paragraph 2, a deep foundation of nesting material provides:
+                     </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) a
+                                 consistent source of humidity </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) a sturdy
+                                 nest structure
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) extra
+                                 space for newly hatched chicks
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 protection from cold weather. </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 21 -->
+                 <div class="mb-6">
+                     <p class="text-md">21. Which of the following is a drawback of commercial incubators?
+                     </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) They lack
+                                 the natural temperature fluctuations of the outdoors. </label>
                          </li>
                          <li>
                              <label>
                                  <input type="radio" name="question4" value="B" class="mr-2"> (B) They
-                                 weren't available in Philadelphia stores
+                                 can’t heat the eggs evenly.
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) They were
-                                 more popular in Germantown than in Philadelphia
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) They
+                                 don’t transfer heat to the egg the same way the parent bird does.
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) They were
-                                 easy to transport.
-                             </label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 They are costly to run. </label>
                          </li>
                      </ul>
                  </div>
 
-                 <!-- Question 8 -->
+                 <!-- Question 22 -->
                  <div class="mb-6">
-                     <p class="text-md">8. The word "opposed" in line 12 is closest in meaning to: </p>
+                     <p class="text-md">22. Which of the following terms is defined in the passage? </p>
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Resisted
+                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 Aviculturists
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Support
+                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 Gradient
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Offered
+                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 Incubation
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Operated
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 9 -->
-                 <div class="mb-6">
-                     <p class="text-md">9. What does the author mean by saying "economic development favored the
-                         merchants" in line 13? </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Merchants
-                                 had a significant influence on economic growth
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Economic
-                                 trends allowed merchants to succeed </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Merchants
-                                 needed to collaborate to achieve economic independence
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Specialty
-                                 shops near large markets were more likely to be economically successful
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 10 -->
-                 <div class="mb-6">
-                     <p class="text-md">10. In what way did Philadelphia's status as the provincial capital contribute
-                         to the success of its merchants?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) It
-                                 provided access to exclusive international trade agreements </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) It
-                                 attracted a steady flow of influential visitors for legislative, council, and court
-                                 activities.
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) It
-                                 offered merchants significant tax exemptions and financial incentives
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) It gave
-                                 merchants control over the distribution of agricultural products in the region
-                             </label>
+                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 Embryo </label>
                          </li>
                      </ul>
                  </div>

@@ -89,25 +89,27 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question44" value="A" class="mr-2"> (A)
                                  the growing number of schools in frontier communities
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question44" value="B" class="mr-2"> (B)
                                  an increase in the number of trained teachers
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="C" class="mr-2"> (C) the expanding
+                                 <input type="radio" name="section3question44" value="C" class="mr-2"> (C) the
+                                 expanding
                                  economic problems of schools
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="D" class="mr-2"> (D) the increased
+                                 <input type="radio" name="section3question44" value="D" class="mr-2"> (D) the
+                                 increased
                                  urbanization of the entire country
                              </label>
                          </li>
@@ -120,22 +122,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="A" class="mr-2"> (A) drawbacks
+                                 <input type="radio" name="section3question45" value="A" class="mr-2"> (A)
+                                 drawbacks
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="B" class="mr-2"> (B) probability
+                                 <input type="radio" name="section3question45" value="B" class="mr-2"> (B)
+                                 probability
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="C" class="mr-2"> (C) methods
+                                 <input type="radio" name="section3question45" value="C" class="mr-2"> (C)
+                                 methods
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question45" value="D" class="mr-2"> (D)
                                  qualifications</label>
                          </li>
                      </ul>
@@ -147,22 +152,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question46" value="A" class="mr-2"> (A)
                                  influenced </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="B" class="mr-2"> (B) happened
+                                 <input type="radio" name="section3question46" value="B" class="mr-2"> (B)
+                                 happened
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="C" class="mr-2"> (C) began
+                                 <input type="radio" name="section3question46" value="C" class="mr-2"> (C)
+                                 began
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="D" class="mr-2"> (D) ensured
+                                 <input type="radio" name="section3question46" value="D" class="mr-2"> (D)
+                                 ensured
                              </label>
                          </li>
                      </ul>
@@ -175,25 +183,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Most regions
+                                 <input type="radio" name="section3question47" value="A" class="mr-2"> (A) Most
+                                 regions
                                  mandated school attendance for children
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) The duration
+                                 <input type="radio" name="section3question47" value="B" class="mr-2"> (B) The
+                                 duration
                                  of formal education was restricted
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) New rules
+                                 <input type="radio" name="section3question47" value="C" class="mr-2"> (C) New
+                                 rules
                                  were introduced for nontraditional forms of education
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Adults and
+                                 <input type="radio" name="section3question47" value="D" class="mr-2"> (D)
+                                 Adults and
                                  children were taught in the same classes
                              </label>
                          </li>
@@ -207,25 +219,28 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Alternatives
+                                 <input type="radio" name="section3question48" value="A" class="mr-2"> (A)
+                                 Alternatives
                                  to the formal education offered by public schools
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) The
+                                 <input type="radio" name="section3question48" value="B" class="mr-2"> (B) The
                                  significance of changes in education
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Programs
+                                 <input type="radio" name="section3question48" value="C" class="mr-2"> (C)
+                                 Programs
                                  that competed to draw new immigrants
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) The
+                                 <input type="radio" name="section3question48" value="D" class="mr-2"> (D)
+                                 The
                                  growing influence of public schools on students
                              </label>
                          </li>
@@ -239,24 +254,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Different
+                                 <input type="radio" name="section3question49" value="A" class="mr-2"> (A)
+                                 Different
                                  groups required different types of education </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question49" value="B" class="mr-2"> (B)
                                  Special programs were needed in frontier areas to modernize them
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question49" value="C" class="mr-2"> (C)
                                  Corporations and other entities were hindering educational progress
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question49" value="D" class="mr-2"> (D)
                                  More women should participate in education and industry
                              </label>
                          </li>
@@ -269,24 +285,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question50" value="A" class="mr-2"> (A)
                                  Women
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question50" value="B" class="mr-2"> (B)
                                  Homemakers
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Schools
+                                 <input type="radio" name="section3question50" value="C" class="mr-2"> (C)
+                                 Schools
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Consumers
+                                 <input type="radio" name="section3question50" value="D" class="mr-2"> (D)
+                                 Consumers
                              </label>
                          </li>
                      </ul>

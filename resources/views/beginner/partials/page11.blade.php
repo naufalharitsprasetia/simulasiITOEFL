@@ -89,25 +89,27 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question23" value="A" class="mr-2"> (A)
                                  Characteristics of high-quality soil
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question23" value="B" class="mr-2"> (B)
                                  Common particles found in most soils
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="C" class="mr-2"> (C) The impact of
+                                 <input type="radio" name="section3question23" value="C" class="mr-2"> (C) The
+                                 impact of
                                  high clay content on soil texture
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="D" class="mr-2"> (D) Methods to
+                                 <input type="radio" name="section3question23" value="D" class="mr-2"> (D)
+                                 Methods to
                                  determine soil texture.
                              </label>
                          </li>
@@ -121,25 +123,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="A" class="mr-2"> (A) The variety
+                                 <input type="radio" name="section3question24" value="A" class="mr-2"> (A) The
+                                 variety
                                  of soil samples
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="B" class="mr-2"> (B) The method
+                                 <input type="radio" name="section3question24" value="B" class="mr-2"> (B) The
+                                 method
                                  used to weigh soil
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="C" class="mr-2"> (C) The criteria
+                                 <input type="radio" name="section3question24" value="C" class="mr-2"> (C) The
+                                 criteria
                                  for a sufficient soil sample
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="D" class="mr-2"> (D) The small
+                                 <input type="radio" name="section3question24" value="D" class="mr-2"> (D) The
+                                 small
                                  size of soil particles.</label>
                          </li>
                      </ul>
@@ -151,22 +157,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question25" value="A" class="mr-2"> (A)
                                  combined</label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="B" class="mr-2"> (B) substituted
+                                 <input type="radio" name="section3question25" value="B" class="mr-2"> (B)
+                                 substituted
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="C" class="mr-2"> (C) moved
+                                 <input type="radio" name="section3question25" value="C" class="mr-2"> (C)
+                                 moved
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="D" class="mr-2"> (D) divided
+                                 <input type="radio" name="section3question25" value="D" class="mr-2"> (D)
+                                 divided
                              </label>
                          </li>
                      </ul>
@@ -179,25 +188,28 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) the method of
+                                 <input type="radio" name="section3question26" value="A" class="mr-2"> (A) the
+                                 method of
                                  soil extraction
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) the outcome
+                                 <input type="radio" name="section3question26" value="B" class="mr-2"> (B) the
+                                 outcome
                                  of compressing the soil
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) the
+                                 <input type="radio" name="section3question26" value="C" class="mr-2"> (C) the
                                  importance of testing multiple samples
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) the challenge
+                                 <input type="radio" name="section3question26" value="D" class="mr-2"> (D) the
+                                 challenge
                                  of creating different shapes
                              </label>
                          </li>
@@ -210,22 +222,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) harmed
+                                 <input type="radio" name="section3question27" value="A" class="mr-2"> (A)
+                                 harmed
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) extended
+                                 <input type="radio" name="section3question27" value="B" class="mr-2"> (B)
+                                 extended
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) dampened
+                                 <input type="radio" name="section3question27" value="C" class="mr-2"> (C)
+                                 dampened
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) inspected
+                                 <input type="radio" name="section3question27" value="D" class="mr-2"> (D)
+                                 inspected
                              </label>
                          </li>
                      </ul>
@@ -239,24 +255,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) It is
+                                 <input type="radio" name="section3question28" value="A" class="mr-2"> (A)
+                                 It is
                                  relatively light. </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question28" value="B" class="mr-2"> (B)
                                  It might not retain its shape when formed
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question28" value="C" class="mr-2"> (C)
                                  Its shape is long-lasting
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question28" value="D" class="mr-2"> (D)
                                  Its texture cannot be categorized.
                              </label>
                          </li>
@@ -269,24 +286,27 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question29" value="A" class="mr-2"> (A)
                                  classifications
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) sieves
+                                 <input type="radio" name="section3question29" value="B" class="mr-2"> (B)
+                                 sieves
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) larger
+                                 <input type="radio" name="section3question29" value="C" class="mr-2"> (C)
+                                 larger
                                  particles
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) clay
+                                 <input type="radio" name="section3question29" value="D" class="mr-2"> (D)
+                                 clay
                                  particles
                              </label>
                          </li>
@@ -300,25 +320,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) the sieve
+                                 <input type="radio" name="section3question30" value="A" class="mr-2"> (A)
+                                 the sieve
                                  method is quicker
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) the sieve
+                                 <input type="radio" name="section3question30" value="B" class="mr-2"> (B)
+                                 the sieve
                                  can quantify clay
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) using the
+                                 <input type="radio" name="section3question30" value="C" class="mr-2"> (C)
+                                 using the
                                  sieve requires less expertise
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) the sieve
+                                 <input type="radio" name="section3question30" value="D" class="mr-2"> (D)
+                                 the sieve
                                  provides a more accurate measurement
                              </label>
                          </li>
@@ -332,24 +356,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question31" value="A" class="mr-2"> (A)
                                  adhere to the sides of the container
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question31" value="B" class="mr-2"> (B)
                                  take some time to settle at the bottom </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) separate
+                                 <input type="radio" name="section3question31" value="C" class="mr-2"> (C)
+                                 separate
                                  into various sizes
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) dissolve
+                                 <input type="radio" name="section3question31" value="D" class="mr-2"> (D)
+                                 dissolve
                                  rapidly
                              </label>
                          </li>
@@ -363,23 +389,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) tiny
+                                 <input type="radio" name="section3question32" value="A" class="mr-2"> (A)
+                                 tiny
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) numerous
+                                 <input type="radio" name="section3question32" value="B" class="mr-2"> (B)
+                                 numerous
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question32" value="C" class="mr-2"> (C)
                                  high-quality
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question32" value="D" class="mr-2"> (D)
                                  different </label>
                          </li>
                      </ul>
@@ -392,23 +420,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) texture
+                                 <input type="radio" name="section3question33" value="A" class="mr-2"> (A)
+                                 texture
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) ribbon
+                                 <input type="radio" name="section3question33" value="B" class="mr-2"> (B)
+                                 ribbon
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) sediment
+                                 <input type="radio" name="section3question33" value="C" class="mr-2"> (C)
+                                 sediment
                                  sieves
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question33" value="D" class="mr-2"> (D)
                                  evaporated </label>
                          </li>
                      </ul>

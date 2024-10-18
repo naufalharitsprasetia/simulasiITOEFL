@@ -81,31 +81,33 @@
              <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
                  <h2 class="text-xl font-bold mb-4">Questions 34-43</h2>
 
-                 <!-- Question 23 -->
+                 <!-- Question 34 -->
                  <div class="mb-6">
                      <p class="text-md">34. What is the main topic of the passage? </p>
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question34" value="A" class="mr-2"> (A)
                                  The role of the voice in performance
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question34" value="B" class="mr-2"> (B)
                                  The link between voice and personality
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="C" class="mr-2"> (C) Different
+                                 <input type="radio" name="section3question34" value="C" class="mr-2"> (C)
+                                 Different
                                  styles of communication
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question1" value="D" class="mr-2"> (D) How speech is
+                                 <input type="radio" name="section3question34" value="D" class="mr-2"> (D) How
+                                 speech is
                                  produced
                              </label>
                          </li>
@@ -119,25 +121,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="A" class="mr-2"> (A) Feelings are
+                                 <input type="radio" name="section3question35" value="A" class="mr-2"> (A)
+                                 Feelings are
                                  expressed using different words than ideas
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="B" class="mr-2"> (B) The tone of
+                                 <input type="radio" name="section3question35" value="B" class="mr-2"> (B) The
+                                 tone of
                                  voice can convey information beyond the actual words
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="C" class="mr-2"> (C) An emotional
+                                 <input type="radio" name="section3question35" value="C" class="mr-2"> (C) An
+                                 emotional
                                  message is conveyed by a high tone of voice
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question2" value="D" class="mr-2"> (D) It's harder
+                                 <input type="radio" name="section3question35" value="D" class="mr-2"> (D) It's
+                                 harder
                                  to express feelings than ideas.</label>
                          </li>
                      </ul>
@@ -149,23 +155,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question36" value="A" class="mr-2"> (A)
                                  Interpersonal interactions </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="B" class="mr-2"> (B) The tone
+                                 <input type="radio" name="section3question36" value="B" class="mr-2"> (B) The
+                                 tone
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="C" class="mr-2"> (C) Ideas and
+                                 <input type="radio" name="section3question36" value="C" class="mr-2"> (C)
+                                 Ideas and
                                  feelings
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question3" value="D" class="mr-2"> (D) The words
+                                 <input type="radio" name="section3question36" value="D" class="mr-2"> (D) The
+                                 words
                                  chosen
                              </label>
                          </li>
@@ -178,22 +187,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Count on
+                                 <input type="radio" name="section3question37" value="A" class="mr-2"> (A)
+                                 Count on
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Obtain
+                                 <input type="radio" name="section3question37" value="B" class="mr-2"> (B)
+                                 Obtain
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Ignore
+                                 <input type="radio" name="section3question37" value="C" class="mr-2"> (C)
+                                 Ignore
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Neglect
+                                 <input type="radio" name="section3question37" value="D" class="mr-2"> (D)
+                                 Neglect
                              </label>
                          </li>
                      </ul>
@@ -206,25 +219,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) To provide
+                                 <input type="radio" name="section3question38" value="A" class="mr-2"> (A) To
+                                 provide
                                  examples of public performance
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) To illustrate
+                                 <input type="radio" name="section3question38" value="B" class="mr-2"> (B) To
+                                 illustrate
                                  different fundamental styles of communication
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) To compare
+                                 <input type="radio" name="section3question38" value="C" class="mr-2"> (C) To
+                                 compare
                                  them with singing
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) To
+                                 <input type="radio" name="section3question38" value="D" class="mr-2"> (D)
+                                 To
                                  introduce the concept of self-image
                              </label>
                          </li>
@@ -239,24 +256,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) overall
+                                 <input type="radio" name="section3question39" value="A" class="mr-2"> (A)
+                                 overall
                                  physical well-being</label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question39" value="B" class="mr-2"> (B)
                                  character
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question39" value="C" class="mr-2"> (C)
                                  communication skills
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question39" value="D" class="mr-2"> (D)
                                  quality of voice
                              </label>
                          </li>
@@ -270,24 +288,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question40" value="A" class="mr-2"> (A)
                                  Hostility
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) Shyness
+                                 <input type="radio" name="section3question40" value="B" class="mr-2"> (B)
+                                 Shyness
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question40" value="C" class="mr-2"> (C)
                                  Friendliness
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) Strength
+                                 <input type="radio" name="section3question40" value="D" class="mr-2"> (D)
+                                 Strength
                              </label>
                          </li>
                      </ul>
@@ -299,22 +319,26 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) recognize
+                                 <input type="radio" name="section3question41" value="A" class="mr-2"> (A)
+                                 recognize
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B) overlook
+                                 <input type="radio" name="section3question41" value="B" class="mr-2"> (B)
+                                 overlook
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) ignore
+                                 <input type="radio" name="section3question41" value="C" class="mr-2"> (C)
+                                 ignore
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D) indicate
+                                 <input type="radio" name="section3question41" value="D" class="mr-2"> (D)
+                                 indicate
                              </label>
                          </li>
                      </ul>
@@ -326,23 +350,24 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A)
+                                 <input type="radio" name="section3question42" value="A" class="mr-2"> (A)
                                  Questioned
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question42" value="B" class="mr-2"> (B)
                                  Repeated </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C) Evidenced
+                                 <input type="radio" name="section3question42" value="C" class="mr-2"> (C)
+                                 Evidenced
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question42" value="D" class="mr-2"> (D)
                                  Exaggerated
                              </label>
                          </li>
@@ -356,24 +381,25 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="A" class="mr-2"> (A) Lethargy
+                                 <input type="radio" name="section3question43" value="A" class="mr-2"> (A)
+                                 Lethargy
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="B" class="mr-2"> (B)
+                                 <input type="radio" name="section3question43" value="B" class="mr-2"> (B)
                                  Depression
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="C" class="mr-2"> (C)
+                                 <input type="radio" name="section3question43" value="C" class="mr-2"> (C)
                                  Boredom
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="question4" value="D" class="mr-2"> (D)
+                                 <input type="radio" name="section3question43" value="D" class="mr-2"> (D)
                                  Anger </label>
                          </li>
                      </ul>

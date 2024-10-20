@@ -16,8 +16,8 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->onDelete('cascade'); // FK ke tabel users
             $table->foreignId('exam_id')->constrained()->onDelete('cascade'); // FK ke tabel exams
             $table->integer('attempt_number'); // Nomor percobaan
-            $table->timestamp('start_time')->nullable(); // Waktu mulai ujian
-            $table->timestamp('end_time')->nullable(); // Waktu selesai ujian
+            $table->dateTime('start_time');
+            $table->dateTime('end_time');
             $table->integer('score')->nullable(); // Nilai ujian (opsional)
             $table->timestamps(); // Kolom created_at dan updated_at
         });

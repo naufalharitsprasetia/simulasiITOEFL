@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Exam;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -14,7 +15,8 @@ class HomeController extends Controller
     public function simulasi()
     {
         $active = 'simulasi';
-        return view('home.simulasi',  compact('active'));
+        $exams = Exam::all();
+        return view('home.simulasi',  compact('active', 'exams'));
     }
 
     public function about()

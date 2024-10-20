@@ -10,22 +10,23 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question1" value="A" class="mr-2"> (A) begins
+                        <input type="radio" name="section2question[1]" value="A" class="mr-2"> (A) begins
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question1" value="B" class="mr-2"> (B) began
+                        <input type="radio" name="section2question[1]" value="B" class="mr-2"> (B) began
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question1" value="C" class="mr-2"> (C) has begun
+                        <input type="radio" name="section2question[1]" value="C" class="mr-2"> (C) has begun
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question1" value="D" class="mr-2"> (D) to have begun
+                        <input type="radio" name="section2question[1]" value="D" class="mr-2"> (D) to have
+                        begun
                     </label>
                 </li>
             </ul>
@@ -37,27 +38,27 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question2" value="A" class="mr-2"> (A) a small
+                        <input type="radio" name="section2question[2]" value="A" class="mr-2"> (A) a small
                         upright piano
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question2" value="B" class="mr-2"> (B) how a small
+                        <input type="radio" name="section2question[2]" value="B" class="mr-2"> (B) how a small
                         upright
                         piano
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question2" value="C" class="mr-2"> (C) a small
+                        <input type="radio" name="section2question[2]" value="C" class="mr-2"> (C) a small
                         upright piano
                         is
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question2" value="D" class="mr-2"> (D) as a small
+                        <input type="radio" name="section2question[2]" value="D" class="mr-2"> (D) as a small
                         upright
                         piano
                     </label>
@@ -72,25 +73,26 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question3" value="A" class="mr-2"> (A) writer of
+                        <input type="radio" name="section2question[3]" value="A" class="mr-2"> (A) writer of
                         eloquent
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question3" value="B" class="mr-2"> (B) whose eloquent
+                        <input type="radio" name="section2question[3]" value="B" class="mr-2"> (B) whose
+                        eloquent
                         writing
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question3" value="C" class="mr-2"> (C) an eloquent
+                        <input type="radio" name="section2question[3]" value="C" class="mr-2"> (C) an eloquent
                         writer
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question3" value="D" class="mr-2"> (D) writing
+                        <input type="radio" name="section2question[3]" value="D" class="mr-2"> (D) writing
                         eloquent
                     </label>
                 </li>
@@ -104,22 +106,22 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question4" value="A" class="mr-2"> (A) as long
+                        <input type="radio" name="section2question[4]" value="A" class="mr-2"> (A) as long
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question4" value="B" class="mr-2"> (B) as long as
+                        <input type="radio" name="section2question[4]" value="B" class="mr-2"> (B) as long as
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question4" value="C" class="mr-2"> (C) so long
+                        <input type="radio" name="section2question[4]" value="C" class="mr-2"> (C) so long
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question4" value="D" class="mr-2"> (D) so long that
+                        <input type="radio" name="section2question[4]" value="D" class="mr-2"> (D) so long that
                     </label>
                 </li>
             </ul>
@@ -131,22 +133,22 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question5" value="A" class="mr-2"> (A) while
+                        <input type="radio" name="section2question[5]" value="A" class="mr-2"> (A) while
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question5" value="B" class="mr-2"> (B) and
+                        <input type="radio" name="section2question[5]" value="B" class="mr-2"> (B) and
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question5" value="C" class="mr-2"> (C) how
+                        <input type="radio" name="section2question[5]" value="C" class="mr-2"> (C) how
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question5" value="D" class="mr-2"> (D) because
+                        <input type="radio" name="section2question[5]" value="D" class="mr-2"> (D) because
                     </label>
                 </li>
             </ul>
@@ -158,28 +160,29 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question6" value="A" class="mr-2"> (A)
+                        <input type="radio" name="section2question[6]" value="A" class="mr-2"> (A)
                         hydrocarbon
                         molecules, breaking up
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question6" value="B" class="mr-2"> (B) broke up
+                        <input type="radio" name="section2question[6]" value="B" class="mr-2"> (B) broke up
                         by
                         hydrocarbon molecules
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question6" value="C" class="mr-2"> (C)
+                        <input type="radio" name="section2question[6]" value="C" class="mr-2"> (C)
                         hydrocarbon
                         molecules break up
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question6" value="D" class="mr-2"> (D) broken up
+                        <input type="radio" name="section2question[6]" value="D" class="mr-2"> (D) broken
+                        up
                         hydrocarbon molecules
                     </label>
                 </li>
@@ -192,22 +195,22 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question7" value="A" class="mr-2"> (A) All of
+                        <input type="radio" name="section2question[7]" value="A" class="mr-2"> (A) All of
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question7" value="B" class="mr-2"> (B) Of every
+                        <input type="radio" name="section2question[7]" value="B" class="mr-2"> (B) Of every
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question7" value="C" class="mr-2"> (C) All
+                        <input type="radio" name="section2question[7]" value="C" class="mr-2"> (C) All
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question7" value="D" class="mr-2"> (D) Every
+                        <input type="radio" name="section2question[7]" value="D" class="mr-2"> (D) Every
                     </label>
                 </li>
             </ul>
@@ -219,27 +222,27 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question8" value="A" class="mr-2"> (A) creeping
+                        <input type="radio" name="section2question[8]" value="A" class="mr-2"> (A) creeping
                         colonies
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question8" value="B" class="mr-2"> (B) which
+                        <input type="radio" name="section2question[8]" value="B" class="mr-2"> (B) which
                         colonies
                         creep
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question8" value="C" class="mr-2"> (C) creeping
+                        <input type="radio" name="section2question[8]" value="C" class="mr-2"> (C) creeping
                         colonies
                         are
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question8" value="D" class="mr-2"> (D) colonies
+                        <input type="radio" name="section2question[8]" value="D" class="mr-2"> (D) colonies
                         creep
                     </label>
                 </li>
@@ -253,28 +256,28 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question9" value="A" class="mr-2"> (A) of ﬁve
+                        <input type="radio" name="section2question[9]" value="A" class="mr-2"> (A) of ﬁve
                         winning
                         them
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question9" value="B" class="mr-2"> (B) ﬁve
+                        <input type="radio" name="section2question[9]" value="B" class="mr-2"> (B) ﬁve
                         winning of
                         them
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question9" value="C" class="mr-2"> (C) of them
+                        <input type="radio" name="section2question[9]" value="C" class="mr-2"> (C) of them
                         ﬁve
                         winning
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question9" value="D" class="mr-2"> (D) winning
+                        <input type="radio" name="section2question[9]" value="D" class="mr-2"> (D) winning
                         ﬁve of
                         them
                     </label>
@@ -289,26 +292,28 @@
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" name="section2question10" value="A" class="mr-2"> (A) to which
+                        <input type="radio" name="section2question[10]" value="A" class="mr-2"> (A) to
+                        which
                         directs
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question10" value="B" class="mr-2"> (B) of which
+                        <input type="radio" name="section2question[10]" value="B" class="mr-2"> (B) of
+                        which
                         directs
                         it
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question10" value="C" class="mr-2"> (C) directs
+                        <input type="radio" name="section2question[10]" value="C" class="mr-2"> (C) directs
                         it
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" name="section2question10" value="D" class="mr-2"> (D) that
+                        <input type="radio" name="section2question[10]" value="D" class="mr-2"> (D) that
                         directs
                     </label>
                 </li>

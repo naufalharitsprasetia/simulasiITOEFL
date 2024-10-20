@@ -1,6 +1,6 @@
 @include('layout.head')
 <div class="min-h-svh bg-third relative">
-    @include('beginner.layout.sidebar')
+    @include('exam.layout.sidebar')
     <div id="mainContent" class="px-16 font-poppins max-w-7xl relative mx-auto transition-all duration-300">
         @if (session()->has('error'))
             <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
@@ -17,16 +17,17 @@
             $nextPageUrl = request()->url() . '?page=' . $nextPage;
         @endphp
 
-        {{-- Content lainnya --}}
+        {{-- Time Left --}}
         <div class="absolute top-5 right-5 rounded-lg px-2 py-2 bg-primary text-white">Time Left: <span
                 id="countdown"></span></div>
         {{-- Form Ujian --}}
         <form id="examForm" method="POST" action="{{ route('exam.submit') }}">
             @csrf
             <input type="hidden" name="pageNow" value="{{ $currentPage }}">
+            <input type="hidden" name="user_exam_id" value="{{ $user_exam_id }}">
             <div id="content">
                 @php
-                    $halaman = 'beginner.partials.page' . $currentPage;
+                    $halaman = 'exam.1.page' . $currentPage;
                 @endphp
                 @include($halaman)
             </div>
@@ -82,7 +83,6 @@
     const mainContent = document.getElementById('mainContent');
     const pagesContainer = document.getElementById('pagesContainer');
 
-    // Fungsi untuk menutup sidebar
     function closeSidebar() {
         sidebar.classList.add('-translate-x-full');
         mainContent.classList.remove('pl-64'); // Reset kontainer saat sidebar disembunyikan

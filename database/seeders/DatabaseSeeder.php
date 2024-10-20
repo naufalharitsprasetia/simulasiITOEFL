@@ -19,13 +19,13 @@ class DatabaseSeeder extends Seeder
 
         User::create([
             'name' => 'Naufal Harits Prasetia',
-            'username' => 'naufalharisprasetia',
-            'email' => 'naufal@unida.gontor.ac.id',
+            'username' => 'naufalharits',
+            'email' => 'naufal@gmail.com',
             'password' => bcrypt('bismillah'),
         ]);
         Exam::create([
-            'title' => 'practice1',
-            'description' => 'Exam For Beginner'
+            'title' => 'Practice 1',
+            'description' => ''
         ]);
     }
 }

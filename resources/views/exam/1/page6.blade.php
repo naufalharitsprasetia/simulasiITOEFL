@@ -40,22 +40,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question16" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[16]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question16" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[16]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question16" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[16]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question16" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[16]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -74,22 +74,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question17" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[17]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question17" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[17]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question17" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[17]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question17" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[17]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -110,22 +110,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question18" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[18]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question18" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[18]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question18" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[18]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question18" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[18]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -145,22 +145,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question19" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[19]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question19" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[19]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question19" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[19]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question19" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[19]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -181,22 +181,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question20" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[20]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question20" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[20]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question20" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[20]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question20" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[20]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -217,22 +217,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question21" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[21]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question21" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[21]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question21" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[21]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question21" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[21]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -253,22 +253,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question22" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[22]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question22" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[22]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question22" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[22]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question22" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[22]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -289,22 +289,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question23" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[23]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question23" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[23]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question23" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[23]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question23" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[23]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -326,22 +326,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question24" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[24]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question24" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[24]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question24" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[24]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question24" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[24]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -362,22 +362,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question25" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[25]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question25" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[25]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question25" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[25]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question25" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[25]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -399,22 +399,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question26" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[26]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question26" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[26]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question26" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[26]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question26" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[26]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -433,22 +433,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question27" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[27]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question27" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[27]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question27" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[27]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question27" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[27]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -469,22 +469,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question28" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[28]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question28" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[28]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question28" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[28]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question28" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[28]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -504,22 +504,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question29" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[29]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question29" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[29]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question29" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[29]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question29" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[29]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>
@@ -538,22 +538,22 @@
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" name="section2question30" value="A" class="mr-2"> (A)
+                         <input type="radio" name="section2question[30]" value="A" class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question30" value="B" class="mr-2"> (B)
+                         <input type="radio" name="section2question[30]" value="B" class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question30" value="C" class="mr-2"> (C)
+                         <input type="radio" name="section2question[30]" value="C" class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" name="section2question30" value="D" class="mr-2"> (D)
+                         <input type="radio" name="section2question[30]" value="D" class="mr-2"> (D)
                      </label>
                  </li>
              </ul>

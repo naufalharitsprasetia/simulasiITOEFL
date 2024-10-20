@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BeginnerController;
+use App\Http\Controllers\ExamController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,13 +39,15 @@ Route::middleware('auth')->group(
         // Simulasi
         Route::get('/simulasi', [HomeController::class, 'simulasi'])->name('home.simulasi');
         // Beginner 
-        Route::get('/beginner', [BeginnerController::class, 'index'])->name('beginner.index');
-        Route::get('/beginner/exam', [BeginnerController::class, 'exam'])->name('beginner.exam');
-        Route::get('/exam/result', [BeginnerController::class, 'result'])->name('exam.result');
-        // routes/web.php
-        Route::post('/exam/submit', [BeginnerController::class, 'submit'])->name('exam.submit');
+        Route::get('/exam/{id}', [ExamController::class, 'index'])->name('exam.index');
+        Route::get('/exam-start/{id}', [ExamController::class, 'start'])->name('exam.start');
+        Route::get('/exam', [ExamController::class, 'exam'])->name('exam.exam');
+        // setiap klik next/submit
+        Route::post('/exam/submit', [ExamController::class, 'submit'])->name('exam.submit');
+        // setelah submit
+        Route::get('/exam/result', [ExamController::class, 'result'])->name('exam.result');
     }
 );
 
 // Redirect
-Route::get('{any}', [HomeController::class, 'index'])->name('index');
+// Route::get('{any}', [HomeController::class, 'index'])->name('index');

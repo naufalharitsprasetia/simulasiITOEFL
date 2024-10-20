@@ -33,4 +33,10 @@
             @endguest
         </div>
     </div>
+    @if (session('clear_local_storage'))
+        <script>
+            // Hapus localStorage jika login atau logout berhasil
+            localStorage.clear();
+        </script>
+    @endif
 @endsection

@@ -41,7 +41,8 @@ Route::middleware('auth')->group(
         // Beginner 
         Route::get('/exam/{id}', [ExamController::class, 'index'])->name('exam.index');
         Route::get('/exam-start/{id}', [ExamController::class, 'start'])->name('exam.start');
-        Route::get('/exam', [ExamController::class, 'exam'])->name('exam.exam');
+        Route::get('/exam-continue/{id}', [ExamController::class, 'continue'])->name('exam.continue');
+        Route::get('/examintaion/{user_exam_id}', [ExamController::class, 'exam'])->name('exam.exam');
         // setiap klik next/submit
         Route::post('/exam/submit', [ExamController::class, 'submit'])->name('exam.submit');
         // setelah submit

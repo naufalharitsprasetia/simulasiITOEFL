@@ -12,10 +12,10 @@
                 @endif
                 <img src="/img/examination.png" class="" alt="">
                 <div class="content-center">
-                    <!-- Tempat tombol yang akan berubah tergantung ada atau tidaknya remainingTime -->
                     @if ($masihBisa)
-                        {{-- <p class="text-lg mb-4">Waktu Tersisa: <strong>${formatTime(remainingTime)}</strong></p> --}}
-                        <a href="/continue-exam"
+                        <p class="text-lg mb-4">Waktu Tersisa: <strong id="remainingTime">{{ $remainingTime }}</strong>
+                        </p>
+                        <a href="/exam-continue/{{ $ongoingAttempt->id }}"
                             class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3 mr-4">LANJUTKAN</a>
                         <a href="/reset-exam"
                             class="text-white bg-red-500 inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3">AMBIL
@@ -25,7 +25,6 @@
                             class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3">START
                             EXAM</a>
                     @endif
-                    {{-- <div id="examAction"></div> --}}
                 </div>
             </div>
         </div>
@@ -45,6 +44,20 @@
 
         return hours + ':' + minutes + ':' + secs;
     }
+
+    // Ambil waktu tersisa dari element
+    let remainingTime = {{ $remainingTime }};
+
+    // Update setiap detik
+    const timer = setInterval(function() {
+        if (remainingTime <= 0) {
+            clearInterval(timer);
+            document.getElementById('remainingTime').innerText = 'Waktu Habis!';
+        } else {
+            remainingTime--;
+            document.getElementById('remainingTime').innerText = formatTime(remainingTime);
+        }
+    }, 1000);
 </script>
 
 @include('layout.footer')

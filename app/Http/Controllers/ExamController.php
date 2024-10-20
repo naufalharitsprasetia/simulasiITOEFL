@@ -13,21 +13,34 @@ class ExamController extends Controller
     public function index($id)
     {
         $active = 'simulasi';
-        // cek di UserExam Attempt apakah ada file , jika iya kirim kan sebuah varibel yang isinya true
-        // cek apakah dia masih dalam proses ujian atau tidak
         $masihBisa = false;
+        $userId = auth()->user()->id;
+        $examId = $id;
+        $currentDatetime = Carbon::now('Asia/Jakarta');
 
-        // Cek apakah $id ada di Exam
+        // Cek apakah ada UserExam yang aktif untuk user dan exam ini
+        $ongoingAttempt = UserExam::where('user_id', $userId)
+            ->where('exam_id', $examId)
+            ->where('start_time', '<=', $currentDatetime)
+            ->where('end_time', '>=', $currentDatetime)
+            ->first();
+
+        if ($ongoingAttempt) {
+            $masihBisa = true;
+
+            // Hitung waktu tersisa
+            $endDate = Carbon::parse($ongoingAttempt->end_time);
+            $remainingTime = $currentDatetime->diffInSeconds($endDate); // Menghitung selisih dalam detik
+        }
+
         $exam = Exam::find($id);
-
         if (!$exam) {
-            // Jika $id tidak ditemukan, redirect kembali dengan pesan error
             return redirect()->back()->with('error', 'Ujian tidak ditemukan.');
         }
 
-
-        return view('exam.index',  compact('active', 'masihBisa', 'exam'));
+        return view('exam.index', compact('active', 'masihBisa', 'exam', 'ongoingAttempt', 'remainingTime'));
     }
+
     public function start($id)
     {
         $userId = auth()->user()->id;
@@ -68,15 +81,16 @@ class ExamController extends Controller
         // Redirect ke halaman ujian baru
         return redirect()->route('exam.exam', ['user_exam_id' => $userExam->id]);
     }
-    public function exam()
+    public function continue($id)
+    {
+        return redirect()->route('exam.exam', ['user_exam_id' => $id]);
+    }
+
+    public function exam($user_exam_id)
     {
         $active = 'examination';
 
-        // Cek apakah ada data UserExam punyanya user yang sedang login 
-
-
         $page = request()->get('page', 1); // Mengambil nilai page dari request - function submit
-        $user_exam_id = request()->get('user_exam_id');
 
         // Cek File di Direktori
         $directory = resource_path('views/exam/1');
@@ -98,19 +112,17 @@ class ExamController extends Controller
         $answersS3 = $request->input('section3question.*', []);
         // Jika tidak ada jawaban yang dikirimkan, langsung redirect ke halaman berikutnya
         $user_exam_id = $request->input('user_exam_id');
-        dd($user_exam_id);
         $currentPage = $request->input('pageNow', 1);
         if (empty($answersS2) && empty($answersS3)) {
-            return redirect()->route('exam.exam', ['page' => $currentPage + 1]);
+            return redirect()->route('exam.exam', ['user_exam_id' => $user_exam_id, 'page' => $currentPage + 1]);
         }
-
         // Validasi jawaban
         $validated = $request->validate([
             'section2question.*' => 'nullable|string', // Validasi jawaban
             'section3question.*' => 'nullable|string', // Validasi jawaban
         ]);
 
-        // Simpan jawaban ke database
+        // Simpan jawaban ke database (BELUM PAHAM)
         foreach ($validated['section2question'] as $questionId => $answer) {
             // Simpan ke dalam database
             Answer::updateOrCreate(
@@ -123,6 +135,6 @@ class ExamController extends Controller
         }
 
         // Redirect ke halaman selanjutnya
-        return redirect()->route('exam.exam', ['page' => $currentPage + 1]);
+        return redirect()->route('exam.exam', ['user_exam_id' => $user_exam_id, 'page' => $currentPage + 1]);
     }
 }

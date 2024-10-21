@@ -1,15 +1,16 @@
 @include('layout.head')
 <div class="min-h-svh bg-third">
     <div class="px-16 font-poppins text-center py-20 max-w-7xl mx-auto">
+        @if (session()->has('error'))
+            <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+                <div class="alert alert-error col-lg-12 mt-4" role="alert">
+                    {{ session('error') }}
+                </div>
+            </div>
+        @endif
         <div class="card-wrapper flex justify-center items-center gap-8">
             <div class="card bg-white px-28 py-12 rounded-xl shadow-lg flex gap-8">
-                @if (session()->has('error'))
-                    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-                        <div class="alert alert-error col-lg-12 mt-4" role="alert">
-                            {{ session('error') }}
-                        </div>
-                    </div>
-                @endif
+
                 <img src="/img/examination.png" class="" alt="">
                 <div class="content-center">
                     @if ($masihBisa)
@@ -17,9 +18,14 @@
                         </p>
                         <a href="/exam-continue/{{ $ongoingAttempt->id }}"
                             class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3 mr-4">LANJUTKAN</a>
-                        <a href="/reset-exam"
-                            class="text-white bg-red-500 inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3">AMBIL
-                            ULANG</a>
+                        <form action="/reset-exam/{{ $ongoingAttempt->id }}" id="reset-form" method="post"
+                            class="inline-block">
+                            @csrf
+                            @method('delete')
+                            <button type="button" onclick="confirmReset()"
+                                class="text-white bg-red-500 inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3">RESET
+                                EXAM</button>
+                        </form>
                     @else
                         <a href="/exam-start/{{ $exam->id }}"
                             class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3">START

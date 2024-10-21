@@ -7,6 +7,7 @@ use App\Models\UserExam;
 use App\Models\Exam;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
+use Symfony\Component\CssSelector\XPath\Extension\FunctionExtension;
 
 class ExamController extends Controller
 {
@@ -125,82 +126,144 @@ class ExamController extends Controller
 
     public function submit(Request $request)
     {
-        // KUNCI JAWABAN
-        $answerKeySection3 = [
-            1 => 'B', 2 => 'C', 3 => 'D', 4 => 'A', 5 => 'C', 6 => 'B', 7 => 'B', 8 => 'A', 9 => 'B', 10 => 'B',
-            11 => 'D', 12 => 'A', 13 => 'A', 14 => 'C', 15 => 'A', 16 => 'A', 17 => 'B', 18 => 'B', 19 => 'C', 20 => 'D',
-            21 => 'C', 22 => 'A', 23 => 'D', 24 => 'A', 25 => 'D', 26 => 'D', 27 => 'C', 28 => 'B', 29 => 'B', 30 => 'D',
-            31 => 'B', 32 => 'A', 33 => 'D', 34 => 'B', 35 => 'B', 36 => 'A', 37 => 'A', 38 => 'A', 39 => 'D', 40 => 'B',
-            41 => 'A', 42 => 'C', 43 => 'D', 44 => 'D', 45 => 'B', 46 => 'A', 47 => 'A', 48 => 'D', 49 => 'A', 50 => 'A'
-        ];
-        $answerKeySection2 = [
+        // Kunci jawaban untuk section2 dan section3
+        $answerKeySection2 = $this->getAnswerKeySection2();
+        $answerKeySection3 = $this->getAnswerKeySection3();
+
+        $user_exam_id = $request->input('user_exam_id');
+        $currentPage = $request->input('pageNow', 1);
+
+        // Ambil jawaban dari section2 dan section3
+        $answersS2 = $request->input('exam1section2question', []);
+        $answersS3 = $request->input('exam1section3question', []);
+
+        // Jika tidak ada jawaban, redirect ke halaman berikutnya
+        if (empty($answersS2) && empty($answersS3)) {
+            return $this->redirectToNextPage($user_exam_id, $currentPage);
+        }
+
+        // Validasi input
+        $validated = $request->validate([
+            'exam1section2question.*' => 'nullable|string',
+            'exam1section3question.*' => 'nullable|string',
+        ]);
+
+        // Simpan jawaban section2
+        $this->saveAnswers($validated['exam1section2question'] ?? [], $answerKeySection2, $user_exam_id, 'exam1section2question');
+
+        // Simpan jawaban section3
+        $this->saveAnswers($validated['exam1section3question'] ?? [], $answerKeySection3, $user_exam_id, 'exam1section3question');
+
+        // Cek jika ujian telah selesai
+        if ($request->input('finish') === "true") {
+            return redirect()->route('exam.finish', ['user_exam_id' => $user_exam_id]);
+        }
+
+        // Redirect ke halaman berikutnya
+        return $this->redirectToNextPage($user_exam_id, $currentPage);
+    }
+
+    // Fungsi untuk mengambil kunci jawaban section2
+    private function getAnswerKeySection2()
+    {
+        return [
             1 => 'B', 2 => 'A', 3 => 'C', 4 => 'B', 5 => 'B', 6 => 'C', 7 => 'C', 8 => 'A',
             9 => 'D', 10 => 'D', 11 => 'C', 12 => 'B', 13 => 'B', 14 => 'C', 15 => 'D', 16 => 'D',
             17 => 'B', 18 => 'B', 19 => 'D', 20 => 'B', 21 => 'A', 22 => 'B', 23 => 'D', 24 => 'C',
             25 => 'C', 26 => 'C', 27 => 'B', 28 => 'C', 29 => 'D', 30 => 'D', 31 => 'C', 32 => 'A',
             33 => 'A', 34 => 'D', 35 => 'B', 36 => 'D', 37 => 'B', 38 => 'B', 39 => 'D', 40 => 'D'
         ];
-        $user_exam_id = $request->input('user_exam_id');
-        $currentPage = $request->input('pageNow', 1);
-        // Cek Jika Ujian Telah Finish
-        $cekFinish = $request->input('finish');
-        if ($cekFinish == "true") {
-            dd($cekFinish);
+    }
+
+    // Fungsi untuk mengambil kunci jawaban section3
+    private function getAnswerKeySection3()
+    {
+        return [
+            1 => 'B', 2 => 'C', 3 => 'D', 4 => 'A', 5 => 'C', 6 => 'B', 7 => 'B', 8 => 'A', 9 => 'B', 10 => 'B',
+            11 => 'D', 12 => 'A', 13 => 'A', 14 => 'C', 15 => 'A', 16 => 'A', 17 => 'B', 18 => 'B', 19 => 'C', 20 => 'D',
+            21 => 'C', 22 => 'A', 23 => 'D', 24 => 'A', 25 => 'D', 26 => 'D', 27 => 'C', 28 => 'B', 29 => 'B', 30 => 'D',
+            31 => 'B', 32 => 'A', 33 => 'D', 34 => 'B', 35 => 'B', 36 => 'A', 37 => 'A', 38 => 'A', 39 => 'D', 40 => 'B',
+            41 => 'A', 42 => 'C', 43 => 'D', 44 => 'D', 45 => 'B', 46 => 'A', 47 => 'A', 48 => 'D', 49 => 'A', 50 => 'A'
+        ];
+    }
+
+    // Fungsi untuk menyimpan jawaban
+    private function saveAnswers(array $answers, array $answerKey, $user_exam_id, $section)
+    {
+        foreach ($answers as $questionId => $answer) {
+            $isCorrect = isset($answerKey[$questionId]) && $answerKey[$questionId] === $answer ? 1 : 0;
+
+            Answer::updateOrCreate(
+                [
+                    'user_exam_id' => $user_exam_id,
+                    'question_id' => "{$section}[{$questionId}]"
+                ],
+                [
+                    'answer' => $answer,
+                    'is_correct' => $isCorrect
+                ]
+            );
         }
-        // Ambil jawaban dari input section2 dan section3
-        $answersS2 = $request->input('section2question', []); // Tidak perlu pakai wildcard '*'
-        $answersS3 = $request->input('section3question', []);
+    }
 
-        // Jika tidak ada jawaban yang dikirimkan, langsung redirect ke halaman berikutnya
-        if (empty($answersS2) && empty($answersS3)) {
-            return redirect()->route('exam.exam', ['user_exam_id' => $user_exam_id, 'page' => $currentPage + 1]);
-        }
-
-        // Validasi jawaban
-        $validated = $request->validate([
-            'section2question.*' => 'nullable|string', // Validasi jawaban
-            'section3question.*' => 'nullable|string', // Validasi jawaban
-        ]);
-
-        // Simpan jawaban ke database
-        if (!empty($validated['section2question'])) {
-            foreach ($validated['section2question'] as $questionId => $answer) {
-                $isCorrect = (isset($answerKeySection2[$questionId]) && $answerKeySection2[$questionId] === $answer) ? 1 : 0;
-                Answer::updateOrCreate(
-                    [
-                        'user_exam_id' => $user_exam_id, // Kondisi pencarian
-                        'question_id' => "section2question[{$questionId}]"    // Kondisi pencarian
-                    ],
-                    [
-                        'answer' => $answer,             // Data yang akan disimpan
-                        'user_exam_id' => $user_exam_id, // Pastikan user_exam_id diisi saat create
-                        'question_id' => "section2question[{$questionId}]",   // Pastikan question_id diisi saat create
-                        'is_correct' => $isCorrect // Simpan status apakah jawaban benar atau tidak
-                    ]
-                );
-            }
-        }
-
-        // Sama halnya untuk section3question jika diperlukan
-        if (!empty($validated['section3question'])) {
-            foreach ($validated['section3question'] as $questionId => $answer) {
-                $isCorrect = (isset($answerKeySection3[$questionId]) && $answerKeySection3[$questionId] === $answer) ? 1 : 0;
-                Answer::updateOrCreate(
-                    [
-                        'user_exam_id' => $user_exam_id, // Kondisi pencarian
-                        'question_id' => "section3question[{$questionId}]"    // Kondisi pencarian
-                    ],
-                    [
-                        'answer' => $answer,             // Data yang akan disimpan
-                        'user_exam_id' => $user_exam_id, // Pastikan user_exam_id diisi saat create
-                        'question_id' => "section3question[{$questionId}]",  // Pastikan question_id diisi saat create
-                        'is_correct' => $isCorrect // Simpan status apakah jawaban benar atau tidak
-                    ]
-                );
-            }
-        }
-
-        // Redirect ke halaman selanjutnya
+    // Fungsi untuk redirect ke halaman berikutnya
+    private function redirectToNextPage($user_exam_id, $currentPage)
+    {
         return redirect()->route('exam.exam', ['user_exam_id' => $user_exam_id, 'page' => $currentPage + 1]);
+    }
+
+
+    // KETIKA FINISH
+    public function finish($user_exam_id)
+    {
+        $active = 'finish';
+
+        // Mengambil data dari UserExam
+        $userExam = UserExam::find($user_exam_id);
+
+        if (!$userExam) {
+            return redirect()->back()->with('error', 'Ujian tidak ditemukan.');
+        }
+
+        // Ambil jawaban dari tabel Answers
+        $section2Answers = Answer::where('user_exam_id', $user_exam_id)
+            ->where('question_id', 'LIKE', 'exam1section2question[%]')
+            ->get();
+
+        $section3Answers = Answer::where('user_exam_id', $user_exam_id)
+            ->where('question_id', 'LIKE', 'exam1section3question[%]')
+            ->get();
+
+        // Format data untuk view
+        $section2AnswersArray = $section2Answers->map(function ($answer) {
+            return [
+                'question_id' => $answer->question_id,
+                'answer' => $answer->answer,
+                'is_correct' => $answer->is_correct // Pastikan is_correct diambil dari database
+            ];
+        })->toArray();
+
+        $section3AnswersArray = $section3Answers->map(function ($answer) {
+            return [
+                'question_id' => $answer->question_id,
+                'answer' => $answer->answer,
+                'is_correct' => $answer->is_correct // Pastikan is_correct diambil dari database
+            ];
+        })->toArray();
+
+        return view('exam.finish', compact('active', 'section2AnswersArray', 'section3AnswersArray'));
+    }
+
+    // RESTART (Hapus Attempt Ongoing)
+    public function restart($user_exam_id)
+    {
+        $userExam = UserExam::find($user_exam_id);
+
+        $examId = $userExam->exam_id;
+        // dd($examId);
+
+        $userExam->delete();
+
+        return redirect()->route('exam.index', ['id', $examId]);
     }
 }

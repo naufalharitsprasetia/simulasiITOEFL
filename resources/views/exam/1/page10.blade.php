@@ -82,26 +82,30 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[11]" value="A" class="mr-2"> (A)
+                                 <input type="radio" required name="exam1section3question[11]" value="A"
+                                     class="mr-2"> (A)
                                  Nesting materials differ based on the parrots' environment
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[11]" value="B" class="mr-2"> (B)
+                                 <input type="radio" required name="exam1section3question[11]" value="B"
+                                     class="mr-2"> (B)
                                  Humidity plays a key role in incubating parrot eggs
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[11]" value="C" class="mr-2"> (C)
+                                 <input type="radio" required name="exam1section3question[11]" value="C"
+                                     class="mr-2"> (C)
                                  Aviculturists
                                  have designed the perfect nest box for parrots
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[11]" value="D" class="mr-2"> (D)
+                                 <input type="radio" required name="exam1section3question[11]" value="D"
+                                     class="mr-2"> (D)
                                  Wild
                                  parrot
                                  nests offer insights valuable for artificial incubation.
@@ -116,25 +120,29 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[12]" value="A" class="mr-2"> (A)
+                                 <input type="radio" required name="exam1section3question[12]" value="A"
+                                     class="mr-2"> (A)
                                  aviculturists
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[12]" value="B" class="mr-2"> (B)
+                                 <input type="radio" required name="exam1section3question[12]" value="B"
+                                     class="mr-2"> (B)
                                  birds
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[12]" value="C" class="mr-2"> (C)
+                                 <input type="radio" required name="exam1section3question[12]" value="C"
+                                     class="mr-2"> (C)
                                  eggs
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[12]" value="D" class="mr-2"> (D)
+                                 <input type="radio" required name="exam1section3question[12]" value="D"
+                                     class="mr-2"> (D)
                                  rates</label>
                          </li>
                      </ul>
@@ -147,12 +155,14 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[13]" value="A" class="mr-2"> (A)
+                                 <input type="radio" required name="exam1section3question[13]" value="A"
+                                     class="mr-2"> (A)
                                  there might be a good chance for successful incubation</label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[13]" value="B" class="mr-2"> (B)
+                                 <input type="radio" required name="exam1section3question[13]" value="B"
+                                     class="mr-2"> (B)
                                  the
                                  embryo
                                  won’t develop properly
@@ -160,14 +170,16 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[13]" value="C" class="mr-2"> (C)
+                                 <input type="radio" required name="exam1section3question[13]" value="C"
+                                     class="mr-2"> (C)
                                  the
                                  incubating parent shifts the egg to a different position
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[13]" value="D" class="mr-2"> (D)
+                                 <input type="radio" required name="exam1section3question[13]" value="D"
+                                     class="mr-2"> (D)
                                  the
                                  incubation process slows down.
                              </label>
@@ -181,14 +193,16 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[14]" value="A" class="mr-2"> (A)
+                                 <input type="radio" required name="exam1section3question[14]" value="A"
+                                     class="mr-2"> (A)
                                  cushion the
                                  bottom of the nest for the newly hatched chick
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[14]" value="B" class="mr-2"> (B)
+                                 <input type="radio" required name="exam1section3question[14]" value="B"
+                                     class="mr-2"> (B)
                                  keep
                                  the nest
                                  intact
@@ -196,7 +210,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[14]" value="C" class="mr-2"> (C)
+                                 <input type="radio" required name="exam1section3question[14]" value="C"
+                                     class="mr-2"> (C)
                                  help
                                  reduce
                                  the temperature at the bottom of the nest
@@ -204,7 +219,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[14]" value="D" class="mr-2"> (D)
+                                 <input type="radio" required name="exam1section3question[14]" value="D"
+                                     class="mr-2"> (D)
                                  enlarge the
                                  nest.
                              </label>
@@ -218,27 +234,31 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[15]" value="A" class="mr-2"> (A)
+                                 <input type="radio" required name="exam1section3question[15]" value="A"
+                                     class="mr-2"> (A)
                                  provide
                                  beneficial humidity within the nest
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[15]" value="B" class="mr-2"> (B)
+                                 <input type="radio" required name="exam1section3question[15]" value="B"
+                                     class="mr-2"> (B)
                                  loosen the
                                  materials at the nest's bottom </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[15]" value="C" class="mr-2"> (C)
+                                 <input type="radio" required name="exam1section3question[15]" value="C"
+                                     class="mr-2"> (C)
                                  help keep
                                  the nest clean
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[15]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[15]" value="D"
+                                     class="mr-2">
                                  (D)
                                  reach the
                                  bottom of the eggs.
@@ -254,7 +274,8 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[16]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[16]" value="A"
+                                     class="mr-2">
                                  (A)
                                  heating
                                  the water vapor as it rises from the bottom of the nest
@@ -262,21 +283,24 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[16]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[16]" value="B"
+                                     class="mr-2">
                                  (B)
                                  arranging nesting material at the bottom of the nest
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[16]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[16]" value="C"
+                                     class="mr-2">
                                  (C)
                                  transferring heat from the parent to the top of the eggshell
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[16]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[16]" value="D"
+                                     class="mr-2">
                                  (D)
                                  keeping a constant temperature on the eggshell.
                              </label>
@@ -290,28 +314,32 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[17]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[17]" value="A"
+                                     class="mr-2">
                                  (A)
                                  establish
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[17]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[17]" value="B"
+                                     class="mr-2">
                                  (B)
                                  protect
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[17]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[17]" value="C"
+                                     class="mr-2">
                                  (C)
                                  hang
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[17]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[17]" value="D"
+                                     class="mr-2">
                                  (D)
                                  move
                              </label>
@@ -325,28 +353,32 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[18]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[18]" value="A"
+                                     class="mr-2">
                                  (A)
                                  benign
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[18]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[18]" value="B"
+                                     class="mr-2">
                                  (B)
                                  deadly
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[18]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[18]" value="C"
+                                     class="mr-2">
                                  (C)
                                  natural
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[18]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[18]" value="D"
+                                     class="mr-2">
                                  (D)
                                  harmless
                              </label>
@@ -360,27 +392,31 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[19]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[19]" value="A"
+                                     class="mr-2">
                                  (A)
                                  unreliable
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[19]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[19]" value="B"
+                                     class="mr-2">
                                  (B)
                                  vulnerable </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[19]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[19]" value="C"
+                                     class="mr-2">
                                  (C)
                                  protected
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[19]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[19]" value="D"
+                                     class="mr-2">
                                  (D)
                                  fresh
                              </label>
@@ -395,14 +431,16 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[20]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[20]" value="A"
+                                     class="mr-2">
                                  (A)
                                  a
                                  consistent source of humidity </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[20]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[20]" value="B"
+                                     class="mr-2">
                                  (B)
                                  a sturdy
                                  nest structure
@@ -410,7 +448,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[20]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[20]" value="C"
+                                     class="mr-2">
                                  (C)
                                  extra
                                  space for newly hatched chicks
@@ -418,7 +457,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[20]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[20]" value="D"
+                                     class="mr-2">
                                  (D)
                                  protection from cold weather. </label>
                          </li>
@@ -432,14 +472,16 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[21]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[21]" value="A"
+                                     class="mr-2">
                                  (A)
                                  They lack
                                  the natural temperature fluctuations of the outdoors. </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[21]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[21]" value="B"
+                                     class="mr-2">
                                  (B)
                                  They
                                  can’t heat the eggs evenly.
@@ -447,7 +489,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[21]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[21]" value="C"
+                                     class="mr-2">
                                  (C)
                                  They
                                  don’t transfer heat to the egg the same way the parent bird does.
@@ -455,7 +498,8 @@
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[21]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[21]" value="D"
+                                     class="mr-2">
                                  (D)
                                  They are costly to run. </label>
                          </li>
@@ -468,28 +512,32 @@
                      <ul class="space-y-2 mt-4 text-sm">
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[22]" value="A" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[22]" value="A"
+                                     class="mr-2">
                                  (A)
                                  Aviculturists
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[22]" value="B" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[22]" value="B"
+                                     class="mr-2">
                                  (B)
                                  Gradient
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[22]" value="C" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[22]" value="C"
+                                     class="mr-2">
                                  (C)
                                  Incubation
                              </label>
                          </li>
                          <li>
                              <label>
-                                 <input type="radio" name="section3question[22]" value="D" class="mr-2">
+                                 <input type="radio" required name="exam1section3question[22]" value="D"
+                                     class="mr-2">
                                  (D)
                                  Embryo </label>
                          </li>

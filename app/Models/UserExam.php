@@ -19,4 +19,8 @@ class UserExam extends Model
         'created_at',
         'updated_at',
     ];
+    public function answers()
+    {
+        return $this->hasMany(Answer::class, 'user_exam_id', 'id');
+    }
 }

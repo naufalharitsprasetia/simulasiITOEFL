@@ -38,11 +38,14 @@ Route::middleware('auth')->group(
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
         // Simulasi
         Route::get('/simulasi', [HomeController::class, 'simulasi'])->name('home.simulasi');
-        // Beginner 
+        // Examination 
         Route::get('/exam/{id}', [ExamController::class, 'index'])->name('exam.index');
         Route::get('/exam-start/{id}', [ExamController::class, 'start'])->name('exam.start');
+        Route::delete('/reset-exam/{id}', [ExamController::class, 'restart'])->name('exam.restart');
         Route::get('/exam-continue/{id}', [ExamController::class, 'continue'])->name('exam.continue');
         Route::get('/examintaion/{user_exam_id}', [ExamController::class, 'exam'])->name('exam.exam');
+        // Ketika Finish
+        Route::get('/exam-finished/{user_exam_id}', [ExamController::class, 'finish'])->name('exam.finish');
         // setiap klik next/submit
         Route::post('/exam/submit', [ExamController::class, 'submit'])->name('exam.submit');
         // setelah submit

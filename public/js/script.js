@@ -20,6 +20,26 @@ function confirmLogout() {
     }
   });
 }
+function confirmReset() {
+  Swal.fire({
+    title: "Apakah kamu ingin Reset Exam?",
+    text: "semua progress dalam ujian yang sedang berlangsung akan terhapus !",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, Reset!",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire({
+        title: "Reset Succes !",
+        text: "Anda telah berhasil Reset Exam!",
+        icon: "success",
+      });
+      document.getElementById("reset-form").submit();
+    }
+  });
+}
 
 // Get the button
 let mybutton = document.getElementById("myBtnTop");

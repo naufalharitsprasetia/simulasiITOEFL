@@ -35,13 +35,14 @@
             {{-- Tampilkan tombol Submit di halaman terakhir --}}
             <div class="flex justify-center mx-auto">
                 @if ($currentPage == $fileCount)
-                    <input type="hidden" name="finish" value="true">
+                    <input type="hidden" name="finish" value="true" id="finishInput">
                     <button type="submit"
                         class="bg-primary text-white mb-5 rounded-lg px-12 py-2 shadow-md mt-4 inline-block">
                         Submit
                     </button>
                 @else
                     {{-- Tampilkan tombol Next jika bukan halaman terakhir --}}
+                    <input type="hidden" name="finish" value="false" id="finishInput">
                     <button type="submit"
                         class="bg-primary text-white mb-5 rounded-lg px-12 py-2 shadow-md mt-4 inline-block">
                         Next
@@ -54,7 +55,7 @@
 
 {{-- Timer Script --}}
 <script>
-    var time = localStorage.getItem('remainingTime') || 7200; // 2 hours in seconds
+    var time = {{ $remainingTime }}; // Ambil waktu tersisa dari variabel yang dikirim dari controller
 
     function formatTime(seconds) {
         var hours = Math.floor(seconds / 3600);
@@ -69,11 +70,11 @@
     var countdown = setInterval(function() {
         if (time <= 0) {
             clearInterval(countdown);
+            document.getElementById('finishInput').value = 'true';
             document.getElementById('examForm').submit();
         }
         document.getElementById('countdown').innerHTML = formatTime(time);
         time--;
-        localStorage.setItem('remainingTime', time);
     }, 1000);
 </script>
 <script>

@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('answers', function (Blueprint $table) {
             $table->id(); // Primary key
             $table->foreignId('user_exam_id')->constrained('user_exams')->onDelete('cascade'); // FK ke tabel user_exams
-            $table->integer('question_id'); // ID unik atau nomor soal
-            $table->text('answer')->nullable(); // Jawaban yang diberikan oleh user
-            $table->boolean('is_correct')->nullable(); // Menyimpan apakah jawaban benar atau salah (opsional)
+            $table->string('question_id'); // ID unik atau nomor soal 
+            $table->text('answer'); // Jawaban yang diberikan oleh user
+            $table->boolean('is_correct'); // Menyimpan apakah jawaban benar atau salah (opsional)
             $table->timestamps(); // Kolom created_at dan updated_at
         });
     }

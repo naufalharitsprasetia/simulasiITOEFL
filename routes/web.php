@@ -38,6 +38,7 @@ Route::middleware('auth')->group(
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
         // Simulasi
         Route::get('/simulasi', [HomeController::class, 'simulasi'])->name('home.simulasi');
+        Route::get('/history', [HomeController::class, 'history'])->name('home.history');
         // Examination 
         Route::get('/exam/{id}', [ExamController::class, 'index'])->name('exam.index');
         Route::get('/exam-start/{id}', [ExamController::class, 'start'])->name('exam.start');

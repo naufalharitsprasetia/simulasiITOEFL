@@ -225,7 +225,7 @@ class ExamController extends Controller
             return redirect()->back()->with('error', 'Ujian tidak ditemukan.');
         }
 
-        // Ambil jawaban dari tabel Answers
+        // Ambil jawaban dari tabel Answers untuk Section 2 dan Section 3
         $section2Answers = Answer::where('user_exam_id', $user_exam_id)
             ->where('question_id', 'LIKE', 'exam1section2question[%]')
             ->get();
@@ -234,12 +234,29 @@ class ExamController extends Controller
             ->where('question_id', 'LIKE', 'exam1section3question[%]')
             ->get();
 
+        // Hitung jawaban benar dan salah untuk Section 2
+        $section2Correct = $section2Answers->where('is_correct', true)->count();
+        $section2Incorrect = $section2Answers->where('is_correct', false)->count();
+        $section2Score = 68 - $section2Incorrect;
+
+        // Hitung jawaban benar dan salah untuk Section 3
+        $section3Correct = $section3Answers->where('is_correct', true)->count();
+        $section3Incorrect = $section3Answers->where('is_correct', false)->count();
+        $section3Score = 67 - $section3Incorrect;
+
+        // Hitung skor total (sesuai rumus yang diberikan)
+        $finalScore = (($section2Score + $section3Score) * 10) / 2;
+
+        // Update skor di UserExam
+        $userExam->score = $finalScore;
+        $userExam->save();
+
         // Format data untuk view
         $section2AnswersArray = $section2Answers->map(function ($answer) {
             return [
                 'question_id' => $answer->question_id,
                 'answer' => $answer->answer,
-                'is_correct' => $answer->is_correct // Pastikan is_correct diambil dari database
+                'is_correct' => $answer->is_correct
             ];
         })->toArray();
 
@@ -247,11 +264,23 @@ class ExamController extends Controller
             return [
                 'question_id' => $answer->question_id,
                 'answer' => $answer->answer,
-                'is_correct' => $answer->is_correct // Pastikan is_correct diambil dari database
+                'is_correct' => $answer->is_correct
             ];
         })->toArray();
 
-        return view('exam.finish', compact('active', 'section2AnswersArray', 'section3AnswersArray'));
+        // Pass jumlah benar/salah dan skor ke view
+        return view('exam.finish', compact(
+            'active',
+            'section2AnswersArray',
+            'section3AnswersArray',
+            'section2Correct',
+            'section2Incorrect',
+            'section3Correct',
+            'section3Incorrect',
+            'section2Score',
+            'section3Score',
+            'finalScore'
+        ));
     }
 
     // RESTART (Hapus Attempt Ongoing)

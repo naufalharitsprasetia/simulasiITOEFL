@@ -12,6 +12,8 @@
                         @auth
                             <a href="/simulasi"
                                 class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'simulasi' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Simulasi</a>
+                            <a href="/history"
+                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'history' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Riwayat</a>
                             <form action="/logout" id="logout-form" method="post">
                                 @csrf
                                 <button type="button" onclick="confirmLogout()"

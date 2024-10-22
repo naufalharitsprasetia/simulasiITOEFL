@@ -14,8 +14,12 @@
                     <h2 class="font-semibold text-2xl">Your Answer :</h2>
                     <br>
                     <div class="flex gap-4">
+                        <!-- Section 2 -->
                         <div class="section2 bg-gray-100 rounded-lg p-2">
                             <h2 class="text-xl font-semibold">Section 2</h2>
+                            <p>Total Correct: {{ $section2Correct }}</p>
+                            <p>Total Incorrect: {{ $section2Incorrect }}</p>
+                            <p>Score: {{ $section2Score }} / 68</p>
                             <ul>
                                 @foreach ($section2AnswersArray as $jawaban)
                                     <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
@@ -25,8 +29,12 @@
                                 @endforeach
                             </ul>
                         </div>
+                        <!-- Section 3 -->
                         <div class="section3 bg-gray-100 rounded-lg p-2">
                             <h2 class="text-xl font-semibold">Section 3</h2>
+                            <p>Total Correct: {{ $section3Correct }}</p>
+                            <p>Total Incorrect: {{ $section3Incorrect }}</p>
+                            <p>Score: {{ $section3Score }} / 67</p>
                             <ul>
                                 @foreach ($section3AnswersArray as $jawaban)
                                     <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
@@ -38,13 +46,13 @@
                         </div>
                     </div>
                     <br>
-                    <a href="/show-grade" class="bg-primary text-third px-2 py-2 rounded-md hover:opacity-85">Lihat
-                        Nilai</a>
-
+                    <h2 class="font-semibold text-xl">Final Score: {{ $finalScore }}</h2>
+                    <br>
+                    <a href="/" class="bg-primary text-third px-2 py-2 rounded-md hover:opacity-85">Back To
+                        Home</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 @include('layout.footer')

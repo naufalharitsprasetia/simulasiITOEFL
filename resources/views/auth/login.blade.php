@@ -1,5 +1,5 @@
 @include('layout.head')
-<section class="login flex flex-col-reverse lg:flex-row h-screen bg-white dark:bg-black">
+<section class="login flex flex-col-reverse lg:flex-row h-screen bg-white">
     <!-- Left Side: Login Form -->
     <div class="login-left w-full lg:w-1/2 flex flex-col justify-center items-center p-6 lg:p-12 relative ">
         <div class="max-w-md w-full mx-auto">
@@ -40,38 +40,37 @@
                 <!-- username_or_email Input -->
                 <div class="relative">
                     <label for="username_or_email"
-                        class="block text-sm lg:text-base font-medium text-gray-700 dark:text-gray-300 mb-2">Username
+                        class="block text-sm lg:text-base font-medium text-gray-700 mb-2">Username
                         atau
                         Email</label>
                     <input type="text" name="username_or_email" value="{{ old('username_or_email') }}" required
                         placeholder="Masukkan Username atau email"
-                        class="w-full px-4 py-3 rounded-lg dark:bg-black border dark:border-zinc-600 text-black @error('username_or_email') bg-red-100 border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
+                        class="w-full px-4 py-3 rounded-lg border text-black @error('username_or_email') bg-red-100 border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                     @error('username_or_email')
-                        <p class="text-red-500 dark:text-red-400 text-sm mt-2">{{ $message }}</p>
+                        <p class="text-red-500 text-sm mt-2">{{ $message }}</p>
                     @enderror
                 </div>
 
                 <!-- Password Input -->
                 <div class="relative">
-                    <label for="password"
-                        class="block text-sm lg:text-base font-medium text-gray-700 dark:text-gray-300 mb-2">Kata
+                    <label for="password" class="block text-sm lg:text-base font-medium text-gray-700 mb-2">Kata
                         Sandi</label>
                     <input type="password" name="password" required placeholder="Masukkan kata sandi"
-                        class="w-full px-4 py-3 rounded-lg bg-white border dark:border-zinc-600 dark:bg-black text-black  @error('password') border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
+                        class="w-full px-4 py-3 rounded-lg bg-white border text-black  @error('password') border-red-500 @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                     @error('password')
-                        <p class="text-red-500 dark:text-red-400 text-sm mt-2">{{ $message }}</p>
+                        <p class="text-red-500 text-sm mt-2">{{ $message }}</p>
                     @enderror
                 </div>
 
                 <!-- Show/Hide Password Checkbox -->
                 <div class="flex items-center">
                     <input type="checkbox" id="togglePasswordVisibility" onclick="togglePassword()" class="mr-2">
-                    <label for="togglePasswordVisibility"
-                        class="text-sm lg:text-base text-gray-700 dark:text-gray-300">Tampilkan kata sandi</label>
+                    <label for="togglePasswordVisibility" class="text-sm lg:text-base text-gray-700">Tampilkan kata
+                        sandi</label>
                 </div>
 
                 {{-- sudah punya akun --}}
-                <div class="text-sm text-center lg:text-base text-gray-700 dark:text-gray-300">
+                <div class="text-sm text-center lg:text-base text-gray-700">
                     <a class="hover:text-accent transition-colors" href="{{ route('auth.addUser') }}">Belum punya
                         akun?</a>
                 </div>

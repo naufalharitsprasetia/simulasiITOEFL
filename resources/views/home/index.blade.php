@@ -10,12 +10,10 @@
                     </div>
                 </div>
             @endif
-            @if ($errors->any())
-                <div class="mx-auto max-w-7xl">
+            @if (session()->has('error'))
+                <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
                     <div class="alert alert-error col-lg-12 mt-4" role="alert">
-                        @foreach ($errors->all() as $error)
-                            <div>{{ $error }}</div>
-                        @endforeach
+                        {{ session('error') }}
                     </div>
                 </div>
             @endif

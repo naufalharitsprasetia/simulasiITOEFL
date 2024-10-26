@@ -101,6 +101,12 @@ class ExamController extends Controller
         $page = request()->get('page', 1);
         $currentDatetime = Carbon::now('Asia/Jakarta');
 
+        // Mengambil data dari UserExam
+        $userExam = UserExam::find($user_exam_id);
+        if (!$userExam) {
+            return redirect()->route('home.index')->with('error', 'Ujian tidak ditemukan.');
+        }
+
         $userId = auth()->user()->id;
         // Cek apakah ada UserExam yang aktif untuk user dan exam ini
         $ongoingAttempt = UserExam::where('id', $user_exam_id)

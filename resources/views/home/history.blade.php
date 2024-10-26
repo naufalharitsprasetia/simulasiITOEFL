@@ -29,9 +29,20 @@
                                         <td class="px-4 py-2">{{ $exam->exam->title }}</td>
                                         <td class="px-4 py-2">{{ $exam->attempt_number }}</td>
                                         <td class="px-4 py-2">{{ $exam->score ?? 'Belum Dinilai' }}</td>
-                                        <td class="px-4 py-2">
-                                            {{ $exam->is_finish ? 'Selesai' : 'Sedang Berlangsung' }}
-                                        </td>
+
+                                        @if ($exam->is_finish)
+                                            <td class="px-4 py-2 text-green-500">
+                                                Selesai
+                                            </td>
+                                        @else
+                                            <td class="px-4 py-2">
+                                                <div class="flex justify-center items-center">
+                                                    <h3 class="text-yellow-500"> Sedang Berlangsung</h3>
+                                                    <a href="{{ route('exam.exam', ['user_exam_id' => $exam->id]) }}"
+                                                        class="bg-blue-500 text-white p-2 hover:underline ml-2">Lanjutkan</a>
+                                                </div>
+                                            </td>
+                                        @endif
                                     </tr>
                                 @endforeach
                             </tbody>

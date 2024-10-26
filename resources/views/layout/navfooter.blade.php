@@ -11,21 +11,6 @@
                 <p class="font-medium text-sm italic">"Your Path to TOEFL Success Starts Here!"</p>
             </div>
         </div>
-        <!-- Mid Section: Navigation Links -->
-        <div class="mid-footer flex flex-col">
-            <h4 class="font-semibold text-lg my-4">Follow Us on Social Media</h4>
-            <div class="flex mx-auto gap-4">
-                <a href="">
-                    <img class="w-8" src="/img/instagram.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-8" src="/img/youtube.png" alt="">
-                </a>
-                <a href="">
-                    <img class="w-8" src="/img/twitter.png" alt="">
-                </a>
-            </div>
-        </div>
         <!-- Right Section: Navigation Links -->
         <div class="mt-8 md:mt-0 right-footer flex flex-col">
             <div class="alamat-unida">
@@ -37,11 +22,11 @@
             <div class="flex mt-4 gap-8">
                 <div class="email">
                     <h4 class="text-base font-semibold">Email</h4>
-                    <p class="text-sm">simulasiTOEFL@unida.gontor.ac.id</p>
+                    <p class="text-sm">simulasitoefl@gmail.com</p>
                 </div>
                 <div class="narahubung">
                     <h4 class="text-base font-semibold">Narahubung</h4>
-                    <p class="text-sm">+62-811-2345-6789</p>
+                    <p class="text-sm">+62-819-2345-6789</p>
                 </div>
             </div>
         </div>

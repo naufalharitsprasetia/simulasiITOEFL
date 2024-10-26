@@ -19,6 +19,7 @@ return new class extends Migration
             $table->dateTime('start_time');
             $table->dateTime('end_time');
             $table->integer('score')->nullable(); // Nilai ujian (opsional)
+            $table->boolean('is_finish')->default(false);
             $table->timestamps(); // Kolom created_at dan updated_at
         });
     }

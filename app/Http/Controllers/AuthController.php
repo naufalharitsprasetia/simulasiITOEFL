@@ -38,7 +38,6 @@ class AuthController extends Controller
             if (Hash::check($request->input('password'), $user->password)) {
                 Auth::login($user);
                 Alert::alert('Berhasil', 'selamat ! anda berhasil masuk !', 'success');
-                session()->flash('clear_local_storage', true);
                 return redirect()->intended('/')->with('success', 'Login berhasil!');
             } else {
                 return back()->withErrors([
@@ -65,8 +64,6 @@ class AuthController extends Controller
         $request->session()->invalidate();
 
         $request->session()->regenerateToken();
-
-        session()->flash('clear_local_storage', true);
 
         return redirect('/');
     }

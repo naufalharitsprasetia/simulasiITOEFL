@@ -25,6 +25,7 @@ class ExamController extends Controller
             ->where('exam_id', $examId)
             ->where('start_time', '<=', $currentDatetime)
             ->where('end_time', '>=', $currentDatetime)
+            ->where('is_finish', false)
             ->first();
 
         if ($ongoingAttempt) {
@@ -54,10 +55,8 @@ class ExamController extends Controller
             ->where('exam_id', $examId)
             ->where('start_time', '<=', $currentDatetime)
             ->where('end_time', '>=', $currentDatetime)
+            ->where('is_finish', false)
             ->first();
-
-        // dd($currentDatetime);
-        // dd($ongoingAttempt);
 
         if ($ongoingAttempt) {
             // Jika ada attempt yang sedang berjalan, redirect user ke halaman lain
@@ -87,12 +86,19 @@ class ExamController extends Controller
     {
         return redirect()->route('exam.exam', ['user_exam_id' => $id]);
     }
+    public function restart($user_exam_id)
+    {
+        $userExam = UserExam::find($user_exam_id);
+        $examId = $userExam->exam_id;
+        $userExam->delete();
+        return redirect()->route('exam.index', ['id', $examId]);
+    }
 
     public function exam($user_exam_id)
     {
         // Cek dulu apakah $user_exam_id ada di db 
         $active = 'examination';
-        $page = request()->get('page', 1); // Mengambil nilai page dari request - function submit
+        $page = request()->get('page', 1);
         $currentDatetime = Carbon::now('Asia/Jakarta');
 
         $userId = auth()->user()->id;
@@ -101,6 +107,7 @@ class ExamController extends Controller
             ->where('user_id', $userId)
             ->where('start_time', '<=', $currentDatetime)
             ->where('end_time', '>=', $currentDatetime)
+            ->where('is_finish', false)
             ->first();
 
         if ($ongoingAttempt) {
@@ -108,7 +115,6 @@ class ExamController extends Controller
             $endDate = Carbon::parse($ongoingAttempt->end_time);
             $remainingTime = $currentDatetime->diffInSeconds($endDate);
         } else {
-            // Jika tidak ada attempt yang sedang berlangsung, set waktu tersisa menjadi 0
             $remainingTime = 0;
         }
 
@@ -249,6 +255,7 @@ class ExamController extends Controller
 
         // Update skor di UserExam
         $userExam->score = $finalScore;
+        $userExam->is_finish = true;
         $userExam->save();
 
         // Format data untuk view
@@ -281,18 +288,5 @@ class ExamController extends Controller
             'section3Score',
             'finalScore'
         ));
-    }
-
-    // RESTART (Hapus Attempt Ongoing)
-    public function restart($user_exam_id)
-    {
-        $userExam = UserExam::find($user_exam_id);
-
-        $examId = $userExam->exam_id;
-        // dd($examId);
-
-        $userExam->delete();
-
-        return redirect()->route('exam.index', ['id', $examId]);
     }
 }

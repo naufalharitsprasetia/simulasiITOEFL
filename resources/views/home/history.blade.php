@@ -30,7 +30,7 @@
                                         <td class="px-4 py-2">{{ $exam->attempt_number }}</td>
                                         <td class="px-4 py-2">{{ $exam->score ?? 'Belum Dinilai' }}</td>
                                         <td class="px-4 py-2">
-                                            {{ $exam->end_time < now() ? 'Selesai' : 'Sedang Berlangsung' }}
+                                            {{ $exam->is_finish ? 'Selesai' : 'Sedang Berlangsung' }}
                                         </td>
                                     </tr>
                                 @endforeach

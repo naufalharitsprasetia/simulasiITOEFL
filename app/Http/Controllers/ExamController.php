@@ -246,15 +246,24 @@ class ExamController extends Controller
             ->where('question_id', 'LIKE', 'exam1section3question[%]')
             ->get();
 
-        // Hitung jawaban benar dan salah untuk Section 2
+        // Hitung jumlah benar di setiap section
         $section2Correct = $section2Answers->where('is_correct', true)->count();
         $section2Incorrect = $section2Answers->where('is_correct', false)->count();
-        $section2Score = 68 - $section2Incorrect;
-
-        // Hitung jawaban benar dan salah untuk Section 3
         $section3Correct = $section3Answers->where('is_correct', true)->count();
         $section3Incorrect = $section3Answers->where('is_correct', false)->count();
-        $section3Score = 67 - $section3Incorrect;
+
+        // Pengecekan jika tidak ada jawaban
+        if ($section2Answers->isEmpty()) {
+            $section2Score = 0;
+        } else {
+            $section2Score = max(68 - (40 - $section2Correct), 0); // Section 2: skor maksimal 68
+        }
+
+        if ($section3Answers->isEmpty()) {
+            $section3Score = 0;
+        } else {
+            $section3Score = max(67 - (50 - $section3Correct), 0); // Section 3: skor maksimal 67
+        }
 
         // Hitung skor total (sesuai rumus yang diberikan)
         $finalScore = (($section2Score + $section3Score) * 10) / 2;
@@ -294,5 +303,46 @@ class ExamController extends Controller
             'section3Score',
             'finalScore'
         ));
+    }
+    // CEK
+    public function checkAndUpdateExpiredExams()
+    {
+        $currentDatetime = now();
+
+        // Ambil semua UserExam yang statusnya belum selesai dan waktu selesai ujiannya sudah lewat
+        $expiredExams = UserExam::where('is_finish', false)
+            ->where('end_time', '<', $currentDatetime)
+            ->get();
+
+        foreach ($expiredExams as $userExam) {
+            // Ambil jawaban dari tabel Answers untuk section 2 dan section 3
+            $section2Answers = Answer::where('user_exam_id', $userExam->id)
+                ->where('question_id', 'LIKE', 'exam1section2question[%]')
+                ->get();
+
+            $section3Answers = Answer::where('user_exam_id', $userExam->id)
+                ->where('question_id', 'LIKE', 'exam1section3question[%]')
+                ->get();
+
+            // Hitung jumlah jawaban benar di setiap section
+            $section2CorrectAnswers = $section2Answers->where('is_correct', true)->count();
+            $section3CorrectAnswers = $section3Answers->where('is_correct', true)->count();
+
+            // Perhitungan skor untuk setiap section, dengan pengecekan jika tidak ada jawaban
+            $section2Score = $section2Answers->isEmpty() ? 0 : max(68 - (40 - $section2CorrectAnswers), 0);
+            $section3Score = $section3Answers->isEmpty() ? 0 : max(67 - (50 - $section3CorrectAnswers), 0);
+
+            // Hitung total skor berdasarkan formula
+            $totalScore = ($section2Score + $section3Score) * 10 / 2;
+
+            // Update UserExam dengan is_finish menjadi true dan menyimpan total score
+            // $userExam->update([
+            //     'is_finish' => true,
+            //     'score' => $totalScore
+            // ]);
+            $userExam->score = $totalScore;
+            $userExam->is_finish = true;
+            $userExam->save();
+        }
     }
 }

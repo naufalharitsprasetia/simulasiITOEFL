@@ -10,6 +10,10 @@
                         <a href="/"
                             class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'beranda' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }} ">Beranda</a>
                         @auth
+                            @can('admin-only')
+                                <a href="{{ route('admin.index') }}"
+                                    class="rounded-md p-2 text-sm font-medium bg-gray-900 text-white hover:bg-third hover:text-gray-900">Admin</a>
+                            @endcan
                             <a href="/simulasi"
                                 class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'simulasi' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Simulasi</a>
                             <a href="/history"

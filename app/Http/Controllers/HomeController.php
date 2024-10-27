@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Exam;
 use App\Models\UserExam;
 use Illuminate\Http\Request;
+use App\Http\Controllers\ExamController;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,8 @@ class HomeController extends Controller
     {
         $active = 'history';
         $userId = auth()->user()->id;
+        $examController = new ExamController();
+        $examController->checkAndUpdateExpiredExams();
 
         // Ambil semua riwayat UserExam untuk user yang sedang login
         $userExams = UserExam::where('user_id', $userId)

@@ -23,6 +23,13 @@ class DatabaseSeeder extends Seeder
             'email' => 'naufal@gmail.com',
             'password' => bcrypt('bismillah'),
         ]);
+        User::create([
+            'name' => 'Super Admin',
+            'username' => 'superadmin',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('bismillah'),
+            'is_admin' => true,
+        ]);
         Exam::create([
             'title' => 'Practice 1',
             'description' => ''

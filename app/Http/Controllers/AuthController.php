@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use RealRashid\SweetAlert\Facades\Alert;
+use App\Http\Controllers\ExamController;
 
 class AuthController extends Controller
 {
@@ -36,6 +37,8 @@ class AuthController extends Controller
 
         if ($user) {
             if (Hash::check($request->input('password'), $user->password)) {
+                $examController = new ExamController();
+                $examController->checkAndUpdateExpiredExams();
                 Auth::login($user);
                 Alert::alert('Berhasil', 'selamat ! anda berhasil masuk !', 'success');
                 return redirect()->intended('/')->with('success', 'Login berhasil!');

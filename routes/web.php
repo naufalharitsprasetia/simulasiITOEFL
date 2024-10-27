@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BeginnerController;
 use App\Http\Controllers\ExamController;
@@ -30,7 +31,8 @@ Route::middleware('guest')->group(
         Route::post('/register', [AuthController::class, 'addUser'])->name('auth.addUser');
     }
 );
-// Auth
+
+// Auth 
 Route::middleware('auth')->group(
     function () {
         // admin
@@ -53,6 +55,9 @@ Route::middleware('auth')->group(
         Route::get('/exam/result', [ExamController::class, 'result'])->name('exam.result');
     }
 );
+Route::middleware(['auth', 'admin'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+});
 
 // Redirect
 Route::get('{any}', [HomeController::class, 'index'])->name('index');

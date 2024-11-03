@@ -17,7 +17,7 @@
                     </div>
                 </div>
             @endif
-            <h1 class="text-3xl font-semibold">Selamat Datang Di Website SIMULASI TOEFL </h1>
+            <h1 class="text-3xl font-semibold">Selamat Datang di Website SIMULASI TOEFL ITP </h1>
             <h2 class="text-xl italic font-medium">"Your Path to TOEFL Success Starts Here!"</h2>
             @guest
                 <div class="mt-8">

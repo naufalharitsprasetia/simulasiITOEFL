@@ -22,7 +22,7 @@
     {{-- Style CSS --}}
     @vite('resources/css/app.css')
     <link rel="icon" href="/img/unida.png" type="image/png">
-    <title>SIMULASI TOEFL | UNIDA GONTOR</title>
+    <title>SIMULASI TOEFL ITP | UNIDA GONTOR</title>
 </head>
 
 <body>

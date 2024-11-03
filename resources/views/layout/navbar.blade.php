@@ -1,9 +1,9 @@
 <nav class="z-50 w-full fixed bg-primary ">
-    <div class="mx-auto max-w-7xl px-2 lg:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-2 lg:px-6">
         <div class="relative flex h-16 items-center justify-between">
             <div class="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
                 <div class="flex flex-shrink-0 items-center ml-28">
-                    <h2 class="mx-4 text-third font-poppins font-semibold text-lg">SIMULASI TOEFL</h2>
+                    <h2 class="mx-4 text-third font-poppins font-semibold text-lg">SIMULASI TOEFL ITP</h2>
                 </div>
                 <div class="hidden lg:ml-6 lg:block">
                     <div class="ml-10 flex gap-6 items-center">

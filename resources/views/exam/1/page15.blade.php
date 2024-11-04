@@ -12,4 +12,10 @@
             you have chosen.
         </p>
     </div>
+    {{-- AUDIO HIDDEN --}}
+    <audio autoplay loop style="display: none;">
+        <source src="{{ asset('audio/partA/02PartADirections.mp3.mp3') }}" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    {{-- AUDIO HIDDEN --}}
 </div>

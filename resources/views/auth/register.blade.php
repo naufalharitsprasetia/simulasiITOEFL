@@ -10,8 +10,7 @@
                         href="/">
                         <i class="fas fa-chevron-left"></i>
                     </a>
-                    <h1 class="text-xl lg:text-3xl font-semibold pr-3 text-black">Daftar ke SIMULASI
-                        TOEFL
+                    <h1 class="text-xl lg:text-3xl font-semibold pr-3 text-black">Register
                     </h1>
                 </div>
                 <p class="text-gray-500">Masuk ke SIMULASI TOEFL Unida Gontor dan dapatkan fitur-fitur menarik di sini.

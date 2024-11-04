@@ -26,11 +26,11 @@
                         href="/">
                         <i class="fas fa-chevron-left"></i>
                     </a>
-                    <h1 class="text-xl lg:text-3xl font-semibold pr-3 text-black">Masuk ke Simulasi
-                        TOEFL
+                    <h1 class="text-xl lg:text-3xl font-semibold pr-3 text-black">Login
                     </h1>
                 </div>
-                <p class="text-gray-500">Masuk ke SIMULASI TOEFL UNIDA GONTOR dan dapatkan fitur-fitur menarik di sini.
+                <p class="text-gray-500">Masuk ke SIMULASI TOEFL ITP - UNIDA GONTOR dan dapatkan fitur-fitur menarik di
+                    sini.
                 </p>
             </div>
 

@@ -9,4 +9,10 @@
             written English. There are two types of questions in this section, with special directions for each type.
         </p>
     </div>
+    {{-- AUDIO HIDDEN --}}
+    <audio autoplay loop style="display: none;">
+        <source src="{{ asset('audio/partA/01Section1Listening.mp3.mp3') }}" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    {{-- AUDIO HIDDEN --}}
 </div>

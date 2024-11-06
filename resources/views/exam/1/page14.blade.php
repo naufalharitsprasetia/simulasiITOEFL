@@ -1,18 +1,14 @@
 <div class="begginer-wrapper px-28 py-24">
     <div class="title-container text-center font-bold font-crimson mb-6">
-        <h1 class="text-3xl">SESSION 1</h1>
-        <h1 class="text-2xl uppercase">Listening Comprehension</h1>
+        <h1 class="text-3xl">PART B</h1>
+        <h1 class="text-2xl">DIRECTION</h1>
     </div>
     <div class="body-container mt-12">
         <p class="font-semibold text-center">
-            This section is designed to measure your ability to recognize language that is appropriate for standard
-            written English. There are two types of questions in this section, with special directions for each type.
+            In questions 16- 40 each sentence has four underlined words or phrases. The four underlined parts of the
+            sentence are marked (A), (B), (C), and (D). Identify the one underlined word or phrase that must be changed
+            in order for the sentence to be correct. Then, on your answer sheet, ﬁnd the number of the question and ﬁll
+            in the space that corresponds to the letter of the answer you have chosen.
         </p>
     </div>
-    {{-- AUDIO HIDDEN --}}
-    <audio autoplay loop style="display: none;">
-        <source src="{{ asset('audio/partA/01Section1Listening.mp3.mp3') }}" type="audio/mpeg">
-        Browser Anda tidak mendukung elemen audio.
-    </audio>
-    {{-- AUDIO HIDDEN --}}
 </div>

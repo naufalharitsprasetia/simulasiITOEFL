@@ -1,431 +1,219 @@
- <style>
-     .word-container {
-         display: inline-block;
-         position: relative;
-     }
+<div class="begginer-wrapper px-28 py-24">
+    <div class="title-container text-center font-bold font-crimson mb-6">
+        <h1 class="text-3xl">LISTENING</h1>
+    </div>
+    <div class="body-container mt-12">
+        {{-- Question 31 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/ConversationNumber31.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">31. What are the students mainly discussing?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="A">
+                        A. A swimming competition
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="B">
+                        B. A singing contest
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="C">
+                        C. The water temperature at the beach
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="D">
+                        D. The woman’s schedule this semester
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 32 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/num32.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">32. What does the woman say about the winners of the competition?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="A">
+                        A. They have won for the past three years
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="B">
+                        B. They placed second last year
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="C">
+                        C. They practiced for three months prior to the competition
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="D">
+                        D. She thought they did not perform well
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 33 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/num33.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">33. How did the man spend his weekend?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="A">
+                        A. Studying in the library
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="B">
+                        B. Practicing his singing
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="C">
+                        C. Walking on the beach
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="D">
+                        D. Swimming in the ocean
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 34 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/num34.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">34. What does the woman say about her weekend schedule?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[34]" class="mr-2" required value="A">
+                        A. She spent many hours on a bus
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[34]" class="mr-2" required value="B">
+                        B. She was too busy to enjoy the beach
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[34]" class="mr-2" required
+                            value="C">
+                        C. She had plenty of time to study
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[34]" class="mr-2" required
+                            value="D">
+                        D. She did not have time to watch the competition
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 35 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/ConversationNumber35.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">35. What is the conversation mainly about?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                            value="A">
+                        A. The first Japanese artist to start an art school in the United States
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                            value="B">
+                        B. Two artist’ efforts to promote Japanese art in Europe
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                            value="C">
+                        C. One artist’s struggle to overcome financial difficulties
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                            value="D">
+                        D. Influences on one artist’s work
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 36 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/num36.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">36. What kind of work did Noguchi’s father do?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                            value="A">
+                        A. He wrote poetry
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                            value="B">
+                        B. He built houses
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                            value="C">
+                        C. He designed gardens
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                            value="D">
+                        D. He created modern sculptures
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 37 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partB/num37.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">37. According to the professor, what did Noguchi learn to do when he was
+                    a child in Japan?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                            value="A">
+                        A. Draw the human figure
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                            value="B">
+                        B. See similarities between poetry and visual art
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                            value="C">
+                        C. Appreciate and work with natural materials
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                            value="D">
+                        D. Use money wisely
+                    </label>
+                </div>
+            </div>
+        </div>
 
-     /* Underline styling */
-     .word {
-         text-decoration: underline;
-         font-weight: bold;
-         display: inline-block;
-     }
-
-     /* Positioning the letter below the underlined word */
-     .letter {
-         position: absolute;
-         top: 1.5em;
-         /* Adjusts vertical positioning */
-         left: 50%;
-         transform: translateX(-50%);
-         font-size: 0.8rem;
-         font-weight: bold;
-     }
- </style>
- <div class="begginer-wrapper px-28 py-24">
-     <div class="title-container font-bold font-poppins mb-6">
-         <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
-     </div>
-     <div class="body-container mt-12">
-         <!-- Question 31 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 31. North American bison <span class="word-container"><span class="word">differ from </span><span
-                         class="letter">A</span></span>
-                 <span class="word-container"><span class="word">domestic </span><span class="letter">B</span></span>
-                 cattle in
-                 <span class="word-container"><span class="word">have </span><span class="letter">C</span></span> 14
-                 <span class="word-container"><span class="word">rather than </span><span
-                         class="letter">D</span></span> 13 pairs of ribs.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[31]" value="A" class="mr-2">
-                         (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[31]" value="B" class="mr-2">
-                         (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[31]" value="C" class="mr-2">
-                         (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[31]" value="D" class="mr-2">
-                         (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 32 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 32. Female sea turtles, before laying <span class="word-container"><span class="word">her
-                     </span><span class="letter">A</span></span>
-                 eggs, swim as <span class="word-container"><span class="word">much </span><span
-                         class="letter">B</span></span> as 2,000 kilometers to
-                 <span class="word-container"><span class="word">return </span><span class="letter">C</span></span>
-                 to the beaches <span class="word-container"><span class="word">where </span><span
-                         class="letter">D</span></span>
-                 they themselves were hatched.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[32]" value="A" class="mr-2">
-                         (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[32]" value="B" class="mr-2">
-                         (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[32]" value="C" class="mr-2">
-                         (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[32]" value="D" class="mr-2">
-                         (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 33 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 33. Water is the only substance that <span class="word-container"><span class="word">occur
-                     </span><span class="letter">A</span></span>
-                 at <span class="word-container"><span class="word">ordinary temperatures </span><span
-                         class="letter">B</span></span>
-                 in
-                 <span class="word-container"><span class="word">all three </span><span class="letter">C</span></span>
-                 states of matter: <span class="word-container"><span class="word">solid</span><span
-                         class="letter">D</span></span>, liquid and gas.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[33]" value="A" class="mr-2">
-                         (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[33]" value="B" class="mr-2">
-                         (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[33]" value="C" class="mr-2">
-                         (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[33]" value="D" class="mr-2">
-                         (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 34 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 34. <span class="word-container"><span class="word">Despite </span><span
-                         class="letter">A</span></span>
-                 the growth of <span class="word-container"><span class="word">manufacturing
-                     </span><span class="letter">B</span></span> and other industries, the economy of the state of
-                 Texas
-                 <span class="word-container"><span class="word">has </span><span class="letter">C</span></span>
-                 remained heavily <span class="word-container"><span class="word">dependence </span><span
-                         class="letter">D</span></span>
-                 on oil and gas.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[34]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[34]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[34]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[34]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 35 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 35. Lyndon B. Johnson <span class="word-container"><span class="word">was </span><span
-                         class="letter">A</span></span> the only United States President <span
-                     class="word-container"><span class="word">who </span><span class="letter">B</span></span>
-                 oath of ofﬁce was
-                 <span class="word-container"><span class="word">administered </span><span
-                         class="letter">C</span></span>
-                 by <span class="word-container"><span class="word">a woman </span><span
-                         class="letter">D</span></span> Judge Sarah Tilghman Hughes
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[35]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[35]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[35]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[35]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 36 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 36. <span class="word-container"><span class="word">It
-                     </span><span class="letter">A</span></span> took <span class="word-container"><span
-                         class="word">
-                         more than </span><span class="letter">B</span></span>
-                 fourteen years
-                 <span class="word-container"><span class="word">to carve </span><span
-                         class="letter">C</span></span>
-                 the faces of four United States Presidents into the granite cliffs <span class="word-container"><span
-                         class="word">to </span><span class="letter">D</span></span> Mount Rushmore, South Dakota.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[36]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[36]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[36]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[36]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 37 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 37. Charles Bullﬁ nch was <span class="word-container"><span class="word">the architect
-                     </span><span class="letter">A</span></span> who <span class="word-container"><span
-                         class="word">design </span><span class="letter">B</span></span>
-                 the
-                 <span class="word-container"><span class="word">original </span><span
-                         class="letter">C</span></span>
-                 red brick core <span class="word-container"><span class="word">of the </span><span
-                         class="letter">D</span></span> State House in Boston.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[37]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[37]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[37]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[37]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 38 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 38. <span class="word-container"><span class="word">Rarely has </span><span
-                         class="letter">A</span></span> a technological development had as great an impact on <span
-                     class="word-container"><span class="word">as much </span><span class="letter">B</span></span>
-                 aspects of social, economic, and cultural
-                 <span class="word-container"><span class="word">development </span><span
-                         class="letter">C</span></span>
-                 as the <span class="word-container"><span class="word">growth
-                     </span><span class="letter">D</span></span> of electronics.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[38]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[38]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[38]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[38]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 39  -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 39. Lowell, Massachusetts, known as the “Spindle City” <span class="word-container"><span
-                         class="word">since </span><span class="letter">A</span></span> 1822
-                 <span class="word-container"><span class="word">when </span><span class="letter">B</span></span>
-                 its ﬁrst textile mills were built,
-                 <span class="word-container"><span class="word">attracted </span><span
-                         class="letter">C</span></span>
-                 worldwide attention as <span class="word-container"><span class="word">textile </span><span
-                         class="letter">D</span></span> center.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[39]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[39]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[39]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[39]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-         <!-- Question 40 -->
-         <div class="mb-8">
-             <p class="text-lg/10">
-                 40. Strange Victory, Sara Teasdale’s <span class="word-container"><span class="word">smallest
-                     </span><span class="letter">A</span></span> and <span class="word-container"><span
-                         class="word">most perfect </span><span class="letter">B</span></span>
-                 collection
-                 <span class="word-container"><span class="word">of poems </span><span
-                         class="letter">C</span></span>, <span class="word-container"><span class="word"> appear
-                     </span><span class="letter">D</span></span> in print in 1933.
-             </p>
-             <ul class="space-y-2 mt-4">
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[40]" value="A"
-                             class="mr-2"> (A)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[40]" value="B"
-                             class="mr-2"> (B)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[40]" value="C"
-                             class="mr-2"> (C)
-                     </label>
-                 </li>
-                 <li>
-                     <label>
-                         <input type="radio" required name="exam1section2question[40]" value="D"
-                             class="mr-2"> (D)
-                     </label>
-                 </li>
-             </ul>
-         </div>
-
-     </div>
- </div>
+    </div>
+</div>

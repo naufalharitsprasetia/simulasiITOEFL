@@ -1,478 +1,418 @@
- <style>
-     /* Custom scrollbar for modern look */
-     .scrollable {
-         overflow-y: auto;
-         height: 600px;
-         /* Adjust as needed */
-     }
+<div class="begginer-wrapper px-28 py-24">
+    <div class="title-container text-center font-bold font-crimson mb-6">
+        <h1 class="text-3xl">LISTENING</h1>
+    </div>
+    <div class="body-container mt-12">
+        {{-- Question 38 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/ConversationNumber38.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">38. What is the main purpose of the lecture?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="A">
+                        A. To analyze the importance of touch in marketing
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="B">
+                        B. To compare marketing strategies involving touch and smell
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="C">
+                        C. To explain why shoppers rely more on touch than on their other senses
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="D">
+                        D. To introduce a new way to conduct market research
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 39 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num39.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">39. According to the professor, what psychological feeling do shoppers
+                    tend to have when they touch an item of merchandise?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="A">
+                        A. That they have more time to make a purchasing decision
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="B">
+                        B. That they are highly valued by the owner of the store
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="C">
+                        C. That the item they are touching is already theirs
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="D">
+                        D. That the price of the item is too high
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 40 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num40.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">40. What does the professor imply about marketers who sell items online?
+                </p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="A">
+                        A. Their customers like that the products are not touched by others
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="B">
+                        B. They get more returned items than traditional stores do
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="C">
+                        C. Their descriptions ought to help shoppers imagine how items feel
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="D">
+                        D. Their photographs are often ineffective
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 41 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num41.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">41. What does the professor emphasize as an important characteristic of
+                    shoppers?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[41]" class="mr-2" required value="A">
+                        A. They are usually willing to pay more for items they can touch
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[41]" class="mr-2" required value="B">
+                        B. They are reluctant to buy items that were touched repeatedly by other shoppers
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[41]" class="mr-2" required
+                            value="C">
+                        C. They touch only items that they intend to buy
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[41]" class="mr-2" required
+                            value="D">
+                        D. They are less likely to touch items when the store owner is watching
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 42 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/ConversationNumber42.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">42. What is the main purpose of the talk?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                            value="A">
+                        A. To summarize the history of mathematics
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                            value="B">
+                        B. To show how Mesopotamian science influenced Greek science
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                            value="C">
+                        C. To discuss a mistaken historical interpretation
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                            value="D">
+                        D. To explain why tablets are reliable historical records
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 43 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num43.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">43. What was on the Mesopotamian tablet mentioned in the talk?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                            value="A">
+                        A. Names of mathematician
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                            value="B">
+                        B. Mathematical calculation
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                            value="C">
+                        C. Measurements of buildings
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                            value="D">
+                        D. Measurements of various shapes
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 44 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num44.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">44. According to the professor, what had been assumed about the
+                    Mesopotamians?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                            value="A">
+                        A. All records o their mathematics had been lost
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                            value="B">
+                        B. They created various types of measuring devices
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                            value="C">
+                        C. They did not use tablets to record information
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                            value="D">
+                        D. They could calculate measurements of triangles
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 45 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num45.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">45. According to the professor, how was the tablet most likely used by
+                    the Mesopotamians?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                            value="A">
+                        A. As a math exercise sheet
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                            value="B">
+                        B. As a record of business transactions
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                            value="C">
+                        C. As a geometry textbook
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                            value="D">
+                        D. As a plan for e new building
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 46 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num46.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">46. What does the professor imply about the ancient Greeks?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                            value="A">
+                        A. They learned geometry from Mesopotamian tablets
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                            value="B">
+                        B. They were less advanced in mathematics than the Mesopotamians
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                            value="C">
+                        C. They improved the quality of stone tablets
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                            value="D">
+                        D. They knew how to measure angles
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 47 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/ConversationNumber47.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">47. What is the talk mainly about?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                            value="A">
+                        A. How the age of a fossil is determined
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                            value="B">
+                        B. How fossilized impressions were made on the seafloor
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                            value="C">
+                        C. Techniques for excavating fossils from the sea
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                            value="D">
+                        D. Recently discovered fossilized footprints
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 48 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num48.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">48. According to the professor, what question does the discovery in
+                    Canada help answer?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                            value="A">
+                        A. When animals first emerged from the sea
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                            value="B">
+                        B. Where fossils are most easily found
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                            value="C">
+                        C. How footprints on the seafloor are preserved
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                            value="D">
+                        D. Why some animals became extinct
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 49 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num49.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">49. Why does the professor mention stonecutters?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                            value="A">
+                        A. To illustrate the variety of stone found in CanadaA. To illustrate the variety of stone found
+                        in Canada
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                            value="B">
+                        B. To show that the fossils were found by luck
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                            value="C">
+                        C. To explain why sandstone often contains fossils
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                            value="D">
+                        D. To tell why fossils are sometimes damaged
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 50 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partC/num50.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">50. What evidence is given to show whether the footprints were made by
+                    animals on land or underwater?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                            value="A">
+                        A. The hardness of the sandstone
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                            value="B">
+                        B. The depth of the footprints
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                            value="C">
+                        C. The type of animal that made the footprints
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                            value="D">
+                        D. The location of the rock layer
+                    </label>
+                </div>
+            </div>
+        </div>
 
-     /* Webkit browsers (Chrome, Safari) */
-     .scrollable::-webkit-scrollbar {
-         width: 12px;
-     }
-
-     .scrollable::-webkit-scrollbar-track {
-         background: #f1f1f1;
-         /* Light grey background for the track */
-         border-radius: 10px;
-     }
-
-     .scrollable::-webkit-scrollbar-thumb {
-         background-color: #7c3aed;
-         /* Purple color for the thumb */
-         border-radius: 10px;
-         border: 3px solid #f1f1f1;
-         /* Add padding around the thumb */
-     }
-
-     .scrollable::-webkit-scrollbar-thumb:hover {
-         background-color: #5b21b6;
-         /* Darker purple when hovered */
-     }
-
-     /* Firefox */
-     .scrollable {
-         scrollbar-width: thin;
-         scrollbar-color: #7c3aed #f1f1f1;
-         /* Thumb and track colors */
-     }
- </style>
- <div class="begginer-wrapper px-18 py-20">
-     <div class="title-container font-bold font-poppins mb-6">
-         <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
-     </div>
-     <div class="body-container flex">
-         <!-- Left Column (Reading Passage) -->
-         <div class="w-full p-4">
-             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
-                 <h1 class="text-xl font-bold mb-4">READING</h1>
-                 <p class="text-justify leading-relaxed">
-                     <!-- Add your reading passage here -->
-                     As Philadelphia expanded from a small town to a city in the first half of the eighteenth century,
-                     it became an increasingly vital hub for marketing a vast and growing agricultural region. On market
-                     days, the already busy city became even more crowded as farmers from up to 24 kilometers away
-                     brought their livestock, vegetables, cider, and other goods to sell directly to city residents. The
-                     High Street Market was continuously expanded until 1736, eventually stretching from Front Street to
-                     Third Street. By 1745, New Market had opened on Second Street between Pine and Cedar, followed by
-                     the Callowhill Market the next year. In addition to market days, Philadelphia continued to host
-                     twice-yearly fairs, even after similar events were discontinued in other colonial cities. These
-                     fairs offered a way for handmade goods from surrounding areas to reach buyers in the city, with
-                     items like Germantown linens and stockings being especially popular.
-                     <!-- The full passage continues here --> <br> <br>
-                     Auctions were another common form of occasional trade. Retail merchants opposed these, as well as
-                     fairs, due to the competition they presented. Although government efforts to eliminate fairs and
-                     auctions were largely unsuccessful, the natural progression of economic development favored the
-                     merchants, as business specialization became more prevalent. Export merchants began to distinguish
-                     themselves from import merchants, and specialty shops started to emerge alongside general stores
-                     that offered a wide range of products.
-                     <br><br>
-                     One reason Philadelphia's merchants generally thrived was the significant economic and demographic
-                     growth occurring in the surrounding region. As the capital city of the province, Philadelphia was a
-                     hub for business. Merchants served not only the governor and his associates but also citizens from
-                     across the colony who visited the capital for legislative sessions, council meetings, and court
-                     proceedings.
-                 </p>
-             </div>
-         </div>
-
-         <!-- Right Column (Questions) -->
-         <div class="w-full p-4">
-             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
-                 <h2 class="text-xl font-bold mb-4">Questions 1-10</h2>
-
-                 <!-- Question 1 -->
-                 <div class="mb-6">
-                     <p class="text-md">1. What is the main focus of the passage?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[1]" value="A"
-                                     class="mr-2"> (A)
-                                 Philadelphia's
-                                 significance in agriculture
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[1]" value="B"
-                                     class="mr-2"> (B)
-                                 Philadelphia's growth
-                                 as a marketing hub
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[1]" value="C"
-                                     class="mr-2"> (C) The
-                                 trade of
-                                 imported
-                                 goods in Philadelphia
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[1]" value="D"
-                                     class="mr-2"> (D) The
-                                 governance of the
-                                 city of Philadelphia
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 2 -->
-                 <div class="mb-6">
-                     <p class="text-md">2. What can be inferred from the passage about why new markets were established
-                         in
-                         Philadelphia?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[2]" value="A"
-                                     class="mr-2"> (A)
-                                 They
-                                 offered
-                                 more
-                                 modern facilities than the older markets
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[2]" value="B"
-                                     class="mr-2"> (B) The
-                                 High
-                                 Street
-                                 Market
-                                 was forced to close.
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[2]" value="C"
-                                     class="mr-2"> (C)
-                                 Existing
-                                 markets
-                                 couldn't accommodate the growing population.
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[2]" value="D"
-                                     class="mr-2"> (D)
-                                 Farmers
-                                 wanted
-                                 markets
-                                 closer to their farms.</label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 3 -->
-                 <div class="mb-6">
-                     <p class="text-md">3. The word "region" in line 2 is closest in meaning to</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[3]" value="A"
-                                     class="mr-2"> (A)
-                                 Harvest</label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[3]" value="B"
-                                     class="mr-2"> (B)
-                                 Tradition
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[3]" value="C"
-                                     class="mr-2"> (C)
-                                 Product
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[3]" value="D"
-                                     class="mr-2"> (D)
-                                 Hinterland
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 4 -->
-                 <div class="mb-6">
-                     <p class="text-md">4. The word "host" in line 8 is closest in meaning to</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[4]" value="A"
-                                     class="mr-2"> (A)
-                                 Organize
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[4]" value="B"
-                                     class="mr-2"> (B)
-                                 Decline
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[4]" value="C"
-                                     class="mr-2"> (C)
-                                 Request
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[4]" value="D"
-                                     class="mr-2"> (D)
-                                 Eliminate
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 5 -->
-                 <div class="mb-6">
-                     <p class="text-md">5. According to the passage, fairs in Philadelphia has been held.</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[5]" value="A"
-                                     class="mr-2"> (A) on
-                                 the same
-                                 day as
-                                 market
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[5]" value="B"
-                                     class="mr-2"> (B) as
-                                 often as
-                                 possible
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[5]" value="C"
-                                     class="mr-2"> (C) a
-                                 couple of
-                                 times a
-                                 year
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[5]" value="D"
-                                     class="mr-2"> (D)
-                                 whenever
-                                 the
-                                 government allowed it
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 6 -->
-                 <div class="mb-6">
-                     <p class="text-md">6. What type of goods was particularly popular at the twice-yearly fairs in
-                         Philadelphia?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[6]" value="A"
-                                     class="mr-2"> (A)
-                                 Imported
-                                 luxury items
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[6]" value="B"
-                                     class="mr-2"> (B)
-                                 Germantown linens and stockings
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[6]" value="C"
-                                     class="mr-2"> (C)
-                                 Livestock
-                                 and vegetables
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[6]" value="D"
-                                     class="mr-2"> (D)
-                                 Handcrafted furniture
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 7 -->
-                 <div class="mb-6">
-                     <p class="text-md">7. What can be inferred about "linens and stockings" mentioned in line 10?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[7]" value="A"
-                                     class="mr-2"> (A)
-                                 Retail
-                                 merchants were unwilling to sell them
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[7]" value="B"
-                                     class="mr-2"> (B)
-                                 They
-                                 weren't available in Philadelphia stores
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[7]" value="C"
-                                     class="mr-2"> (C)
-                                 They were
-                                 more popular in Germantown than in Philadelphia
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[7]" value="D"
-                                     class="mr-2"> (D)
-                                 They were
-                                 easy to transport.
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 8 -->
-                 <div class="mb-6">
-                     <p class="text-md">8. The word "opposed" in line 12 is closest in meaning to: </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[8]" value="A"
-                                     class="mr-2"> (A)
-                                 Resisted
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[8]" value="B"
-                                     class="mr-2"> (B)
-                                 Support
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[8]" value="C"
-                                     class="mr-2"> (C)
-                                 Offered
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[8]" value="D"
-                                     class="mr-2"> (D)
-                                 Operated
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 9 -->
-                 <div class="mb-6">
-                     <p class="text-md">9. What does the author mean by saying "economic development favored the
-                         merchants" in line 13? </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[9]" value="A"
-                                     class="mr-2"> (A)
-                                 Merchants
-                                 had a significant influence on economic growth
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[9]" value="B"
-                                     class="mr-2"> (B)
-                                 Economic
-                                 trends allowed merchants to succeed </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[9]" value="C"
-                                     class="mr-2"> (C)
-                                 Merchants
-                                 needed to collaborate to achieve economic independence
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[9]" value="D"
-                                     class="mr-2"> (D)
-                                 Specialty
-                                 shops near large markets were more likely to be economically successful
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 10 -->
-                 <div class="mb-6">
-                     <p class="text-md">10. In what way did Philadelphia's status as the provincial capital contribute
-                         to the success of its merchants?</p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[10]" value="A"
-                                     class="mr-2">
-                                 (A)
-                                 It
-                                 provided access to exclusive international trade agreements </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[10]" value="B"
-                                     class="mr-2">
-                                 (B)
-                                 It
-                                 attracted a steady flow of influential visitors for legislative, council, and court
-                                 activities.
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[10]" value="C"
-                                     class="mr-2">
-                                 (C)
-                                 It
-                                 offered merchants significant tax exemptions and financial incentives
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[10]" value="D"
-                                     class="mr-2">
-                                 (D)
-                                 It gave
-                                 merchants control over the distribution of agricultural products in the region
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-     </div>
- </div>
+    </div>
+</div>

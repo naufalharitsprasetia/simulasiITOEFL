@@ -1,14 +1,24 @@
 <div class="begginer-wrapper px-28 py-24">
     <div class="title-container text-center font-bold font-crimson mb-6">
-        <h1 class="text-3xl">SESSION 3</h1>
-        <h1 class="text-2xl">READING COMPREHENSION</h1>
+        <h1 class="text-3xl">PART C</h1>
+        <h1 class="text-2xl">DIRECTION</h1>
     </div>
     <div class="body-container mt-12">
-        <h1 class="text-2xl mb-6 font-bold text-center font-crimson">DIRECTION</h1>
         <p class="font-semibold text-center">
-            In this part, you'll read a number of passages. Each passage will be followed by several
-            questions. For each question, choose the best answer from the options (A), (B), (C), or (D). Then, on your
-            answer sheet, locate the question number and mark the letter of the answer you've selected.
+            Directions: In this part of the test, you will hear several short talks. After each talk, you will hear some
+            questions. The talks and the questions will not be repeated.
+        </p>
+        <br>
+        <p class="font-semibold text-center">
+            After you hear a question, read the four possible answers in your test book and choose the best answer.
+            Then, on your answer sheet, find the number of the question and fill in the space that corresponds to the
+            letter of the answer you have chosen.
         </p>
     </div>
+    {{-- AUDIO HIDDEN --}}
+    <audio autoplay loop style="display: none;">
+        <source src="{{ asset('audio/partC/PartCdirections.mp3.mp3') }}" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    {{-- AUDIO HIDDEN --}}
 </div>

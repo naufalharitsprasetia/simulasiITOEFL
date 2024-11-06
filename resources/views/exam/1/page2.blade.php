@@ -5,9 +5,17 @@
     </div>
     <div class="body-container mt-12">
         <p class="font-semibold text-center">
-            Question 1-15 are incomplete sentences. Beneath each sentences you will see four words or phrases, marked
-            A,B,C,D. Choose one word or phrase that best completes the sentence. Then, on yur answer sheet, find the
-            number of the question and cross that corresponds to the letter of the answer you have chosen.
+            In Part A, you will hear short conversations between two people. After each conversation, you will hear a
+            question about the conversation. The conversations and questions will not be repeated. After you hear a
+            question, read the four possible answers in your test book and choose the best answer. Then, on your answer
+            sheet, find the number of the question and fill in the space that corresponds to the letter of the answer
+            you have chosen.
         </p>
     </div>
+    {{-- AUDIO HIDDEN --}}
+    <audio autoplay loop style="display: none;">
+        <source src="{{ asset('audio/partA/02PartADirections.mp3.mp3') }}" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    {{-- AUDIO HIDDEN --}}
 </div>

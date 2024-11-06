@@ -35,26 +35,4 @@ class HomeController extends Controller
 
         return view('home.history', compact('active', 'userExams'));
     }
-
-    // public function about()
-    // {
-    //     $active = 'about';
-    //     return view('home.about',  compact('active'));
-    // }
-
-    // public function contact()
-    // {
-    //     $active = 'contact';
-    //     return view('home.contact',  compact('active'));
-    // }
-    // public function faq()
-    // {
-    //     $active = 'faq';
-    //     return view('home.faq',  compact('active'));
-    // }
-    // public function dashboard()
-    // {
-    //     $active = "dashboard";
-    //     return view('admin.dashboard', compact('active'));
-    // }
 }

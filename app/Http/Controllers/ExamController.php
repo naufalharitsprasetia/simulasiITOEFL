@@ -11,6 +11,8 @@ use Symfony\Component\CssSelector\XPath\Extension\FunctionExtension;
 
 class ExamController extends Controller
 {
+
+
     public function index($id)
     {
         $active = 'simulasi';
@@ -139,6 +141,7 @@ class ExamController extends Controller
     public function submit(Request $request)
     {
         // Kunci jawaban untuk section2 dan section3
+        $answerKeySection1 = $this->getAnswerKeySection1();
         $answerKeySection2 = $this->getAnswerKeySection2();
         $answerKeySection3 = $this->getAnswerKeySection3();
 
@@ -146,19 +149,23 @@ class ExamController extends Controller
         $currentPage = $request->input('pageNow', 1);
 
         // Ambil jawaban dari section2 dan section3
+        $answersS1 = $request->input('exam1section1question', []);
         $answersS2 = $request->input('exam1section2question', []);
         $answersS3 = $request->input('exam1section3question', []);
 
         // Jika tidak ada jawaban, redirect ke halaman berikutnya
-        if (empty($answersS2) && empty($answersS3)) {
+        if (empty($answersS1) && empty($answersS2) && empty($answersS3)) {
             return $this->redirectToNextPage($user_exam_id, $currentPage);
         }
 
         // Validasi input
         $validated = $request->validate([
+            'exam1section1question.*' => 'nullable|string',
             'exam1section2question.*' => 'nullable|string',
             'exam1section3question.*' => 'nullable|string',
         ]);
+        // Simpan jawaban section1
+        $this->saveAnswers($validated['exam1section1question'] ?? [], $answerKeySection1, $user_exam_id, 'exam1section1question');
 
         // Simpan jawaban section2
         $this->saveAnswers($validated['exam1section2question'] ?? [], $answerKeySection2, $user_exam_id, 'exam1section2question');
@@ -173,6 +180,22 @@ class ExamController extends Controller
 
         // Redirect ke halaman berikutnya
         return $this->redirectToNextPage($user_exam_id, $currentPage);
+    }
+    // Fungsi untuk mengambil kunci jawaban section1
+    private function getAnswerKeySection1()
+    {
+        return [
+            1 => 'C', 2 => 'D', 3 => 'B', 4 => 'C', 5 => 'D',
+            6 => 'A', 7 => 'B', 8 => 'B', 9 => 'C', 10 => 'D',
+            11 => 'A', 12 => 'C', 13 => 'C', 14 => 'C', 15 => 'B',
+            16 => 'C', 17 => 'D', 18 => 'A', 19 => 'D', 20 => 'B',
+            21 => 'C', 22 => 'D', 23 => 'A', 24 => 'B', 25 => 'C',
+            26 => 'A', 27 => 'A', 28 => 'D', 29 => 'A', 30 => 'C',
+            31 => 'B', 32 => 'A', 33 => 'A', 34 => 'B', 35 => 'D',
+            36 => 'A', 37 => 'C', 38 => 'A', 39 => 'C', 40 => 'C',
+            41 => 'A', 42 => 'C', 43 => 'B', 44 => 'D', 45 => 'A',
+            46 => 'D', 47 => 'D', 48 => 'A', 49 => 'B', 50 => 'A'
+        ];
     }
 
     // Fungsi untuk mengambil kunci jawaban section2
@@ -238,6 +261,10 @@ class ExamController extends Controller
         }
 
         // Ambil jawaban dari tabel Answers untuk Section 2 dan Section 3
+        $section1Answers = Answer::where('user_exam_id', $user_exam_id)
+            ->where('question_id', 'LIKE', 'exam1section1question[%]')
+            ->get();
+
         $section2Answers = Answer::where('user_exam_id', $user_exam_id)
             ->where('question_id', 'LIKE', 'exam1section2question[%]')
             ->get();
@@ -247,12 +274,20 @@ class ExamController extends Controller
             ->get();
 
         // Hitung jumlah benar di setiap section
+        $section1Correct = $section1Answers->where('is_correct', true)->count();
+        $section1Incorrect = $section1Answers->where('is_correct', false)->count();
         $section2Correct = $section2Answers->where('is_correct', true)->count();
         $section2Incorrect = $section2Answers->where('is_correct', false)->count();
         $section3Correct = $section3Answers->where('is_correct', true)->count();
         $section3Incorrect = $section3Answers->where('is_correct', false)->count();
 
         // Pengecekan jika tidak ada jawaban
+        if ($section1Answers->isEmpty()) {
+            $section1Score = 0;
+        } else {
+            $section1Score = max(68 - (50 - $section1Correct), 0); // Section 2: skor maksimal 68
+        }
+
         if ($section2Answers->isEmpty()) {
             $section2Score = 0;
         } else {
@@ -266,7 +301,7 @@ class ExamController extends Controller
         }
 
         // Hitung skor total (sesuai rumus yang diberikan)
-        $finalScore = (($section2Score + $section3Score) * 10) / 2;
+        $finalScore = (($section1Score + $section2Score + $section3Score) * 10) / 2;
 
         // Update skor di UserExam
         $userExam->score = $finalScore;
@@ -274,6 +309,14 @@ class ExamController extends Controller
         $userExam->save();
 
         // Format data untuk view
+        $section1AnswersArray = $section1Answers->map(function ($answer) {
+            return [
+                'question_id' => $answer->question_id,
+                'answer' => $answer->answer,
+                'is_correct' => $answer->is_correct
+            ];
+        })->toArray();
+
         $section2AnswersArray = $section2Answers->map(function ($answer) {
             return [
                 'question_id' => $answer->question_id,
@@ -293,12 +336,16 @@ class ExamController extends Controller
         // Pass jumlah benar/salah dan skor ke view
         return view('exam.finish', compact(
             'active',
+            'section1AnswersArray',
             'section2AnswersArray',
             'section3AnswersArray',
+            'section1Correct',
+            'section1Incorrect',
             'section2Correct',
             'section2Incorrect',
             'section3Correct',
             'section3Incorrect',
+            'section1Score',
             'section2Score',
             'section3Score',
             'finalScore'
@@ -316,6 +363,10 @@ class ExamController extends Controller
 
         foreach ($expiredExams as $userExam) {
             // Ambil jawaban dari tabel Answers untuk section 2 dan section 3
+            $section1Answers = Answer::where('user_exam_id', $userExam->id)
+                ->where('question_id', 'LIKE', 'exam1section1question[%]')
+                ->get();
+
             $section2Answers = Answer::where('user_exam_id', $userExam->id)
                 ->where('question_id', 'LIKE', 'exam1section2question[%]')
                 ->get();
@@ -325,15 +376,17 @@ class ExamController extends Controller
                 ->get();
 
             // Hitung jumlah jawaban benar di setiap section
+            $section1CorrectAnswers = $section1Answers->where('is_correct', true)->count();
             $section2CorrectAnswers = $section2Answers->where('is_correct', true)->count();
             $section3CorrectAnswers = $section3Answers->where('is_correct', true)->count();
 
             // Perhitungan skor untuk setiap section, dengan pengecekan jika tidak ada jawaban
+            $section1Score = $section1Answers->isEmpty() ? 0 : max(68 - (50 - $section1CorrectAnswers), 0);
             $section2Score = $section2Answers->isEmpty() ? 0 : max(68 - (40 - $section2CorrectAnswers), 0);
             $section3Score = $section3Answers->isEmpty() ? 0 : max(67 - (50 - $section3CorrectAnswers), 0);
 
             // Hitung total skor berdasarkan formula
-            $totalScore = ($section2Score + $section3Score) * 10 / 2;
+            $totalScore = ($section1Score + $section2Score + $section3Score) * 10 / 2;
 
             // Update UserExam dengan is_finish menjadi true dan menyimpan total score
             // $userExam->update([

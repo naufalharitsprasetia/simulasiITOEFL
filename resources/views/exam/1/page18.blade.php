@@ -1,288 +1,478 @@
-<div class="begginer-wrapper px-28 py-24">
-    <div class="title-container text-center font-bold font-crimson mb-6">
-        <h1 class="text-3xl">LISTENING</h1>
-    </div>
-    <div class="body-container mt-12">
-        {{-- Question 21 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num11.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">21. What does the woman mean?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2">
-                        A. She plans to visit the man occasionally
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2">
-                        B. She hopes the man is able to find job
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2">
-                        C. She would like to hear from the man
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2">
-                        D. She wants to know when the man will return
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 22 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num22.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">22. What does the woman imply?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2">
-                        A. She does not know where her pen is
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2">
-                        B. The man may borrow her pen
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2">
-                        C. She does not buy expensive pens
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2">
-                        D. The man has found her missing pen
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 23 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num23.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">23. What can be inferred from this conversation?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2">
-                        A. The man’s directions were not very good
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2">
-                        B. The woman forgot to take the man’s direction with her
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2">
-                        C. The woman was not able to drive the conference
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2">
-                        D. The conference was no very interesting
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 24 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num24.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">24. What does the woman mean?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2">
-                        A. She will meet the man at the café
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2">
-                        B. She has not yet read the proposal
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2">
-                        C. The proposal has been approved
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2">
-                        D. The café does not need renovations
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 25 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num25.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">25. What does the woman suggest the man do?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2">
-                        A. Buy a different kind of medicine
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2">
-                        B. See a doctor
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2">
-                        C. Take a second pill
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2">
-                        D. Avoid taking only medication
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 26 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num26.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">26. What does the man imply about Phil?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2">
-                        A. He changed his plans about school
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2">
-                        B. His parents are coming out to visit him
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2">
-                        C. He was only out of school one semester
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2">
-                        D. He is going to take next semester off
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 27 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num27.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">27. What does the woman imply?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2">
-                        A. The man should follow the florist’s advice
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2">
-                        B. The man should go to a different florist
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2">
-                        C. She bought flowers from the same florist
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2">
-                        D. Cutting flowers does not make them last longer
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 28 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num28.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">28. What does the man imply?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2">
-                        A. There was not enough time for questions
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2">
-                        B. The lecture topic was not interesting
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2">
-                        C. The speaker was difficult to hear
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2">
-                        D. The audience’s questions were not interesting
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 29 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num29.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">29. What does the man mean?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2">
-                        A. He wants to give the woman more information
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2">
-                        B. He does not mind waiting to see the dentist
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2">
-                        C. He does not remember where he put the dentist’s card
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2">
-                        D. He will take the woman to the dentist’s office soon
-                    </label>
-                </div>
-            </div>
-        </div>
-        {{-- Question 30 --}}
-        <div class="mb-4">
-            <div class="border-2 p-4 rounded-lg">
-                <audio controls class="w-full mb-4">
-                    <source src="{{ asset('audio/partA/num30.mp3') }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="mb-4 font-semibold">30. What does the woman imply?</p>
-                <div>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2">
-                        A. She also has a presentation to do
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2">
-                        B. She enjoys speaking in front of other people
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2">
-                        C. The man’s presentation will be a success
-                    </label>
-                    <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2">
-                        D. The man should practice his presentation
-                    </label>
-                </div>
-            </div>
-        </div>
+ <style>
+     /* Custom scrollbar for modern look */
+     .scrollable {
+         overflow-y: auto;
+         height: 600px;
+         /* Adjust as needed */
+     }
 
-    </div>
-</div>
+     /* Webkit browsers (Chrome, Safari) */
+     .scrollable::-webkit-scrollbar {
+         width: 12px;
+     }
+
+     .scrollable::-webkit-scrollbar-track {
+         background: #f1f1f1;
+         /* Light grey background for the track */
+         border-radius: 10px;
+     }
+
+     .scrollable::-webkit-scrollbar-thumb {
+         background-color: #7c3aed;
+         /* Purple color for the thumb */
+         border-radius: 10px;
+         border: 3px solid #f1f1f1;
+         /* Add padding around the thumb */
+     }
+
+     .scrollable::-webkit-scrollbar-thumb:hover {
+         background-color: #5b21b6;
+         /* Darker purple when hovered */
+     }
+
+     /* Firefox */
+     .scrollable {
+         scrollbar-width: thin;
+         scrollbar-color: #7c3aed #f1f1f1;
+         /* Thumb and track colors */
+     }
+ </style>
+ <div class="begginer-wrapper px-18 py-20">
+     <div class="title-container font-bold font-poppins mb-6">
+         <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
+     </div>
+     <div class="body-container flex">
+         <!-- Left Column (Reading Passage) -->
+         <div class="w-full p-4">
+             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
+                 <h1 class="text-xl font-bold mb-4">READING</h1>
+                 <p class="text-justify leading-relaxed">
+                     <!-- Add your reading passage here -->
+                     As Philadelphia expanded from a small town to a city in the first half of the eighteenth century,
+                     it became an increasingly vital hub for marketing a vast and growing agricultural region. On market
+                     days, the already busy city became even more crowded as farmers from up to 24 kilometers away
+                     brought their livestock, vegetables, cider, and other goods to sell directly to city residents. The
+                     High Street Market was continuously expanded until 1736, eventually stretching from Front Street to
+                     Third Street. By 1745, New Market had opened on Second Street between Pine and Cedar, followed by
+                     the Callowhill Market the next year. In addition to market days, Philadelphia continued to host
+                     twice-yearly fairs, even after similar events were discontinued in other colonial cities. These
+                     fairs offered a way for handmade goods from surrounding areas to reach buyers in the city, with
+                     items like Germantown linens and stockings being especially popular.
+                     <!-- The full passage continues here --> <br> <br>
+                     Auctions were another common form of occasional trade. Retail merchants opposed these, as well as
+                     fairs, due to the competition they presented. Although government efforts to eliminate fairs and
+                     auctions were largely unsuccessful, the natural progression of economic development favored the
+                     merchants, as business specialization became more prevalent. Export merchants began to distinguish
+                     themselves from import merchants, and specialty shops started to emerge alongside general stores
+                     that offered a wide range of products.
+                     <br><br>
+                     One reason Philadelphia's merchants generally thrived was the significant economic and demographic
+                     growth occurring in the surrounding region. As the capital city of the province, Philadelphia was a
+                     hub for business. Merchants served not only the governor and his associates but also citizens from
+                     across the colony who visited the capital for legislative sessions, council meetings, and court
+                     proceedings.
+                 </p>
+             </div>
+         </div>
+
+         <!-- Right Column (Questions) -->
+         <div class="w-full p-4">
+             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
+                 <h2 class="text-xl font-bold mb-4">Questions 1-10</h2>
+
+                 <!-- Question 1 -->
+                 <div class="mb-6">
+                     <p class="text-md">1. What is the main focus of the passage?</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[1]" value="A"
+                                     class="mr-2"> (A)
+                                 Philadelphia's
+                                 significance in agriculture
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[1]" value="B"
+                                     class="mr-2"> (B)
+                                 Philadelphia's growth
+                                 as a marketing hub
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[1]" value="C"
+                                     class="mr-2"> (C) The
+                                 trade of
+                                 imported
+                                 goods in Philadelphia
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[1]" value="D"
+                                     class="mr-2"> (D) The
+                                 governance of the
+                                 city of Philadelphia
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 2 -->
+                 <div class="mb-6">
+                     <p class="text-md">2. What can be inferred from the passage about why new markets were established
+                         in
+                         Philadelphia?</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[2]" value="A"
+                                     class="mr-2"> (A)
+                                 They
+                                 offered
+                                 more
+                                 modern facilities than the older markets
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[2]" value="B"
+                                     class="mr-2"> (B) The
+                                 High
+                                 Street
+                                 Market
+                                 was forced to close.
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[2]" value="C"
+                                     class="mr-2"> (C)
+                                 Existing
+                                 markets
+                                 couldn't accommodate the growing population.
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[2]" value="D"
+                                     class="mr-2"> (D)
+                                 Farmers
+                                 wanted
+                                 markets
+                                 closer to their farms.</label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 3 -->
+                 <div class="mb-6">
+                     <p class="text-md">3. The word "region" in line 2 is closest in meaning to</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[3]" value="A"
+                                     class="mr-2"> (A)
+                                 Harvest</label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[3]" value="B"
+                                     class="mr-2"> (B)
+                                 Tradition
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[3]" value="C"
+                                     class="mr-2"> (C)
+                                 Product
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[3]" value="D"
+                                     class="mr-2"> (D)
+                                 Hinterland
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 4 -->
+                 <div class="mb-6">
+                     <p class="text-md">4. The word "host" in line 8 is closest in meaning to</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[4]" value="A"
+                                     class="mr-2"> (A)
+                                 Organize
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[4]" value="B"
+                                     class="mr-2"> (B)
+                                 Decline
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[4]" value="C"
+                                     class="mr-2"> (C)
+                                 Request
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[4]" value="D"
+                                     class="mr-2"> (D)
+                                 Eliminate
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 5 -->
+                 <div class="mb-6">
+                     <p class="text-md">5. According to the passage, fairs in Philadelphia has been held.</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[5]" value="A"
+                                     class="mr-2"> (A) on
+                                 the same
+                                 day as
+                                 market
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[5]" value="B"
+                                     class="mr-2"> (B) as
+                                 often as
+                                 possible
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[5]" value="C"
+                                     class="mr-2"> (C) a
+                                 couple of
+                                 times a
+                                 year
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[5]" value="D"
+                                     class="mr-2"> (D)
+                                 whenever
+                                 the
+                                 government allowed it
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 6 -->
+                 <div class="mb-6">
+                     <p class="text-md">6. What type of goods was particularly popular at the twice-yearly fairs in
+                         Philadelphia?</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[6]" value="A"
+                                     class="mr-2"> (A)
+                                 Imported
+                                 luxury items
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[6]" value="B"
+                                     class="mr-2"> (B)
+                                 Germantown linens and stockings
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[6]" value="C"
+                                     class="mr-2"> (C)
+                                 Livestock
+                                 and vegetables
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[6]" value="D"
+                                     class="mr-2"> (D)
+                                 Handcrafted furniture
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 7 -->
+                 <div class="mb-6">
+                     <p class="text-md">7. What can be inferred about "linens and stockings" mentioned in line 10?</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[7]" value="A"
+                                     class="mr-2"> (A)
+                                 Retail
+                                 merchants were unwilling to sell them
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[7]" value="B"
+                                     class="mr-2"> (B)
+                                 They
+                                 weren't available in Philadelphia stores
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[7]" value="C"
+                                     class="mr-2"> (C)
+                                 They were
+                                 more popular in Germantown than in Philadelphia
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[7]" value="D"
+                                     class="mr-2"> (D)
+                                 They were
+                                 easy to transport.
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 8 -->
+                 <div class="mb-6">
+                     <p class="text-md">8. The word "opposed" in line 12 is closest in meaning to: </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[8]" value="A"
+                                     class="mr-2"> (A)
+                                 Resisted
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[8]" value="B"
+                                     class="mr-2"> (B)
+                                 Support
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[8]" value="C"
+                                     class="mr-2"> (C)
+                                 Offered
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[8]" value="D"
+                                     class="mr-2"> (D)
+                                 Operated
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 9 -->
+                 <div class="mb-6">
+                     <p class="text-md">9. What does the author mean by saying "economic development favored the
+                         merchants" in line 13? </p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[9]" value="A"
+                                     class="mr-2"> (A)
+                                 Merchants
+                                 had a significant influence on economic growth
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[9]" value="B"
+                                     class="mr-2"> (B)
+                                 Economic
+                                 trends allowed merchants to succeed </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[9]" value="C"
+                                     class="mr-2"> (C)
+                                 Merchants
+                                 needed to collaborate to achieve economic independence
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[9]" value="D"
+                                     class="mr-2"> (D)
+                                 Specialty
+                                 shops near large markets were more likely to be economically successful
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <!-- Question 10 -->
+                 <div class="mb-6">
+                     <p class="text-md">10. In what way did Philadelphia's status as the provincial capital contribute
+                         to the success of its merchants?</p>
+                     <ul class="space-y-2 mt-4 text-sm">
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[10]" value="A"
+                                     class="mr-2">
+                                 (A)
+                                 It
+                                 provided access to exclusive international trade agreements </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[10]" value="B"
+                                     class="mr-2">
+                                 (B)
+                                 It
+                                 attracted a steady flow of influential visitors for legislative, council, and court
+                                 activities.
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[10]" value="C"
+                                     class="mr-2">
+                                 (C)
+                                 It
+                                 offered merchants significant tax exemptions and financial incentives
+                             </label>
+                         </li>
+                         <li>
+                             <label>
+                                 <input type="radio" required name="exam1section3question[10]" value="D"
+                                     class="mr-2">
+                                 (D)
+                                 It gave
+                                 merchants control over the distribution of agricultural products in the region
+                             </label>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>

@@ -1,53 +1,38 @@
-@include('layout.head')
-<div class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-    <div class="bg-white shadow-lg rounded-lg p-8 max-w-2xl w-full">
-        <div class="text-center mb-8">
-            <h1 class="text-3xl font-semibold text-gray-800">Exam Results</h1>
-            <p class="text-gray-600 mt-2">Here's how you did on the exam:</p>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
 
-        <!-- Skor -->
-        <div class="bg-blue-100 p-6 rounded-lg text-center mb-8">
-            <h2 class="text-4xl font-bold text-blue-700">85%</h2>
-            <p class="text-lg text-blue-600">Your Score</p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Numbered Text</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-        <!-- Detail Jawaban -->
-        <div class="mb-8">
-            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Answer Summary</h3>
-            <ul class="space-y-3">
-                <li class="flex justify-between">
-                    <span>Question 1</span>
-                    <span class="text-green-600 font-bold">Correct</span>
-                </li>
-                <li class="flex justify-between">
-                    <span>Question 2</span>
-                    <span class="text-red-600 font-bold">Incorrect</span>
-                </li>
-                <li class="flex justify-between">
-                    <span>Question 3</span>
-                    <span class="text-green-600 font-bold">Correct</span>
-                </li>
-                <li class="flex justify-between">
-                    <span>Question 4</span>
-                    <span class="text-green-600 font-bold">Correct</span>
-                </li>
-            </ul>
-        </div>
+<body class="bg-gray-100">
+    <div class="w-full max-w-4xl mx-auto p-4">
+        <div class="border rounded-lg bg-white overflow-hidden shadow-sm">
+            <div class="font-mono text-sm leading-relaxed whitespace-pre-wrap p-4">
+                @php
+                    $text = "At the start of the twentieth century, formal education gained greater significance in the United States. With the frontier mostly gone by 1910 and most Americans living in towns and cities, industrialization and a new focus on credentials made education increasingly vital for economic and social advancement. Schools were also seen as the most significant means for integrating immigrants into American society.
 
-        <!-- Feedback -->
-        <div class="bg-green-100 p-6 rounded-lg text-center mb-8">
-            <h3 class="text-2xl font-semibold text-green-700">Great Job!</h3>
-            <p class="text-gray-700 mt-2">You passed the exam. Keep up the good work and continue practicing to improve
-                your skills!</p>
-        </div>
+The arrival of many southern and eastern European immigrants around this time led to a significant expansion in formal schooling. By 1920, most states had made schooling until at least age fourteen compulsory, and the school year was extended. Public schools increasingly influenced students' lives through kindergartens, vacation schools, extracurricular activities, vocational education, and counseling. They also offered classes for adult immigrants, with support from schools, corporations, unions, churches, settlement houses, and other organizations";
 
-        <!-- Aksi -->
-        <div class="flex justify-center gap-4">
-            <a href="/beginner/exam" class="bg-gray-300 text-gray-700 px-6 py-2 rounded-lg">Retake Exam</a>
-            <a href="/" class="bg-blue-600 text-white px-6 py-2 rounded-lg">Go to Dashboard</a>
+                    $lines = array_filter(explode("\n", $text), function ($line) {
+                        return trim($line) !== '';
+                    });
+                @endphp
+
+                @foreach ($lines as $index => $line)
+                    <div class="flex gap-4 hover:bg-gray-100">
+                        <span class="text-gray-400 select-none w-8 text-right">
+                            {{ $index + 1 }}
+                        </span>
+                        <span class="flex-1">{{ $line }}</span>
+                    </div>
+                @endforeach
+            </div>
         </div>
     </div>
-</div>
+</body>
 
-@include('layout.footer')
+</html>

@@ -14,6 +14,21 @@
                     <h2 class="font-semibold text-2xl">Your Answer :</h2>
                     <br>
                     <div class="flex gap-4">
+                        <!-- Section 1 -->
+                        <div class="section2 bg-gray-100 rounded-lg p-2">
+                            <h2 class="text-xl font-semibold">Section 1</h2>
+                            <p>Total Correct: {{ $section1Correct }}</p>
+                            <p>Total Incorrect: {{ $section1Incorrect }}</p>
+                            <p>Score: {{ $section1Score }} / 68</p>
+                            <ul>
+                                @foreach ($section1AnswersArray as $jawaban)
+                                    <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
+                                        Jawaban No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
+                                        ({{ $jawaban['is_correct'] ? 'benar' : 'salah' }})
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
                         <!-- Section 2 -->
                         <div class="section2 bg-gray-100 rounded-lg p-2">
                             <h2 class="text-xl font-semibold">Section 2</h2>

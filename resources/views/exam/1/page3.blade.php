@@ -1,363 +1,312 @@
 <div class="begginer-wrapper px-28 py-24">
-    <div class="title-container font-bold font-poppins mb-6">
-        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
+    <div class="title-container text-center font-bold font-crimson mb-6">
+        <h1 class="text-3xl">LISTENING</h1>
     </div>
     <div class="body-container mt-12">
-        <!-- Question 1 -->
-        <div class="mb-8">
-            <p class="text-lg">1. Laura Way’s career as a social reformer ____ in 1851 when, at an antislavery meeting in
-                Indiana, she called for a state woman’s rights convention.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[1]" value="A" class="mr-2"> (A)
-                        begins
+        {{-- Question 1 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num1.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">1. What does the woman imply?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[1]" class="mr-2" required value="A">
+                        A. She lost the man’s calculator
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[1]" value="B" class="mr-2">
-                        (B) began
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[1]" class="mr-2" required value="B">
+                        B. She will lend the man her calculator.
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[1]" value="C" class="mr-2">
-                        (C) has begun
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[1]" class="mr-2" required value="C">
+                        C. The calculator may be under the man’s book
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[1]" value="D" class="mr-2">
-                        (D) to have
-                        begun
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[1]" class="mr-2" required value="D">
+                        D. The man will not have time to find the calculator
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 2 -->
-        <div class="mb-8">
-            <p class="text-lg">2. The celesta, an orchestral percussion instrument, gathers____</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[2]" value="A" class="mr-2">
-                        (A) a small
-                        upright piano
+        {{-- Question 2 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num2.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">2. What does the man suggest the woman do?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[2]" class="mr-2" required value="A">
+                        A. Work in the astronomy department
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[2]" value="B" class="mr-2">
-                        (B) how a small
-                        upright
-                        piano
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[2]" class="mr-2" required value="B">
+                        B. Add another curse next spring
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[2]" value="C" class="mr-2">
-                        (C) a small
-                        upright piano
-                        is
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[2]" class="mr-2" required value="C">
+                        C. Find a job for the summer
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[2]" value="D" class="mr-2">
-                        (D) as a small
-                        upright
-                        piano
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[2]" class="mr-2" required value="D">
+                        D. Take an astronomy course in the summer
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 3 -->
-        <div class="mb-8">
-            <p class="text-lg">3. Thomas Paine, _____, wrote Common Sense, a pamphlet that identified the American
-                colonies with the cause of liberty.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[3]" value="A" class="mr-2">
-                        (A) writer of
-                        eloquent
+        {{-- Question 1 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num3.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">3. What does the woman imply about the man? </p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[3]" class="mr-2" required value="A">
+                        A. He should work at home
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[3]" value="B" class="mr-2">
-                        (B) whose
-                        eloquent
-                        writing
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[3]" class="mr-2" required value="B">
+                        B. He can use the lab on the weekend
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[3]" value="C" class="mr-2">
-                        (C) an eloquent
-                        writer
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[3]" class="mr-2" required value="C">
+                        C. He will have to repeat the experiment next week
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[3]" value="D" class="mr-2">
-                        (D) writing
-                        eloquent
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[3]" class="mr-2" required value="D">
+                        D. He forgot to return the key to security
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 4 -->
-        <div class="mb-8">
-            <p class="text-lg">4. Although beavers rarely remain submerged for more than two minutes, they can stay
-                underwater ____ fifteen minutes before having to surface for air.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[4]" value="A" class="mr-2">
-                        (A) as long
+        {{-- Question 4 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num4.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">4. What does the man mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[4]" class="mr-2" required value="A">
+                        A. He and his parents plan to visit Japan
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[4]" value="B" class="mr-2">
-                        (B) as long as
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[4]" class="mr-2" required value="B">
+                        B. He recently returned from Japan
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[4]" value="C" class="mr-2">
-                        (C) so long
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[4]" class="mr-2" required value="C">
+                        C. His sweatshirt came from Japan
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[4]" value="D" class="mr-2">
-                        (D) so long that
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[4]" class="mr-2" required
+                            value="D">
+                        D. The weather can be very cold in some parts of Japan
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 5 -->
-        <div class="mb-8">
-            <p class="text-lg">5. Protein digestion begins in the stomach ____ ends in the small intestine.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[5]" value="A" class="mr-2">
-                        (A) while
+        {{-- Question 5 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num5.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">5. What does the woman mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[5]" class="mr-2" required
+                            value="A">
+                        A. She will go to the restaurant with the man
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[5]" value="B" class="mr-2">
-                        (B) and
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[5]" class="mr-2" required
+                            value="B">
+                        B. She will meet the man and his friends later in the evening
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[5]" value="C" class="mr-2">
-                        (C) how
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[5]" class="mr-2" required
+                            value="C">
+                        C. She has already had dinner
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[5]" value="D" class="mr-2">
-                        (D) because
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[5]" class="mr-2" required
+                            value="D">
+                        D. She will not change her original plans
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 6 -->
-        <div class="mb-8">
-            <p class="text-lg">6. When natural gas burns, its ___ into atoms of carbon and hydrogen.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[6]" value="A"
-                            class="mr-2"> (A)
-                        hydrocarbon
-                        molecules, breaking up
+        {{-- Question 6 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num6.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">6. What can be inferred about the man?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[6]" class="mr-2" required
+                            value="A">
+                        A. He will register for the conference
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[6]" value="B"
-                            class="mr-2"> (B) broke up
-                        by
-                        hydrocarbon molecules
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[6]" class="mr-2" required
+                            value="B">
+                        B. He has nearly completed all his research
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[6]" value="C"
-                            class="mr-2"> (C)
-                        hydrocarbon
-                        molecules break up
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[6]" class="mr-2" required
+                            value="C">
+                        C. He is not teaching any classes today
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[6]" value="D"
-                            class="mr-2"> (D) broken
-                        up
-                        hydrocarbon molecules
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[6]" class="mr-2" required
+                            value="D">
+                        D. He went to the wrong web site
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 7 -->
-        <div class="mb-8">
-            <p class="text-lg">7. _____ ballet dancers learn ﬁve basic positions for the arms and feet.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[7]" value="A"
-                            class="mr-2"> (A) All of
+        {{-- Question 7 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num7.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">7. What does the woman imply?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[7]" class="mr-2" required
+                            value="A">
+                        A. The bicycle is too big for her
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[7]" value="B"
-                            class="mr-2"> (B) Of every
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[7]" class="mr-2" required
+                            value="B">
+                        B. She bought the bicycle at a good price
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[7]" value="C"
-                            class="mr-2"> (C) All
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[7]" class="mr-2" required
+                            value="C">
+                        C. She did not know about the store on Harrison Street
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[7]" value="D"
-                            class="mr-2"> (D) Every
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[7]" class="mr-2" required
+                            value="D">
+                        D. She has not used her bike all summer
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 8 -->
-        <div class="mb-8">
-            <p class="text-lg">8. Some colonies of bryozoans, small marine animals, form ___ with trailing stems.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[8]" value="A"
-                            class="mr-2"> (A) creeping
-                        colonies
+        {{-- Question 8 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num8.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">8. What does the woman imply?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[8]" class="mr-2" required
+                            value="A">
+                        A. She did not buy the ticket
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[8]" value="B"
-                            class="mr-2"> (B) which
-                        colonies
-                        creep
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[8]" class="mr-2" required
+                            value="B">
+                        B. The ticket was expensive
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[8]" value="C"
-                            class="mr-2"> (C) creeping
-                        colonies
-                        are
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[8]" class="mr-2" required
+                            value="C">
+                        C. She does not know how much the ticket cost
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[8]" value="D"
-                            class="mr-2"> (D) colonies
-                        creep
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[8]" class="mr-2" required
+                            value="D">
+                        D. There are still a few tickets left
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 9 -->
-        <div class="mb-8">
-            <p class="text-lg">9. Ruth Bader Ginsburg argued six women’s rights cases before the United States Supreme
-                Court in the 1970’s, ____</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[9]" value="A"
-                            class="mr-2"> (A) of ﬁve
-                        winning
-                        them
+        {{-- Question 9 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num9.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">9. What does the professor mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[9]" class="mr-2" required
+                            value="A">
+                        A. She will extend the deadline for the paper
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[9]" value="B"
-                            class="mr-2"> (B) ﬁve
-                        winning of
-                        them
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[9]" class="mr-2" required
+                            value="B">
+                        B. She has already made an exception for the student
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[9]" value="C"
-                            class="mr-2"> (C) of them
-                        ﬁve
-                        winning
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[9]" class="mr-2" required
+                            value="C">
+                        C. She does not accept late papers
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[9]" value="D"
-                            class="mr-2"> (D) winning
-                        ﬁve of
-                        them
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[9]" class="mr-2" required
+                            value="D">
+                        D. She cannot meet with the student in the library
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Question 10 -->
-        <div class="mb-8">
-            <p class="text-lg">10. Natural selection is deﬁned as the process ___ the course of evolution by preserving
-                those traits best adapted for an organism’s survival.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[10]" value="A"
-                            class="mr-2"> (A) to
-                        which
-                        directs
+        {{-- Question 10 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num10.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">10. What can be inferred about the man?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[10]" class="mr-2" required
+                            value="A">
+                        A. He lives far from the university
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[10]" value="B"
-                            class="mr-2"> (B) of
-                        which
-                        directs
-                        it
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[10]" class="mr-2" required
+                            value="B">
+                        B. He is moving next month
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[10]" value="C"
-                            class="mr-2"> (C) directs
-                        it
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[10]" class="mr-2" required
+                            value="C">
+                        C. He prefers living on campus
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[10]" value="D"
-                            class="mr-2"> (D) that
-                        directs
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[10]" class="mr-2" required
+                            value="D">
+                        D. He might be able to help the woman
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
 
     </div>

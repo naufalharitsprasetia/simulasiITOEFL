@@ -1,184 +1,314 @@
 <div class="begginer-wrapper px-28 py-24">
-    <div class="title-container font-bold font-poppins mb-6">
-        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
+    <div class="title-container text-center font-bold font-crimson mb-6">
+        <h1 class="text-3xl">LISTENING</h1>
     </div>
     <div class="body-container mt-12">
-        <!-- Question 11 -->
-        <div class="mb-8">
-            <p class="text-lg">11. ____ 362 miles between the cities of Albany and Buffalo in New York State, the Eric
-                Canal helped link the Atlantic Ocean with the Great Lakes. </p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[11]" value="A" class="mr-2"> (A)
-                        The extension
-                        of
+        {{-- Question 11 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num11.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">11. What does the woman mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[11]" class="mr-2" required value="A">
+                        A. She agrees with the man
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[11]" value="B" class="mr-2">
-                        (B) The
-                        extension
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[11]" class="mr-2" required value="B">
+                        B. She would like to see the movie a second time
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[11]" value="C" class="mr-2">
-                        (C) Extending
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[11]" class="mr-2" required value="C">
+                        C. She has not seen the movie
                     </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[11]" value="D" class="mr-2">
-                        (D) Extends
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[11]" class="mr-2" required value="D">
+                        D. She does not understand the man’s point
                     </label>
-                </li>
-            </ul>
+                </div>
+            </div>
+        </div>
+        {{-- Question 12 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num12.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">12. What does the man imply about his sister?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[12]" class="mr-2" required value="A">
+                        A. She delayed submitting her occupation
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[12]" class="mr-2" required value="B">
+                        B. She does not know if her application will be accepted
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[12]" class="mr-2" required value="C">
+                        C. She was glad to finally receive the letter
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[12]" class="mr-2" required value="D">
+                        D. She started her classes several weeks ago
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 13 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num13.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">13. What does the woman imply?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[13]" class="mr-2" required value="A">
+                        A. She was also late for the meeting
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[13]" class="mr-2" required value="B">
+                        B. She is waiting for Mark to fix her car
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[13]" class="mr-2" required value="C">
+                        C. The meeting has not started yet
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[13]" class="mr-2" required value="D">
+                        D. The bus did not arrive on time
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 14 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num14.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">14. What does the man mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[14]" class="mr-2" required value="A">
+                        A. He does not like to wake up early in the morning
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[14]" class="mr-2" required value="B">
+                        B. The woman seem s unusually sad
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[14]" class="mr-2" required
+                            value="C">
+                        C. There is no special reason for his good mood
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[14]" class="mr-2" required
+                            value="D">
+                        D. He was not in a good mood when he woke up
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 15 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num15.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">15. What does the woman?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[15]" class="mr-2" required
+                            value="A">
+                        A. She took a history class last year
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[15]" class="mr-2" required
+                            value="B">
+                        B. She does not trust the man’s opinion
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[15]" class="mr-2" required
+                            value="C">
+                        C. She probably will not take any history classes
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[15]" class="mr-2" required
+                            value="D">
+                        D. She did not like her sociology professor
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 16 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num16.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">16. What does the man mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[16]" class="mr-2" required
+                            value="A">
+                        A. He is very busy now
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[16]" class="mr-2" required
+                            value="B">
+                        B. He has to check his schedule
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[16]" class="mr-2" required
+                            value="C">
+                        C. He can meet the woman at six o’clock
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[16]" class="mr-2" required
+                            value="D">
+                        D. He prefers to meet this woman some others time
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 17 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num17.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">17. What does the man imply?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[17]" class="mr-2" required
+                            value="A">
+                        A. The course is too difficult
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[17]" class="mr-2" required
+                            value="B">
+                        B. The professor changes his mind
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[17]" class="mr-2" required
+                            value="C">
+                        C. The final exam was cancelled
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[17]" class="mr-2" required
+                            value="D">
+                        D. The woman misunderstood the professor
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 18 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num18.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">18. What does the man mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[18]" class="mr-2" required
+                            value="A">
+                        A. The woman deserves the recognition
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[18]" class="mr-2" required
+                            value="B">
+                        B. The woman should tell her friends how she feels
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[18]" class="mr-2" required
+                            value="C">
+                        C. The woman’s friends do not know about the scholarship
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[18]" class="mr-2" required
+                            value="D">
+                        D. The woman should apply for a scholarship
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 19 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num19.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">19. What will the woman probably do next?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[19]" class="mr-2" required
+                            value="A">
+                        A. Ask the man to help her figure out how to use her new computer
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[19]" class="mr-2" required
+                            value="B">
+                        B. Let the man use her computer
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[19]" class="mr-2" required
+                            value="C">
+                        C. Take her computer to a repair shop
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[19]" class="mr-2" required
+                            value="D">
+                        D. Help the man fix his computer
+                    </label>
+                </div>
+            </div>
+        </div>
+        {{-- Question 20 --}}
+        <div class="mb-4">
+            <div class="border-2 p-4 rounded-lg">
+                <audio controls class="w-full mb-4">
+                    <source src="{{ asset('audio/partA/num20.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="mb-4 font-semibold">20. What does the man mean?</p>
+                <div>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[20]" class="mr-2" required
+                            value="A">
+                        A. He was at the health center earlier today
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[20]" class="mr-2" required
+                            value="B">
+                        B. He intends to get his blood pressure checked
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[20]" class="mr-2" required
+                            value="C">
+                        C. He does not have time to wait in line today
+                    </label>
+                    <label class="block mb-2">
+                        <input type="radio" name="exam1section1question[20]" class="mr-2" required
+                            value="D">
+                        D. He is not concerned about his blood pressure
+                    </label>
+                </div>
+            </div>
         </div>
 
-        <!-- Question 12 -->
-        <div class="mb-8">
-            <p class="text-lg">12. The chief sources of B12, a water-soluble vitamin ____ stored in the body, include
-                meat, milk and eggs.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[12]" value="A" class="mr-2">
-                        (A) is not
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[12]" value="B" class="mr-2">
-                        (B) that is not
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[12]" value="C" class="mr-2">
-                        (C) not that is
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[12]" value="D" class="mr-2">
-                        (D) that not
-                    </label>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Question 13 -->
-        <div class="mb-8">
-            <p class="text-lg">13. ____ is rooted in experiments in iron and steel conducted in the nineteenth century.
-            </p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[13]" value="A" class="mr-2">
-                        (A) While the
-                        history of
-                        twentieth-century architecture
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[13]" value="B" class="mr-2">
-                        (B) The history
-                        of
-                        twentieth-century architecture
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[13]" value="C" class="mr-2">
-                        (C) That the
-                        history of
-                        twentieth-century architecture
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[13]" value="D" class="mr-2">
-                        (D) Both
-                        twentieth-century
-                        architecture and its history
-                    </label>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Question 14 -->
-        <div class="mb-8">
-            <p class="text-lg">14. The primary source of energy for tropical cyclones is the latent heat released when
-                ____</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[14]" value="A" class="mr-2">
-                        (A) does water
-                        vapor
-                        condense
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[14]" value="B" class="mr-2">
-                        (B) condensed
-                        water vapor
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[14]" value="C" class="mr-2">
-                        (C) water vapor
-                        condenses
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[14]" value="D" class="mr-2">
-                        (D) the
-                        condensation of
-                        water vapor
-                    </label>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Question 15 -->
-        <div class="mb-8">
-            <p class="text-lg">15. Manufacturing is Canada’s most important economic activity, ____17 percent of the
-                workforce.</p>
-            <ul class="space-y-2 mt-4">
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[15]" value="A" class="mr-2">
-                        (A) engages
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[15]" value="B" class="mr-2">
-                        (B) and to
-                        engage
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[15]" value="C" class="mr-2">
-                        (C) that it
-                        engage
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" required name="exam1section2question[15]" value="D" class="mr-2">
-                        (D) engaging
-                    </label>
-                </li>
-            </ul>
-        </div>
     </div>
 </div>

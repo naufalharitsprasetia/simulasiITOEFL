@@ -1,359 +1,184 @@
- <style>
-     /* Custom scrollbar for modern look */
-     .scrollable {
-         overflow-y: auto;
-         height: 600px;
-         /* Adjust as needed */
-     }
+<div class="begginer-wrapper px-28 py-24">
+    <div class="title-container font-bold font-poppins mb-6">
+        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
+    </div>
+    <div class="body-container mt-12">
+        <!-- Question 11 -->
+        <div class="mb-8">
+            <p class="text-lg">11. ____ 362 miles between the cities of Albany and Buffalo in New York State, the Eric
+                Canal helped link the Atlantic Ocean with the Great Lakes. </p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[11]" value="A" class="mr-2"> (A)
+                        The extension
+                        of
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[11]" value="B" class="mr-2">
+                        (B) The
+                        extension
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[11]" value="C" class="mr-2">
+                        (C) Extending
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[11]" value="D" class="mr-2">
+                        (D) Extends
+                    </label>
+                </li>
+            </ul>
+        </div>
 
-     /* Webkit browsers (Chrome, Safari) */
-     .scrollable::-webkit-scrollbar {
-         width: 12px;
-     }
+        <!-- Question 12 -->
+        <div class="mb-8">
+            <p class="text-lg">12. The chief sources of B12, a water-soluble vitamin ____ stored in the body, include
+                meat, milk and eggs.</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[12]" value="A" class="mr-2">
+                        (A) is not
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[12]" value="B" class="mr-2">
+                        (B) that is not
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[12]" value="C" class="mr-2">
+                        (C) not that is
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[12]" value="D" class="mr-2">
+                        (D) that not
+                    </label>
+                </li>
+            </ul>
+        </div>
 
-     .scrollable::-webkit-scrollbar-track {
-         background: #f1f1f1;
-         /* Light grey background for the track */
-         border-radius: 10px;
-     }
+        <!-- Question 13 -->
+        <div class="mb-8">
+            <p class="text-lg">13. ____ is rooted in experiments in iron and steel conducted in the nineteenth century.
+            </p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[13]" value="A" class="mr-2">
+                        (A) While the
+                        history of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[13]" value="B" class="mr-2">
+                        (B) The history
+                        of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[13]" value="C" class="mr-2">
+                        (C) That the
+                        history of
+                        twentieth-century architecture
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[13]" value="D" class="mr-2">
+                        (D) Both
+                        twentieth-century
+                        architecture and its history
+                    </label>
+                </li>
+            </ul>
+        </div>
 
-     .scrollable::-webkit-scrollbar-thumb {
-         background-color: #7c3aed;
-         /* Purple color for the thumb */
-         border-radius: 10px;
-         border: 3px solid #f1f1f1;
-         /* Add padding around the thumb */
-     }
+        <!-- Question 14 -->
+        <div class="mb-8">
+            <p class="text-lg">14. The primary source of energy for tropical cyclones is the latent heat released when
+                ____</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[14]" value="A" class="mr-2">
+                        (A) does water
+                        vapor
+                        condense
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[14]" value="B" class="mr-2">
+                        (B) condensed
+                        water vapor
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[14]" value="C" class="mr-2">
+                        (C) water vapor
+                        condenses
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[14]" value="D" class="mr-2">
+                        (D) the
+                        condensation of
+                        water vapor
+                    </label>
+                </li>
+            </ul>
+        </div>
 
-     .scrollable::-webkit-scrollbar-thumb:hover {
-         background-color: #5b21b6;
-         /* Darker purple when hovered */
-     }
-
-     /* Firefox */
-     .scrollable {
-         scrollbar-width: thin;
-         scrollbar-color: #7c3aed #f1f1f1;
-         /* Thumb and track colors */
-     }
- </style>
- <div class="begginer-wrapper px-18 py-20">
-     <div class="title-container font-bold font-poppins mb-6">
-         <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
-     </div>
-     <div class="body-container flex">
-         <!-- Left Column (Reading Passage) -->
-         <div class="w-full p-4">
-             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
-                 <h1 class="text-xl font-bold mb-4">READING</h1>
-                 <p class="text-justify leading-relaxed">
-                     <!-- Add your reading passage here -->
-                     At the start of the twentieth century, formal education gained greater significance in the United
-                     States. With the frontier mostly gone by 1910 and most Americans living in towns and cities,
-                     industrialization and a new focus on credentials made education increasingly vital for economic and
-                     social advancement. Schools were also seen as the most significant means for integrating immigrants
-                     into American society.
-                     <!-- The full passage continues here --> <br> <br>
-                     The arrival of many southern and eastern European immigrants around this time led to a significant
-                     expansion in formal schooling. By 1920, most states had made schooling until at least age fourteen
-                     compulsory, and the school year was extended. Public schools increasingly influenced students'
-                     lives through kindergartens, vacation schools, extracurricular activities, vocational education,
-                     and counseling. They also offered classes for adult immigrants, with support from schools,
-                     corporations, unions, churches, settlement houses, and other organizations
-                     <br><br>
-                     Early twentieth-century reformers proposed that education programs should be tailored to meet the
-                     needs of different groups. Immigrant women were one such group. Schools aimed to prepare young
-                     women to take on valuable roles in the urban industrial economy, with many educators viewing the
-                     home as a suitable environment for women.
-                     <br><br>
-                     While immigrant women were accustomed to managing a household and family, American education
-                     redefined homemaking. In pre-industrial times, homemaking involved both producing and consuming
-                     goods and often included activities that generated income, both within and outside the home.
-                     However, by the early twentieth century, with overproduction becoming an issue, the ideal American
-                     homemaker was seen more as a consumer than a producer. Schools trained women to be efficient
-                     homemakers by focusing on cooking, shopping, decorating, and child care in their own homes, or, if
-                     needed, working in the homes of others. Later reforms have made these ideas seem outdated.
-                 </p>
-             </div>
-         </div>
-
-         <!-- Right Column (Questions) -->
-         <div class="w-full p-4">
-             <div class="bg-white shadow-lg rounded-lg p-6 scrollable">
-                 <h2 class="text-xl font-bold mb-4">Questions 44-50</h2>
-
-                 <!-- Question 44 -->
-                 <div class="mb-6">
-                     <p class="text-md">44. From paragraph 1, it can be inferred that one important factor in the
-                         increasing significance of education in the United States was </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[44]" value="A"
-                                     class="mr-2"> (A)
-                                 the growing number of schools in frontier communities
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[44]" value="B"
-                                     class="mr-2"> (B)
-                                 an increase in the number of trained teachers
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[44]" value="C"
-                                     class="mr-2"> (C)
-                                 the
-                                 expanding
-                                 economic problems of schools
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[44]" value="D"
-                                     class="mr-2"> (D)
-                                 the
-                                 increased
-                                 urbanization of the entire country
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 45 -->
-                 <div class="mb-6">
-                     <p class="text-md">45. The word "means" in line 4 is closest in meaning to </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[45]" value="A"
-                                     class="mr-2"> (A)
-                                 drawbacks
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[45]" value="B"
-                                     class="mr-2"> (B)
-                                 probability
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[45]" value="C"
-                                     class="mr-2"> (C)
-                                 methods
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[45]" value="D"
-                                     class="mr-2"> (D)
-                                 qualifications</label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 46 -->
-                 <div class="mb-6">
-                     <p class="text-md">46. The phrase "led to" in line 6 is closest in meaning to </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[46]" value="A"
-                                     class="mr-2"> (A)
-                                 influenced </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[46]" value="B"
-                                     class="mr-2"> (B)
-                                 happened
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[46]" value="C"
-                                     class="mr-2"> (C)
-                                 began
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[46]" value="D"
-                                     class="mr-2"> (D)
-                                 ensured
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 47 -->
-                 <div class="mb-6">
-                     <p class="text-md">47. By the 1920s, what was a significant development in education in the United
-                         States? </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[47]" value="A"
-                                     class="mr-2"> (A)
-                                 Most
-                                 regions
-                                 mandated school attendance for children
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[47]" value="B"
-                                     class="mr-2"> (B)
-                                 The
-                                 duration
-                                 of formal education was restricted
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[47]" value="C"
-                                     class="mr-2"> (C)
-                                 New
-                                 rules
-                                 were introduced for nontraditional forms of education
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[47]" value="D"
-                                     class="mr-2"> (D)
-                                 Adults and
-                                 children were taught in the same classes
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 48 -->
-                 <div class="mb-6">
-                     <p class="text-md">48. The mention of vacation schools and extracurricular activities in lines
-                         11-12 is used to show: </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[48]" value="A"
-                                     class="mr-2"> (A)
-                                 Alternatives
-                                 to the formal education offered by public schools
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[48]" value="B"
-                                     class="mr-2"> (B)
-                                 The
-                                 significance of changes in education
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[48]" value="C"
-                                     class="mr-2"> (C)
-                                 Programs
-                                 that competed to draw new immigrants
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[48]" value="D"
-                                     class="mr-2">
-                                 (D)
-                                 The
-                                 growing influence of public schools on students
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 49 -->
-                 <div class="mb-6">
-                     <p class="text-md">49. Early-twentieth-century education reformers thought that:
-                     </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[49]" value="A"
-                                     class="mr-2">
-                                 (A)
-                                 Different
-                                 groups required different types of education </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[49]" value="B"
-                                     class="mr-2">
-                                 (B)
-                                 Special programs were needed in frontier areas to modernize them
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[49]" value="C"
-                                     class="mr-2">
-                                 (C)
-                                 Corporations and other entities were hindering educational progress
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[49]" value="D"
-                                     class="mr-2">
-                                 (D)
-                                 More women should participate in education and industry
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-                 <!-- Question 50 -->
-                 <div class="mb-6">
-                     <p class="text-md">50. In line 22, what does the term “their” refer to? </p>
-                     <ul class="space-y-2 mt-4 text-sm">
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[50]" value="A"
-                                     class="mr-2">
-                                 (A)
-                                 Women
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[50]" value="B"
-                                     class="mr-2">
-                                 (B)
-                                 Homemakers
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[50]" value="C"
-                                     class="mr-2">
-                                 (C)
-                                 Schools
-                             </label>
-                         </li>
-                         <li>
-                             <label>
-                                 <input type="radio" required name="exam1section3question[50]" value="D"
-                                     class="mr-2">
-                                 (D)
-                                 Consumers
-                             </label>
-                         </li>
-                     </ul>
-                 </div>
-
-             </div>
-         </div>
-     </div>
- </div>
+        <!-- Question 15 -->
+        <div class="mb-8">
+            <p class="text-lg">15. Manufacturing is Canada’s most important economic activity, ____17 percent of the
+                workforce.</p>
+            <ul class="space-y-2 mt-4">
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[15]" value="A" class="mr-2">
+                        (A) engages
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[15]" value="B" class="mr-2">
+                        (B) and to
+                        engage
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[15]" value="C" class="mr-2">
+                        (C) that it
+                        engage
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" required name="exam1section2question[15]" value="D" class="mr-2">
+                        (D) engaging
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

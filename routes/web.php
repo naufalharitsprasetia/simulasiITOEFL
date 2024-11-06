@@ -52,9 +52,9 @@ Route::middleware('auth')->group(
         // setiap klik next/submit
         Route::post('/exam/submit', [ExamController::class, 'submit'])->name('exam.submit');
         // setelah submit
-        Route::get('/exam/result', [ExamController::class, 'result'])->name('exam.result');
     }
 );
+
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
 });

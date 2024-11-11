@@ -63,7 +63,7 @@
                     <br>
                     <h2 class="font-semibold text-xl">Final Score: {{ $finalScore }}</h2>
                     <br>
-                    <a href="/" class="bg-primary text-third px-2 py-2 rounded-md hover:opacity-85">Back To
+                    <a href="/" class="bg-primary text-third px-2 py-2 rounded-md hover:opacity-85">Back to
                         Home</a>
                 </div>
             </div>

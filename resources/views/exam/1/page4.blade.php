@@ -102,7 +102,7 @@
                     </label>
                     <label class="block mb-2">
                         <input type="radio" name="exam1section1question[14]" class="mr-2" required value="B">
-                        B. The woman seem s unusually sad
+                        B. The woman seems unusually sad
                     </label>
                     <label class="block mb-2">
                         <input type="radio" name="exam1section1question[14]" class="mr-2" required

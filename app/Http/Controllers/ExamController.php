@@ -301,7 +301,7 @@ class ExamController extends Controller
         }
 
         // Hitung skor total (sesuai rumus yang diberikan)
-        $finalScore = (($section1Score + $section2Score + $section3Score) * 10) / 2;
+        $finalScore = (($section1Score + $section2Score + $section3Score) * 10) / 3;
 
         // Update skor di UserExam
         $userExam->score = $finalScore;

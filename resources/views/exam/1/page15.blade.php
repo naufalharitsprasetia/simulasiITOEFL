@@ -589,7 +589,7 @@
                          class="word">publishing </span><span class="letter">B</span></span>
                  <span class="word-container"><span class="word">center </span><span class="letter">C</span></span>
                  in the United States, <span class="word-container"><span class="word">exceeding </span><span
-                         class="letter">D</span></span>only
+                         class="letter">D</span></span> only by New York City and San Francisco
              </p>
              <ul class="space-y-2 mt-4">
                  <li>

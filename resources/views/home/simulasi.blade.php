@@ -33,8 +33,8 @@
                 @endforeach
                 <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
                     <h3 class="text-lg font-semibold">Practice 2</h3>
-                    {{-- <span class="text-xs text-gray-200">(not already exist)</span> --}}
-                    <a class="bg-white text-primary opacity-85 rounded-lg text-xs px-1 py-2 block mt-2">Attempt
+                    <br>
+                    <a class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-3 py-2 block">Attempt
                         now</a>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="references-wrapper text-start">
                 <h3 class="font-bold text-2xl text-center">REFERENCES</h3>
                 <div class="referensi-practice-1">
-                    <h4 class="font-semibold text-lg">Practice 1 :</h4>
+                    {{-- <h4 class="font-semibold text-lg">Practice 1 :</h4> --}}
                     <ul class="list-disc">
                         <li class="">Cmedia. (2020). Practice Test TOEFL. Penerbit Cmedia.
                             https://www.penerbitcmedia.com</li>

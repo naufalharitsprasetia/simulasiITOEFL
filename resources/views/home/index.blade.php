@@ -26,7 +26,7 @@
                 </div>
             @else
                 <div class="mt-8">
-                    <a href="/simulasi" class="px-3 py-2 bg-primary text-white">Go To Exam</a>
+                    <a href="/simulasi" class="px-3 py-2 bg-primary text-white">Go to Exam</a>
                 </div>
             @endguest
         </div>

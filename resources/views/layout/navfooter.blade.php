@@ -7,8 +7,8 @@
                 <img src="/img/unida.png" alt="Logo" class="w-16">
             </div>
             <div>
-                <p class="font-bold">SIMULASI TOEFL</p>
-                <p class="font-medium text-sm italic">"Your Path to TOEFL Success Starts Here!"</p>
+                <p class="font-bold">TOEFL Online Practice Test</p>
+                <p class="font-medium text-sm italic">"Prepare for Success!"</p>
             </div>
         </div>
         <!-- Right Section: Navigation Links -->
@@ -25,8 +25,8 @@
                     <p class="text-sm">simulasitoefl@gmail.com</p>
                 </div>
                 <div class="narahubung">
-                    <h4 class="text-base font-semibold">Narahubung</h4>
-                    <p class="text-sm">+62-819-2345-6789</p>
+                    <h4 class="text-base font-semibold">Contact Person</h4>
+                    <p class="text-sm">+62-812-059-4202</p>
                 </div>
             </div>
         </div>

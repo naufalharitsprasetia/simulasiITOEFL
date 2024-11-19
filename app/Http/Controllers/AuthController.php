@@ -40,16 +40,16 @@ class AuthController extends Controller
                 $examController = new ExamController();
                 $examController->checkAndUpdateExpiredExams();
                 Auth::login($user);
-                Alert::alert('Berhasil', 'selamat ! anda berhasil masuk !', 'success');
-                return redirect()->intended('/')->with('success', 'Login berhasil!');
+                Alert::alert('Success', 'Congratulations! You have successfully logged in!', 'success');
+                return redirect()->intended('/')->with('success', 'Login successful!');
             } else {
                 return back()->withErrors([
-                    'password' => 'Password tidak valid.',
+                    'password' => 'Password Invalid.',
                 ])->withInput();
             }
         } else {
             return back()->withErrors([
-                'username_or_email' => 'username atau Email tidak ditemukan.',
+                'username_or_email' => 'Username or Email not found.',
             ])->withInput();
         }
         // Alert::alert('Berhasil', 'selamat ! anda berhasil masuk !', 'success');
@@ -58,8 +58,8 @@ class AuthController extends Controller
     public function logout(Request $request)
     {
 
-        $title = 'Apakah Anda ingin Logout !';
-        $text = "pastikan semua progress sudah tersimpan!";
+        $title = 'Do you want to Logout !';
+        $text = "make sure all progress is saved!";
         confirmDelete($title, $text);
 
         Auth::logout();
@@ -87,6 +87,6 @@ class AuthController extends Controller
         $user->password = Hash::make($request->input('password'));
         $user->save();
 
-        return redirect('/login')->with('success', 'Registrasi berhasil, silakan login.');
+        return redirect('/login')->with('success', 'Registration successful, please login.');
     }
 }

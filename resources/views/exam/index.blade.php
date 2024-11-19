@@ -14,10 +14,10 @@
                 <img src="/img/examination.png" class="" alt="">
                 <div class="content-center">
                     @if ($masihBisa)
-                        <p class="text-lg mb-4">Waktu Tersisa: <strong id="remainingTime">{{ $remainingTime }}</strong>
+                        <p class="text-lg mb-4">Time Remaining: <strong id="remainingTime">{{ $remainingTime }}</strong>
                         </p>
                         <a href="/exam-continue/{{ $ongoingAttempt->id }}"
-                            class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3 mr-4">LANJUTKAN</a>
+                            class="text-white bg-primary inline-block hover:opacity-85 rounded-xl text-xs px-6 py-3 mr-4">Continue</a>
                         <form action="/reset-exam/{{ $ongoingAttempt->id }}" id="reset-form" method="post"
                             class="inline-block">
                             @csrf

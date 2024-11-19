@@ -124,7 +124,7 @@
                     <source src="{{ asset('audio/partA/num15.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">15. What does the woman?</p>
+                <p class="mb-4 font-semibold">15. What does the woman mean?</p>
                 <div>
                     <label class="block mb-2">
                         <input type="radio" name="exam1section1question[15]" class="mr-2" required

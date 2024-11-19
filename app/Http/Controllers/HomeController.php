@@ -14,6 +14,11 @@ class HomeController extends Controller
         $active = 'beranda';
         return view('home.index',  compact('active'));
     }
+    public function references()
+    {
+        $active = 'references';
+        return view('home.references',  compact('active'));
+    }
     public function simulasi()
     {
         $active = 'simulasi';

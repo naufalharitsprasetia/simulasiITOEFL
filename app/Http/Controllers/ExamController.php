@@ -39,7 +39,7 @@ class ExamController extends Controller
 
         $exam = Exam::find($id);
         if (!$exam) {
-            return redirect()->back()->with('error', 'Ujian tidak ditemukan.');
+            return redirect()->back()->with('error', 'Practice not found.');
         }
 
         return view('exam.index', compact('active', 'masihBisa', 'exam', 'ongoingAttempt', 'remainingTime'));
@@ -106,7 +106,7 @@ class ExamController extends Controller
         // Mengambil data dari UserExam
         $userExam = UserExam::find($user_exam_id);
         if (!$userExam) {
-            return redirect()->route('home.index')->with('error', 'Ujian tidak ditemukan.');
+            return redirect()->route('home.index')->with('error', 'Practice not found.');
         }
 
         $userId = auth()->user()->id;
@@ -134,7 +134,7 @@ class ExamController extends Controller
         if (view()->exists($viewName)) {
             return view('exam.exam', compact('active', 'page', 'fileCount', 'user_exam_id', 'remainingTime'));
         } else {
-            return redirect()->back()->with('error', 'Halaman yang diminta tidak ada');
+            return redirect()->back()->with('error', 'The requested page does not exist');
         }
     }
 
@@ -257,7 +257,7 @@ class ExamController extends Controller
         $userExam = UserExam::find($user_exam_id);
 
         if (!$userExam) {
-            return redirect()->back()->with('error', 'Ujian tidak ditemukan.');
+            return redirect()->back()->with('error', 'Practice not found.');
         }
 
         // Ambil jawaban dari tabel Answers untuk Section 2 dan Section 3

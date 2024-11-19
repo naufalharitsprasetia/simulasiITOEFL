@@ -12,10 +12,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#A594F9",
-        secondary: "#CDC1FF",
-        third: "#F5EFFF",
-        fourth: "#E5D9F2",
+        primary: "#164863",
+        secondary: "#427D9D", // 427D9D
+        third: "#DDF2FD", // 9BBEC8
+        fourth: "#9BBEC8", // DDF2FD
       },
       fontFamily: {
         poppins: ["Poppins"],

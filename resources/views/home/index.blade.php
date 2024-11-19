@@ -17,8 +17,8 @@
                     </div>
                 </div>
             @endif
-            <h1 class="text-3xl font-semibold">Selamat Datang di Website SIMULASI TOEFL ITP </h1>
-            <h2 class="text-xl italic font-medium">"Your Path to TOEFL Success Starts Here!"</h2>
+            <h1 class="text-3xl font-semibold">TOEFL Online Practice Test: Prepare for Success</h1>
+            {{-- <h2 class="text-xl italic font-medium">"Your Path to TOEFL Success Starts Here!"</h2> --}}
             @guest
                 <div class="mt-8">
                     <a href="/login" class="px-3 py-2 bg-primary text-white">Login</a>

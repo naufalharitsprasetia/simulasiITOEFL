@@ -8,16 +8,18 @@
                 <div class="hidden lg:ml-6 lg:block">
                     <div class="ml-10 flex gap-6 items-center">
                         <a href="/"
-                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'beranda' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }} ">Beranda</a>
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'beranda' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }} ">Home</a>
+                        <a href="/simulasi"
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'simulasi' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Practice</a>
+                        <a href="/references"
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'references' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }} ">References</a>
                         @auth
                             @can('admin-only')
                                 <a href="{{ route('admin.index') }}"
                                     class="rounded-md p-2 text-sm font-medium bg-gray-900 text-white hover:bg-third hover:text-gray-900">Admin</a>
                             @endcan
-                            <a href="/simulasi"
-                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'simulasi' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Simulasi</a>
                             <a href="/history"
-                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'history' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Riwayat</a>
+                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'history' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">History</a>
                             <form action="/logout" id="logout-form" method="post">
                                 @csrf
                                 <button type="button" onclick="confirmLogout()"

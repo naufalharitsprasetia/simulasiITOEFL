@@ -19,9 +19,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
-Route::get('/about', [HomeController::class, 'about'])->name('home.about');
-Route::get('/contact', [HomeController::class, 'contact'])->name('home.contact');
-Route::get('/faq', [HomeController::class, 'faq'])->name('home.faq');
+// Route::get('/about', [HomeController::class, 'about'])->name('home.about');
+// Route::get('/contact', [HomeController::class, 'contact'])->name('home.contact');
+// Route::get('/faq', [HomeController::class, 'faq'])->name('home.faq');
+Route::get('/references', [HomeController::class, 'references'])->name('home.references');
 
 Route::middleware('guest')->group(
     function () {
@@ -36,7 +37,6 @@ Route::middleware('guest')->group(
 Route::middleware('auth')->group(
     function () {
         // admin
-        Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
         // Simulasi
         Route::get('/simulasi', [HomeController::class, 'simulasi'])->name('home.simulasi');

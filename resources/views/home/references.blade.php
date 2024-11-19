@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="min-h-[90svh] bg-third">
-        <div class="px-16 font-poppins text-center pt-24 max-w-7xl mx-auto">
+        <div class="px-16 font-poppins text-center py-16 max-w-7xl mx-auto">
             @if (session()->has('success'))
                 <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
                     <div class="alert alert-success col-lg-12 mt-4" role="alert">
@@ -19,31 +19,10 @@
                     </div>
                 </div>
             @endif
-            <h1 class="text-3xl font-semibold">CHOOSE THE TYPE OF EXAM </h1>
-            <br><br>
-            <div class="card-wrapper flex justify-center items-center gap-8">
-                @foreach ($exams as $exam)
-                    <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
-                        <h3 class="text-lg font-semibold">{{ $exam->title }}</h3>
-                        <br>
-                        <a href="/exam/{{ $exam->id }}"
-                            class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-3 py-2 block">Attempt
-                            now</a>
-                    </div>
-                @endforeach
-                <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Practice 2</h3>
-                    <br>
-                    <a class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-3 py-2 block">Attempt
-                        now</a>
-                </div>
-            </div>
-            <br>
-            {{-- <hr>
-            <br>
             <div class="references-wrapper text-start">
-                <h3 class="font-bold text-2xl text-center">REFERENCES</h3>
+                <h1 class="font-bold text-4xl mb-8 text-center">REFERENCES</h1>
                 <div class="referensi-practice-1">
+                    {{-- <h4 class="font-semibold text-lg">Practice 1 :</h4> --}}
                     <ul class="list-disc">
                         <li class="">Cmedia. (2020). Practice Test TOEFL. Penerbit Cmedia.
                             https://www.penerbitcmedia.com</li>
@@ -56,7 +35,7 @@
                             Education.</li>
                     </ul>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </div>
 @endsection

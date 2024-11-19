@@ -23,7 +23,7 @@
                             <ul>
                                 @foreach ($section1AnswersArray as $jawaban)
                                     <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
-                                        Jawaban No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
+                                        Answer No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
                                         ({{ $jawaban['is_correct'] ? 'benar' : 'salah' }})
                                     </li>
                                 @endforeach
@@ -38,7 +38,7 @@
                             <ul>
                                 @foreach ($section2AnswersArray as $jawaban)
                                     <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
-                                        Jawaban No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
+                                        Answer No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
                                         ({{ $jawaban['is_correct'] ? 'benar' : 'salah' }})
                                     </li>
                                 @endforeach
@@ -53,7 +53,7 @@
                             <ul>
                                 @foreach ($section3AnswersArray as $jawaban)
                                     <li class="{{ $jawaban['is_correct'] ? 'text-green-600' : 'text-red-600' }}">
-                                        Jawaban No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
+                                        Answer No.{{ $loop->iteration }}: {{ $jawaban['answer'] }}
                                         ({{ $jawaban['is_correct'] ? 'benar' : 'salah' }})
                                     </li>
                                 @endforeach

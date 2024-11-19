@@ -21,8 +21,7 @@
     <div class="p-6">
         <h2 class="text-2xl font-bold mb-6">Sidebar Menu</h2>
         <ul class="space-y-4">
-            <li><a href="#" class="hover:text-gray-300">Kembali Ke Beranda</a></li>
-            <li><a href="#" class="hover:text-gray-300">Bantuan</a></li>
+            <li><a href="/" class="hover:text-gray-300">Back to Home</a></li>
         </ul>
         {{-- Total Pages Mid --}}
         <br>

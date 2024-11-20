@@ -19,19 +19,19 @@
                     </div>
                 </div>
             @endif
-            <div class="references-wrapper text-start">
+            <div class="references-wrapper text-center">
                 <h1 class="font-bold text-4xl mb-8 text-center">REFERENCES</h1>
                 <div class="referensi-practice-1">
                     {{-- <h4 class="font-semibold text-lg">Practice 1 :</h4> --}}
-                    <ul class="list-disc">
-                        <li class="">Cmedia. (2020). Practice Test TOEFL. Penerbit Cmedia.
+                    <ul class="">
+                        <li class="">- Cmedia. (2020). Practice Test TOEFL. Penerbit Cmedia.
                             https://www.penerbitcmedia.com</li>
-                        <li class="">Educational Testing Service. (2020). TOEFL ITP Practice Tests. Princeton, NJ:
+                        <li class="">- Educational Testing Service. (2020). TOEFL ITP Practice Tests. Princeton, NJ:
                             Educational
                             Testing Service.</li>
-                        <li class="">Kaplan Test Prep. (2021). TOEFL ITP Preparation Guide. Kaplan.
+                        <li class="">- Kaplan Test Prep. (2021). TOEFL ITP Preparation Guide. Kaplan.
                             https://www.kaptest.com/toefl-itp-prep</li>
-                        <li class="">Phillips, D. (2016). Longman Preparation Course for the TOEFL ITP Test. Pearson
+                        <li class="">- Phillips, D. (2016). Longman Preparation Course for the TOEFL ITP Test. Pearson
                             Education.</li>
                     </ul>
                 </div>

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     {{-- Style CSS --}}
     @vite('resources/css/app.css')
-    <link rel="icon" href="/img/unida.png" type="image/png">
+    <link rel="icon" href="/img/buku.png" type="image/png">
     <title>TOEFL Online Practice Test | UNIDA GONTOR</title>
 </head>
 

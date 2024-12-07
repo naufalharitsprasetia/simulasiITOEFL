@@ -127,12 +127,13 @@ class ExamController extends Controller
         }
 
         // Cek File di Direktori
-        $directory = resource_path('views/exam/1');
+        $idExam = $userExam->exam->id;
+        $directory = resource_path('views/exam/' . $idExam);
         $files = array_diff(scandir($directory), ['..', '.']);
         $fileCount = count($files);
-        $viewName = 'exam.1.page' . $page;
+        $viewName = 'exam.' . $idExam . '.page' . $page;
         if (view()->exists($viewName)) {
-            return view('exam.exam', compact('active', 'page', 'fileCount', 'user_exam_id', 'remainingTime'));
+            return view('exam.exam', compact('active', 'page', 'fileCount', 'user_exam_id', 'remainingTime', 'idExam'));
         } else {
             return redirect()->back()->with('error', 'The requested page does not exist');
         }
@@ -184,6 +185,8 @@ class ExamController extends Controller
     // Fungsi untuk mengambil kunci jawaban section1
     private function getAnswerKeySection1()
     {
+        // Cek id EXAM 1 ATAU 2
+        // Jika Exam 1 maka return kunci jawaban dibawah 
         return [
             1 => 'C', 2 => 'D', 3 => 'B', 4 => 'C', 5 => 'D',
             6 => 'A', 7 => 'B', 8 => 'B', 9 => 'C', 10 => 'D',

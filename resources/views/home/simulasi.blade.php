@@ -31,12 +31,6 @@
                             now</a>
                     </div>
                 @endforeach
-                <div class="card bg-primary px-4 py-2 text-white rounded-lg shadow-lg">
-                    <h3 class="text-lg font-semibold">Practice 2</h3>
-                    <br>
-                    <a class="bg-white text-primary hover:opacity-85 rounded-lg text-xs px-3 py-2 block">Attempt
-                        now</a>
-                </div>
             </div>
             <br>
             {{-- <hr>

@@ -34,5 +34,9 @@ class DatabaseSeeder extends Seeder
             'title' => 'Practice 1',
             'description' => ''
         ]);
+        Exam::create([
+            'title' => 'Practice 2',
+            'description' => ''
+        ]);
     }
 }

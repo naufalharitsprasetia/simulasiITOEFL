@@ -9,8 +9,8 @@
                     <table class="min-w-full leading-normal">
                         <thead>
                             <tr>
-                                <th class="px-4 py-2">Nama User</th>
-                                <th class="px-4 py-2">Judul Ujian</th>
+                                <th class="px-4 py-2">Name of User</th>
+                                <th class="px-4 py-2">Types of Exams</th>
                                 <th class="px-4 py-2">Waktu Mulai</th>
                                 <th class="px-4 py-2">Waktu Selesai</th>
                                 <th class="px-4 py-2">Attempt Number</th>

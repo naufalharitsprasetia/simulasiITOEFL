@@ -27,7 +27,7 @@
             <input type="hidden" name="user_exam_id" value="{{ $user_exam_id }}">
             <div id="content">
                 @php
-                    $halaman = 'exam.1.page' . $currentPage;
+                    $halaman = 'exam.' . $idExam . '.page' . $currentPage;
                 @endphp
                 @include($halaman)
             </div>

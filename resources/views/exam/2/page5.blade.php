@@ -10,23 +10,23 @@
                     <source src="{{ asset('audio2/partA/num21.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">21. What does the woman mean?</p>
+                <p class="mb-4 font-semibold">21. What does the man mean?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2" required value="A">
-                        A. She plans to visit the man occasionally
+                        <input type="radio" name="exam2section1question[21]" class="mr-2" required value="A">
+                        A. He spent a month in Mexico last year
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2" required value="B">
-                        B. She hopes the man is able to find job
+                        <input type="radio" name="exam2section1question[21]" class="mr-2" required value="B">
+                        B. He is ready to leave for Mexico
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2" required value="C">
-                        C. She would like to hear from the man
+                        <input type="radio" name="exam2section1question[21]" class="mr-2" required value="C">
+                        C. The woman should postpone her trip
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[21]" class="mr-2" required value="D">
-                        D. She wants to know when the man will return
+                        <input type="radio" name="exam2section1question[21]" class="mr-2" required value="D">
+                        D. The woman should apply for a passport soon
                     </label>
                 </div>
             </div>
@@ -38,23 +38,23 @@
                     <source src="{{ asset('audio2/partA/num22.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">22. What does the woman imply?</p>
+                <p class="mb-4 font-semibold">22. What will the man probably do?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2" required value="A">
-                        A. She does not know where her pen is
+                        <input type="radio" name="exam2section1question[22]" class="mr-2" required value="A">
+                        A. Finish his lab report before the next class
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2" required value="B">
-                        B. The man may borrow her pen
+                        <input type="radio" name="exam2section1question[22]" class="mr-2" required value="B">
+                        B. Ask the professor for help with his lab report
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2" required value="C">
-                        C. She does not buy expensive pens
+                        <input type="radio" name="exam2section1question[22]" class="mr-2" required value="C">
+                        C. Ask the professor for a higher grade
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[22]" class="mr-2" required value="D">
-                        D. The man has found her missing pen
+                        <input type="radio" name="exam2section1question[22]" class="mr-2" required value="D">
+                        D. Speak to the professor about the grading system
                     </label>
                 </div>
             </div>
@@ -66,23 +66,23 @@
                     <source src="{{ asset('audio2/partA/num23.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">23. What can be inferred from this conversation?</p>
+                <p class="mb-4 font-semibold">23. What does the woman imply about the bakery?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2" required value="A">
-                        A. The man’s directions were not very good
+                        <input type="radio" name="exam2section1question[23]" class="mr-2" required value="A">
+                        A. It lost customers to another business
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2" required value="B">
-                        B. The woman forgot to take the man’s direction with her
+                        <input type="radio" name="exam2section1question[23]" class="mr-2" required value="B">
+                        B. It has a new owner
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2" required value="C">
-                        C. The woman was not able to drive the conference
+                        <input type="radio" name="exam2section1question[23]" class="mr-2" required value="C">
+                        C. It opened only recently
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[23]" class="mr-2" required value="D">
-                        D. The conference was no very interesting
+                        <input type="radio" name="exam2section1question[23]" class="mr-2" required value="D">
+                        D. It stopped selling coffee
                     </label>
                 </div>
             </div>
@@ -94,25 +94,25 @@
                     <source src="{{ asset('audio2/partA/num24.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">24. What does the woman mean?</p>
+                <p class="mb-4 font-semibold">24. What does the man imply?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2" required value="A">
-                        A. She will meet the man at the café
+                        <input type="radio" name="exam2section1question[24]" class="mr-2" required value="A">
+                        A. He did not enjoy living in a small town
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2" required value="B">
-                        B. She has not yet read the proposal
+                        <input type="radio" name="exam2section1question[24]" class="mr-2" required value="B">
+                        B. He is planning to visit his hometown soon
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[24]" class="mr-2" required
                             value="C">
-                        C. The proposal has been approved
+                        C. He and the woman are from the same hometown
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[24]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[24]" class="mr-2" required
                             value="D">
-                        D. The café does not need renovations
+                        D. He would like to visit the woman’s hometown
                     </label>
                 </div>
             </div>
@@ -124,27 +124,27 @@
                     <source src="{{ asset('audio2/partA/num25.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">25. What does the woman suggest the man do?</p>
+                <p class="mb-4 font-semibold">25. What does the woman want to know?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[25]" class="mr-2" required
                             value="A">
-                        A. Buy a different kind of medicine
+                        A. Whether the man wants money or ticket
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[25]" class="mr-2" required
                             value="B">
-                        B. See a doctor
+                        B. Whether the man can see the play on a different date
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[25]" class="mr-2" required
                             value="C">
-                        C. Take a second pill
+                        C. Whether the man needs more tickets for the play
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[25]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[25]" class="mr-2" required
                             value="D">
-                        D. Avoid taking only medication
+                        D. Whether the man has already given his ticket to someone else
                     </label>
                 </div>
             </div>
@@ -156,27 +156,27 @@
                     <source src="{{ asset('audio2/partA/num26.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">26. What does the man imply about Phil?</p>
+                <p class="mb-4 font-semibold">26. What does the woman mean?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[26]" class="mr-2" required
                             value="A">
-                        A. He changed his plans about school
+                        A. She recovered from a cold before the exam period started
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[26]" class="mr-2" required
                             value="B">
-                        B. His parents are coming out to visit him
+                        B. She is glad she has managed to stay healthy
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[26]" class="mr-2" required
                             value="C">
-                        C. He was only out of school one semester
+                        C. She is relieved she has already finished all her exams
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[26]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[26]" class="mr-2" required
                             value="D">
-                        D. He is going to take next semester off
+                        D. She knows several people who are not feeling well
                     </label>
                 </div>
             </div>
@@ -188,27 +188,27 @@
                     <source src="{{ asset('audio2/partA/num27.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">27. What does the woman imply?</p>
+                <p class="mb-4 font-semibold">27. What does the man mean?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[27]" class="mr-2" required
                             value="A">
-                        A. The man should follow the florist’s advice
+                        A. it is too windy to go on boat ride
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[27]" class="mr-2" required
                             value="B">
-                        B. The man should go to a different florist
+                        B. The woman should take the bus
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[27]" class="mr-2" required
                             value="C">
-                        C. She bought flowers from the same florist
+                        C. The sightseeing tour is worth taking
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[27]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[27]" class="mr-2" required
                             value="D">
-                        D. Cutting flowers does not make them last longer
+                        D. He is not familiar with the sightseeing tour
                     </label>
                 </div>
             </div>
@@ -220,27 +220,27 @@
                     <source src="{{ asset('audio2/partA/num28.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">28. What does the man imply?</p>
+                <p class="mb-4 font-semibold">28. What does the man mean?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[28]" class="mr-2" required
                             value="A">
-                        A. There was not enough time for questions
+                        A. He is pleased that so many people auditioned
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[28]" class="mr-2" required
                             value="B">
-                        B. The lecture topic was not interesting
+                        B. More people would have come
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[28]" class="mr-2" required
                             value="C">
-                        C. The speaker was difficult to hear
+                        C. The weather kept some people from participating
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[28]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[28]" class="mr-2" required
                             value="D">
-                        D. The audience’s questions were not interesting
+                        D. the snowstorm was not as severe as the weather report had predicted
                     </label>
                 </div>
             </div>
@@ -252,27 +252,27 @@
                     <source src="{{ asset('audio2/partA/num29.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">29. What does the man mean?</p>
+                <p class="mb-4 font-semibold">29. What will the man probably do next Friday?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[29]" class="mr-2" required
                             value="A">
-                        A. He wants to give the woman more information
+                        A. Get a ride to the station with the woman
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[29]" class="mr-2" required
                             value="B">
-                        B. He does not mind waiting to see the dentist
+                        B. Take the woman to the station
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[29]" class="mr-2" required
                             value="C">
-                        C. He does not remember where he put the dentist’s card
+                        C. Borrow the woman’s car to go to the station
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[29]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[29]" class="mr-2" required
                             value="D">
-                        D. He will take the woman to the dentist’s office soon
+                        D. Drive his car instead of taking the train
                     </label>
                 </div>
             </div>
@@ -284,27 +284,27 @@
                     <source src="{{ asset('audio2/partA/num30.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">30. What does the woman imply?</p>
+                <p class="mb-4 font-semibold">30. What does the woman imply the man should do?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[30]" class="mr-2" required
                             value="A">
-                        A. She also has a presentation to do
+                        A. return the lamp to the store
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[30]" class="mr-2" required
                             value="B">
-                        B. She enjoys speaking in front of other people
+                        B. Have the lamp repaired
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[30]" class="mr-2" required
                             value="C">
-                        C. The man’s presentation will be a success
+                        C. buy different light bulbs
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[30]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[30]" class="mr-2" required
                             value="D">
-                        D. The man should practice his presentation
+                        D. Borrow a lamp from a colleague
                     </label>
                 </div>
             </div>

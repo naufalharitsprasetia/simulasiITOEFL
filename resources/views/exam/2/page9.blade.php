@@ -10,23 +10,23 @@
                     <source src="{{ asset('audio2/partC/ConversationNumber38.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">38. What is the main purpose of the lecture?</p>
+                <p class="mb-4 font-semibold">38. What does the professor mainly discuss?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="A">
-                        A. To analyze the importance of touch in marketing
+                        <input type="radio" name="exam2section1question[38]" class="mr-2" required value="A">
+                        A. Differences between longitudinal studies and cross-sectional studies
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="B">
-                        B. To compare marketing strategies involving touch and smell
+                        <input type="radio" name="exam2section1question[38]" class="mr-2" required value="B">
+                        B. Advantages of cohort studies over other research approaches
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="C">
-                        C. To explain why shoppers rely more on touch than on their other senses
+                        <input type="radio" name="exam2section1question[38]" class="mr-2" required value="C">
+                        C. Differences between child psychology and adult psychology
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[38]" class="mr-2" required value="D">
-                        D. To introduce a new way to conduct market research
+                        <input type="radio" name="exam2section1question[38]" class="mr-2" required value="D">
+                        D. recent improvement in research methodologies
                     </label>
                 </div>
             </div>
@@ -38,24 +38,24 @@
                     <source src="{{ asset('audio2/partC/num39.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">39. According to the professor, what psychological feeling do shoppers
-                    tend to have when they touch an item of merchandise?</p>
+                <p class="mb-4 font-semibold">39. What question is investigated by the research studies that the
+                    professor describes?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="A">
-                        A. That they have more time to make a purchasing decision
+                        <input type="radio" name="exam2section1question[39]" class="mr-2" required value="A">
+                        A. whether shyness is a learned behavior
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="B">
-                        B. That they are highly valued by the owner of the store
+                        <input type="radio" name="exam2section1question[39]" class="mr-2" required value="B">
+                        B. whether shyness can affect children’s learning
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="C">
-                        C. That the item they are touching is already theirs
+                        <input type="radio" name="exam2section1question[39]" class="mr-2" required value="C">
+                        C. whether many different factors contribute to shyness
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[39]" class="mr-2" required value="D">
-                        D. That the price of the item is too high
+                        <input type="radio" name="exam2section1question[39]" class="mr-2" required value="D">
+                        D. whether shyness n children is related to age
                     </label>
                 </div>
             </div>
@@ -67,24 +67,25 @@
                     <source src="{{ asset('audio2/partC/num40.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">40. What does the professor imply about marketers who sell items online?
+                <p class="mb-4 font-semibold">40. What is one of the problems with longitudinal studies that the
+                    professors mentions?
                 </p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="A">
-                        A. Their customers like that the products are not touched by others
+                        <input type="radio" name="exam2section1question[40]" class="mr-2" required value="A">
+                        A. their results are difficult to analyze
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="B">
-                        B. They get more returned items than traditional stores do
+                        <input type="radio" name="exam2section1question[40]" class="mr-2" required value="B">
+                        B. They can be used only in studies of young children
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="C">
-                        C. Their descriptions ought to help shoppers imagine how items feel
+                        <input type="radio" name="exam2section1question[40]" class="mr-2" required value="C">
+                        C. participants may not be available for entire study
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[40]" class="mr-2" required value="D">
-                        D. Their photographs are often ineffective
+                        <input type="radio" name="exam2section1question[40]" class="mr-2" required value="D">
+                        D. Researchers do not consider the results of such studies reliable
                     </label>
                 </div>
             </div>
@@ -96,26 +97,25 @@
                     <source src="{{ asset('audio2/partC/num41.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">41. What does the professor emphasize as an important characteristic of
-                    shoppers?</p>
+                <p class="mb-4 font-semibold">41. How would a cross-sectional study observe children?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[41]" class="mr-2" required value="A">
-                        A. They are usually willing to pay more for items they can touch
+                        <input type="radio" name="exam2section1question[41]" class="mr-2" required value="A">
+                        A. By observing one group of children as they grow
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[41]" class="mr-2" required value="B">
-                        B. They are reluctant to buy items that were touched repeatedly by other shoppers
+                        <input type="radio" name="exam2section1question[41]" class="mr-2" required value="B">
+                        B. By observing groups of different-aged children at one point in time
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[41]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[41]" class="mr-2" required
                             value="C">
-                        C. They touch only items that they intend to buy
+                        C. By comparing children’s behavior at home to their behavior at school
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[41]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[41]" class="mr-2" required
                             value="D">
-                        D. They are less likely to touch items when the store owner is watching
+                        D. By comparing children’s behavior to their parents’ behavior
                     </label>
                 </div>
             </div>
@@ -127,27 +127,27 @@
                     <source src="{{ asset('audio2/partC/ConversationNumber42.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">42. What is the main purpose of the talk?</p>
+                <p class="mb-4 font-semibold">42. What does the professor mainly discuss?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[42]" class="mr-2" required
                             value="A">
-                        A. To summarize the history of mathematics
+                        A. Ways in which human activities affect aquifers
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[42]" class="mr-2" required
                             value="B">
-                        B. To show how Mesopotamian science influenced Greek science
+                        B. The formation of earth’s gravitation field
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[42]" class="mr-2" required
                             value="C">
-                        C. To discuss a mistaken historical interpretation
+                        C. The impact of Earth’s gravitation anomalies on satellites
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[42]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[42]" class="mr-2" required
                             value="D">
-                        D. To explain why tablets are reliable historical records
+                        D. Variation in Earth’s gravitational field
                     </label>
                 </div>
             </div>
@@ -159,27 +159,28 @@
                     <source src="{{ asset('audio2/partC/num43.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">43. What was on the Mesopotamian tablet mentioned in the talk?</p>
+                <p class="mb-4 font-semibold">43. What does the professor emphasize about the instruments on the
+                    satellites he mentioned?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[43]" class="mr-2" required
                             value="A">
-                        A. Names of mathematician
+                        A. They were recently replaced
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[43]" class="mr-2" required
                             value="B">
-                        B. Mathematical calculation
+                        B. They are extremely precise
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[43]" class="mr-2" required
                             value="C">
-                        C. Measurements of buildings
+                        C. Their settings are changed seasonally
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[43]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[43]" class="mr-2" required
                             value="D">
-                        D. Measurements of various shapes
+                        D. Their data are used to make new maps on a daily basis
                     </label>
                 </div>
             </div>
@@ -191,28 +192,28 @@
                     <source src="{{ asset('audio2/partC/num44.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">44. According to the professor, what had been assumed about the
-                    Mesopotamians?</p>
+                <p class="mb-4 font-semibold">44. According to the professor, where is Earth’s gravitational force the
+                    strongest?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[44]" class="mr-2" required
                             value="A">
-                        A. All records o their mathematics had been lost
+                        A. at sea level
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[44]" class="mr-2" required
                             value="B">
-                        B. They created various types of measuring devices
+                        B. at the equator
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[44]" class="mr-2" required
                             value="C">
-                        C. They did not use tablets to record information
+                        C. on mountaintops
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[44]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[44]" class="mr-2" required
                             value="D">
-                        D. They could calculate measurements of triangles
+                        D. over aquifers
                     </label>
                 </div>
             </div>
@@ -224,28 +225,28 @@
                     <source src="{{ asset('audio2/partC/num45.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">45. According to the professor, how was the tablet most likely used by
-                    the Mesopotamians?</p>
+                <p class="mb-4 font-semibold">45. What do gravity anomaly maps indicate about California’s agricultural
+                    region?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[45]" class="mr-2" required
                             value="A">
-                        A. As a math exercise sheet
+                        A. Water levels in aquifers there are declining
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[45]" class="mr-2" required
                             value="B">
-                        B. As a record of business transactions
+                        B. The region has more aquifers than previously thought
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[45]" class="mr-2" required
                             value="C">
-                        C. As a geometry textbook
+                        C. water conservation efforts there are effective
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[45]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[45]" class="mr-2" required
                             value="D">
-                        D. As a plan for e new building
+                        D. the region used to be covered by glaciers
                     </label>
                 </div>
             </div>
@@ -257,27 +258,27 @@
                     <source src="{{ asset('audio2/partC/num46.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">46. What does the professor imply about the ancient Greeks?</p>
+                <p class="mb-4 font-semibold">46. What does the professor say about climate change?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[46]" class="mr-2" required
                             value="A">
-                        A. They learned geometry from Mesopotamian tablets
+                        A. its already intensifying droughts in California
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[46]" class="mr-2" required
                             value="B">
-                        B. They were less advanced in mathematics than the Mesopotamians
+                        B. Its effect are more significant in areas with stronger gravity
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[46]" class="mr-2" required
                             value="C">
-                        C. They improved the quality of stone tablets
+                        C. It can cause measurable changes in gravity in certain areas
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[46]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[46]" class="mr-2" required
                             value="D">
-                        D. They knew how to measure angles
+                        D. its impact on sea levels has not been measured
                     </label>
                 </div>
             </div>
@@ -292,24 +293,24 @@
                 <p class="mb-4 font-semibold">47. What is the talk mainly about?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[47]" class="mr-2" required
                             value="A">
-                        A. How the age of a fossil is determined
+                        A. How people in rural areas preserved food
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[47]" class="mr-2" required
                             value="B">
-                        B. How fossilized impressions were made on the seafloor
+                        B. the construction of icehouses
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[47]" class="mr-2" required
                             value="C">
-                        C. Techniques for excavating fossils from the sea
+                        C. an important industry in the nineteenth century
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[47]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[47]" class="mr-2" required
                             value="D">
-                        D. Recently discovered fossilized footprints
+                        D. how improvement in transportation affected industry
                     </label>
                 </div>
             </div>
@@ -321,28 +322,27 @@
                     <source src="{{ asset('audio2/partC/num48.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">48. According to the professor, what question does the discovery in
-                    Canada help answer?</p>
+                <p class="mb-4 font-semibold">48. What does the speaker imply about springhouses?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[48]" class="mr-2" required
                             value="A">
-                        A. When animals first emerged from the sea
+                        A. only wealthy families had them
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[48]" class="mr-2" required
                             value="B">
-                        B. Where fossils are most easily found
+                        B. they were important to the ice industry
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[48]" class="mr-2" required
                             value="C">
-                        C. How footprints on the seafloor are preserved
+                        C. They were built mostly on the east coast
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[48]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[48]" class="mr-2" required
                             value="D">
-                        D. Why some animals became extinct
+                        D. They are no longer in common use
                     </label>
                 </div>
             </div>
@@ -354,28 +354,27 @@
                     <source src="{{ asset('audio2/partC/num49.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">49. Why does the professor mention stonecutters?</p>
+                <p class="mb-4 font-semibold">49. According to the speaker, what made the se industry obsolete?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[49]" class="mr-2" required
                             value="A">
-                        A. To illustrate the variety of stone found in CanadaA. To illustrate the variety of stone found
-                        in Canada
+                        A. Modern technology for the kitchen
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[49]" class="mr-2" required
                             value="B">
-                        B. To show that the fossils were found by luck
+                        B. Improved transportation system
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[49]" class="mr-2" required
                             value="C">
-                        C. To explain why sandstone often contains fossils
+                        C. Industrial use of streams and rivers
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[49]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[49]" class="mr-2" required
                             value="D">
-                        D. To tell why fossils are sometimes damaged
+                        D. Increased temperatures in many areas
                     </label>
                 </div>
             </div>
@@ -387,28 +386,27 @@
                     <source src="{{ asset('audio2/partC/num50.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">50. What evidence is given to show whether the footprints were made by
-                    animals on land or underwater?</p>
+                <p class="mb-4 font-semibold">50. What was the purpose of an icebox?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[50]" class="mr-2" required
                             value="A">
-                        A. The hardness of the sandstone
+                        A. to keep train engines cool
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[50]" class="mr-2" required
                             value="B">
-                        B. The depth of the footprints
+                        B. To preserve perishable food
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[50]" class="mr-2" required
                             value="C">
-                        C. The type of animal that made the footprints
+                        C. To store ice while it was being transported
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[50]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[50]" class="mr-2" required
                             value="D">
-                        D. The location of the rock layer
+                        D. To lift blocks of ice from frozen lakes and ponds
                     </label>
                 </div>
             </div>

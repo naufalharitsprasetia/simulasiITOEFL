@@ -10,23 +10,23 @@
                     <source src="{{ asset('audio2/partB/ConversationNumber31.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">31. What are the students mainly discussing?</p>
+                <p class="mb-4 font-semibold">31. What is the conversation mainly about?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="A">
-                        A. A swimming competition
+                        <input type="radio" name="exam2section1question[31]" class="mr-2" required value="A">
+                        A. a concert the woman attended
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="B">
-                        B. A singing contest
+                        <input type="radio" name="exam2section1question[31]" class="mr-2" required value="B">
+                        B. The man’s collection of CD
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="C">
-                        C. The water temperature at the beach
+                        <input type="radio" name="exam2section1question[31]" class="mr-2" required value="C">
+                        C. A new software program
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[31]" class="mr-2" required value="D">
-                        D. The woman’s schedule this semester
+                        <input type="radio" name="exam2section1question[31]" class="mr-2" required value="D">
+                        D. An instrument the woman is learning to play
                     </label>
                 </div>
             </div>
@@ -38,23 +38,23 @@
                     <source src="{{ asset('audio2/partB/num32.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">32. What does the woman say about the winners of the competition?</p>
+                <p class="mb-4 font-semibold">32. Why did the woman apologize to the man?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="A">
-                        A. They have won for the past three years
+                        <input type="radio" name="exam2section1question[32]" class="mr-2" required value="A">
+                        A. she lost one of his CDs
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="B">
-                        B. They placed second last year
+                        <input type="radio" name="exam2section1question[32]" class="mr-2" required value="B">
+                        B. She did not invite him to the concert
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="C">
-                        C. They practiced for three months prior to the competition
+                        <input type="radio" name="exam2section1question[32]" class="mr-2" required value="C">
+                        C. she missed class
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[32]" class="mr-2" required value="D">
-                        D. She thought they did not perform well
+                        <input type="radio" name="exam2section1question[32]" class="mr-2" required value="D">
+                        D. she forgot about a meeting
                     </label>
                 </div>
             </div>
@@ -66,23 +66,23 @@
                     <source src="{{ asset('audio2/partB/num33.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">33. How did the man spend his weekend?</p>
+                <p class="mb-4 font-semibold">33. What is unusual about the Baryton?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="A">
-                        A. Studying in the library
+                        <input type="radio" name="exam2section1question[33]" class="mr-2" required value="A">
+                        A. It does not need to be tuned
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="B">
-                        B. Practicing his singing
+                        <input type="radio" name="exam2section1question[33]" class="mr-2" required value="B">
+                        B. It has two sets of strings
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="C">
-                        C. Walking on the beach
+                        <input type="radio" name="exam2section1question[33]" class="mr-2" required value="C">
+                        C. Its pitch is exceptionally high
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[33]" class="mr-2" required value="D">
-                        D. Swimming in the ocean
+                        <input type="radio" name="exam2section1question[33]" class="mr-2" required value="D">
+                        D. It is played with the hands and feet
                     </label>
                 </div>
             </div>
@@ -94,25 +94,25 @@
                     <source src="{{ asset('audio2/partB/num34.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">34. What does the woman say about her weekend schedule?</p>
+                <p class="mb-4 font-semibold">34. What does the woman want to borrow from the man?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[34]" class="mr-2" required value="A">
-                        A. She spent many hours on a bus
+                        <input type="radio" name="exam2section1question[34]" class="mr-2" required value="A">
+                        A. A Baryton
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[34]" class="mr-2" required value="B">
-                        B. She was too busy to enjoy the beach
+                        <input type="radio" name="exam2section1question[34]" class="mr-2" required value="B">
+                        B. Some CD’s
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[34]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[34]" class="mr-2" required
                             value="C">
-                        C. She had plenty of time to study
+                        C. A computer program
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[34]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[34]" class="mr-2" required
                             value="D">
-                        D. She did not have time to watch the competition
+                        D. His class notes
                     </label>
                 </div>
             </div>
@@ -124,27 +124,27 @@
                     <source src="{{ asset('audio2/partB/ConversationNumber35.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">35. What is the conversation mainly about?</p>
+                <p class="mb-4 font-semibold">35. What are the speakers mainly discussing?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[35]" class="mr-2" required
                             value="A">
-                        A. The first Japanese artist to start an art school in the United States
+                        A. A change in sea turtle behavior
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[35]" class="mr-2" required
                             value="B">
-                        B. Two artist’ efforts to promote Japanese art in Europe
+                        B. A form of light pollution
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[35]" class="mr-2" required
                             value="C">
-                        C. One artist’s struggle to overcome financial difficulties
+                        C. Various ways different animals perceive light
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[35]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[35]" class="mr-2" required
                             value="D">
-                        D. Influences on one artist’s work
+                        D. Ecological building designs
                     </label>
                 </div>
             </div>
@@ -156,27 +156,28 @@
                     <source src="{{ asset('audio2/partB/num36.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">36. What kind of work did Noguchi’s father do?</p>
+                <p class="mb-4 font-semibold">36. What does the professor imply about polarized light that occurs in
+                    nature?</p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[36]" class="mr-2" required
                             value="A">
-                        A. He wrote poetry
+                        A. It is weakest on water surfaces
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[36]" class="mr-2" required
                             value="B">
-                        B. He built houses
+                        B. It makes it difficult for animals to see
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[36]" class="mr-2" required
                             value="C">
-                        C. He designed gardens
+                        C. It is needed by many animals to survive
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[36]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[36]" class="mr-2" required
                             value="D">
-                        D. He created modern sculptures
+                        D. It is similar to light from streetlights
                     </label>
                 </div>
             </div>
@@ -188,28 +189,28 @@
                     <source src="{{ asset('audio2/partB/num37.mp3') }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p class="mb-4 font-semibold">37. According to the professor, what did Noguchi learn to do when he was
-                    a child in Japan?</p>
+                <p class="mb-4 font-semibold">37. According to the professor, how do glass buildings affect wildlife?
+                </p>
                 <div>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[37]" class="mr-2" required
                             value="A">
-                        A. Draw the human figure
+                        A. They block animals’ view in their search of food
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[37]" class="mr-2" required
                             value="B">
-                        B. See similarities between poetry and visual art
+                        B. They may mislead animals in their search for water
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[37]" class="mr-2" required
                             value="C">
-                        C. Appreciate and work with natural materials
+                        C. Most animals cannot tolerate their light reflection
                     </label>
                     <label class="block mb-2">
-                        <input type="radio" name="exam1section1question[37]" class="mr-2" required
+                        <input type="radio" name="exam2section1question[37]" class="mr-2" required
                             value="D">
-                        D. Use money wisely
+                        D. Many migrations birds fly into them
                     </label>
                 </div>
             </div>

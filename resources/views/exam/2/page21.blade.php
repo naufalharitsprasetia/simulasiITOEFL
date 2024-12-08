@@ -48,30 +48,36 @@
                 <h1 class="text-xl font-bold mb-4">READING</h1>
                 <p class="text-justify leading-relaxed w-[400px]">
                     <!-- Add your reading passage here -->
-                    A person's voice reveals several aspects of their personality. First, there's the broad category of
-                    communication, which involves sharing information through language, addressing a group or
-                    individual, and specialized communication in performance. A person expresses thoughts and ideas not
-                    just through word choice, but also through their tone of voice, which can be pleasant or
-                    unpleasant, gentle or harsh. The natural rhythm of the language, along with the flow and regularity
-                    or hesitation in speech patterns, and the pitch and melody of the voice also play a role. When
-                    speaking to a group, the tone might show nervousness, confidence, or calmness. In one-on-one
-                    interactions, the tone can convey feelings and ideas beyond the words themselves, or even
-                    contradict them. Here, it may reveal, consciously or unconsciously, emotions like sympathy,
-                    disinterest, fatigue, anxiety, enthusiasm, or excitement, all of which can be detected by an
-                    attentive listener. Public speaking or performance involves a specialized form of communication
-                    that relies on specific techniques using voice and gestures. The success of artistic, political, or
-                    pedagogical communication is determined by the motivation drawn from the text, and for singing,
-                    from the music. This, along with the performer's skills, personality, and ability to create
-                    empathy, plays a crucial role in achieving that success.
+                    Native Americans probably arrived from Asia in successive waves over several millennia, crossing a
+                    plain hundreds of miles wide that now lies inundated by 160 feet of water released by melting
+                    glaciers. For several periods of time, the first beginning around 60,000 B.C. and the last ending
+                    around 7000 B.C., this land bridge was open.
+                    The first people traveled in the dusty trails of the animals they hunted. They brought
+                    with them not only their families, weapons, and tools but also a broad metaphysical understanding,
+                    sprung from dreams and visions and articulated in myth and song, which complemented their scientific
+                    and historical knowledge of the lives of animals and of people. All this they shaped in a variety of
+                    languages, bringing into being oral
+                    literatures of power and beauty
                     <!-- The full passage continues here --> <br> <br>
-                    Secondly, the voice offers psychological insights into a person’s self-image, perception of others,
-                    and emotional state. A confident, shy, aggressive, outgoing, or exuberant tone of voice can
-                    indicate a person's self-image, while the sound of their voice might reveal the persona they
-                    present, such as a shy person masking their insecurity with an overly confident front. A speaker's
-                    tone can change based on how they perceive the listener’s receptiveness, interest, or empathy,
-                    either encouraging or discouraging them. Emotional health is also reflected in the voice; happiness
-                    is often shown through a free and melodic voice, anger through a constricted and harsh tone, and
-                    depression through a dull and lethargic voice.
+                    Contemporary readers, forgetting the origins of Western epic, lyric, and dramatic forms, are easily
+                    disposed to think of “literature” only as something written. But on reflection it becomes clear that
+                    the more critically useful as well as the more frequently
+                    employed sense of the term concerns the artfulness of the verbal creation, not its mode of
+                    presentation. Ultimately, literature is aesthetically valued, regardless of language,
+                    culture, or mode of presentation, because some significant verbal achievement results from the
+                    struggle in words between tradition and talent. Verbal art has the ability to shape out a compelling
+                    inner vision in some skillfully crafted public verbal form.
+                    <!-- The full passage continues here --> <br> <br>
+                    Of course, the differences between the written and oral modes of expression are not without
+                    consequences for an understanding of Native American literature. The
+                    essential difference is that a speech event is an evolving communication, an “emergent form,” the
+                    shape, functions, and aesthetic values of which become more clearly realized over the course of the
+                    performance. In performing verbal art, the performer
+                    assumes responsibility for the manner as well as the content of the performance, while the audience
+                    assumes the responsibility for evaluating the performer’s competence in
+                    both areas. It is this intense mutual engagement that elicits the display of skill and
+                    shapes the emerging performance. Where written literature provides us with a tradition of texts,
+                    oral literature offers a tradition of performances.
                 </p>
             </div>
         </div>
@@ -80,41 +86,66 @@
         <div class="w-full p-4">
             <div class="scrollable" style="width: 600px;">
                 <div class="bg-white shadow-lg rounded-lg p-6 w-[800px]">
-                    <h2 class="text-xl font-bold mb-4">Questions 34-43</h2>
+                    <h2 class="text-xl font-bold mb-4">Questions 33-42</h2>
 
-                    <!-- Question 34 -->
+                    <!-- Question 33 -->
                     <div class="mb-6">
-                        <p class="text-md">34. What is the main topic of the passage? </p>
+                        <p class="text-md">33. According to the passage, why did the first people who came to North
+                            America leave their homeland? </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[34]" value="A"
-                                        class="mr-2"> (A)
-                                    The role of the voice in performance
+                                    <input type="radio" required name="exam2section3question[33]" value="A"
+                                        class="mr-2"> (A) They were hoping to find a better climate.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[34]" value="B"
-                                        class="mr-2"> (B)
-                                    The link between voice and personality
+                                    <input type="radio" required name="exam2section3question[33]" value="B"
+                                        class="mr-2"> (B) They were seeking freedom.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[34]" value="C"
-                                        class="mr-2"> (C)
-                                    Different
-                                    styles of communication
+                                    <input type="radio" required name="exam2section3question[33]" value="C"
+                                        class="mr-2"> (C) They were following instructions given in a dream.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[34]" value="D"
-                                        class="mr-2"> (D)
-                                    How
-                                    speech is
-                                    produced
+                                    <input type="radio" required name="exam2section3question[33]" value="D"
+                                        class="mr-2"> (D) They were looking for food.
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Question 34 -->
+                    <div class="mb-6">
+                        <p class="text-md">34. The phrase “are easily disposed” is closest in meaning to</p>
+                        <ul class="space-y-2 mt-4 text-sm">
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam2section3question[34]" value="A"
+                                        class="mr-2"> (A) demonstrate reluctance
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam2section3question[34]" value="B"
+                                        class="mr-2"> (B) readily encourage others
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam2section3question[34]" value="C"
+                                        class="mr-2"> (C) have a tendency
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam2section3question[34]" value="D"
+                                        class="mr-2"> (D) often fail
                                 </label>
                             </li>
                         </ul>
@@ -122,79 +153,59 @@
 
                     <!-- Question 35 -->
                     <div class="mb-6">
-                        <p class="text-md">35. What does the author mean by saying “in one-on-one interactions, the
-                            tone
-                            can convey feelings and ideas beyond the words themselves?” </p>
+                        <p class="text-md">35. The word “Ultimately” is closest in meaning to </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[35]" value="A"
-                                        class="mr-2"> (A)
-                                    Feelings are
-                                    expressed using different words than ideas
+                                    <input type="radio" required name="exam2section3question[35]" value="A"
+                                        class="mr-2"> (A) frequently
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[35]" value="B"
-                                        class="mr-2"> (B)
-                                    The
-                                    tone of
-                                    voice can convey information beyond the actual words
+                                    <input type="radio" required name="exam2section3question[35]" value="B"
+                                        class="mr-2"> (B) normally
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[35]" value="C"
-                                        class="mr-2"> (C) An
-                                    emotional
-                                    message is conveyed by a high tone of voice
+                                    <input type="radio" required name="exam2section3question[35]" value="C"
+                                        class="mr-2"> (C) whenever possible
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[35]" value="D"
-                                        class="mr-2"> (D)
-                                    It's
-                                    harder
-                                    to express feelings than ideas.</label>
+                                    <input type="radio" required name="exam2section3question[35]" value="D"
+                                        class="mr-2"> (D) in the end</label>
                             </li>
                         </ul>
                     </div>
 
                     <!-- Question 36 -->
                     <div class="mb-6">
-                        <p class="text-md">36. What does the word "Here" in line 17 refer to? </p>
+                        <p class="text-md">36. The word “compelling” is closest in meaning to </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[36]" value="A"
-                                        class="mr-2"> (A)
-                                    Interpersonal interactions </label>
+                                    <input type="radio" required name="exam2section3question[36]" value="A"
+                                        class="mr-2"> (A) joyous </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[36]" value="B"
-                                        class="mr-2"> (B)
-                                    The
-                                    tone
+                                    <input type="radio" required name="exam2section3question[36]" value="B"
+                                        class="mr-2"> (B) intricate
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[36]" value="C"
-                                        class="mr-2"> (C)
-                                    Ideas and
-                                    feelings
+                                    <input type="radio" required name="exam2section3question[36]" value="C"
+                                        class="mr-2"> (C) competing
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[36]" value="D"
-                                        class="mr-2"> (D)
-                                    The
-                                    words
-                                    chosen
+                                    <input type="radio" required name="exam2section3question[36]" value="D"
+                                        class="mr-2"> (D) forceful
                                 </label>
                             </li>
                         </ul>
@@ -202,34 +213,31 @@
 
                     <!-- Question 37 -->
                     <div class="mb-6">
-                        <p class="text-md">37. The word "rely on" in line 23 most nearly means </p>
+                        <p class="text-md">37. What is the main point of the second paragraph? </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[37]" value="A"
-                                        class="mr-2"> (A)
-                                    Count on
+                                    <input type="radio" required name="exam2section3question[37]" value="A"
+                                        class="mr-2"> (A) Public performance is essential to verbal art
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[37]" value="B"
-                                        class="mr-2"> (B)
-                                    Obtain
+                                    <input type="radio" required name="exam2section3question[37]" value="B"
+                                        class="mr-2"> (B) Oral narratives are a valid form of literature
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[37]" value="C"
-                                        class="mr-2"> (C)
-                                    Ignore
+                                    <input type="radio" required name="exam2section3question[37]" value="C"
+                                        class="mr-2"> (C) Native Americans have a strong oral tradition in art
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[37]" value="D"
-                                        class="mr-2"> (D)
-                                    Neglect
+                                    <input type="radio" required name="exam2section3question[37]" value="D"
+                                        class="mr-2"> (D) The production of literature provides employment for many
+                                    artist
                                 </label>
                             </li>
                         </ul>
@@ -237,41 +245,32 @@
 
                     <!-- Question 38 -->
                     <div class="mb-6">
-                        <p class="text-md">38. Why does the author refer to "artistic, political, or pedagogic
-                            communication" in line 25? </p>
+                        <p class="text-md">38. According to the passage, what responsibility does the audience of a
+                            verbal art performance have? </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[38]" value="A"
-                                        class="mr-2"> (A) To
-                                    provide
-                                    examples of public performance
+                                    <input type="radio" required name="exam2section3question[38]" value="A"
+                                        class="mr-2"> (A) They provide financial support for performances.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[38]" value="B"
-                                        class="mr-2"> (B) To
-                                    illustrate
-                                    different fundamental styles of communication
+                                    <input type="radio" required name="exam2section3question[38]" value="B"
+                                        class="mr-2"> (B) They judge the quality of the content and presentation.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[38]" value="C"
-                                        class="mr-2"> (C)
-                                    To
-                                    compare
-                                    them with singing
+                                    <input type="radio" required name="exam2section3question[38]" value="C"
+                                        class="mr-2"> (C) They participate in the performance by chanting responses.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[38]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    To
-                                    introduce the concept of self-image
+                                    <input type="radio" required name="exam2section3question[38]" value="D"
+                                        class="mr-2"> (D) They determine the length of the performance by requesting
+                                    a continuation.
                                 </label>
                             </li>
                         </ul>
@@ -279,40 +278,32 @@
 
                     <!-- Question 39 -->
                     <div class="mb-6">
-                        <p class="text-md">39. The passage suggests that an energetic tone of voice might indicate a
-                            person's
+                        <p class="text-md">39. What can be inferred about the nature of the Native American literature
+                            discussed in the passage?
                         </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[39]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    overall
-                                    physical well-being</label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" required name="exam1section3question[39]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    character
+                                    <input type="radio" required name="exam2section3question[39]" value="A"
+                                        class="mr-2"> (A) It reflects historical and Contemporary life in Asia
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[39]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    communication skills
+                                    <input type="radio" required name="exam2section3question[39]" value="B"
+                                        class="mr-2"> (B) Its main focus is on daily activities
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[39]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    quality of voice
+                                    <input type="radio" required name="exam2section3question[39]" value="C"
+                                        class="mr-2"> (C) It is based primarily on Scientific knowledge
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam2section3question[39]" value="D"
+                                        class="mr-2"> (D) It is reshaped each time it is experienced
                                 </label>
                             </li>
                         </ul>
@@ -320,40 +311,32 @@
 
                     <!-- Question 40 -->
                     <div class="mb-6">
-                        <p class="text-md">40. According to the passage, what might an overly confident exterior
-                            conceal?
+                        <p class="text-md">40. Which of the following is NOT true of the Native American literature
+                            discussed in the passage?
                         </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[40]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    Hostility
+                                    <input type="radio" required name="exam2section3question[40]" value="A"
+                                        class="mr-2"> (A) It involves acting.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[40]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    Shyness
+                                    <input type="radio" required name="exam2section3question[40]" value="B"
+                                        class="mr-2"> (B) It has ancient origins.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[40]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    Friendliness
+                                    <input type="radio" required name="exam2section3question[40]" value="C"
+                                        class="mr-2"> (C) It has a set form.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[40]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    Strength
+                                    <input type="radio" required name="exam2section3question[40]" value="D"
+                                        class="mr-2"> (D) It expresses an inner vision.
                                 </label>
                             </li>
                         </ul>
@@ -361,38 +344,35 @@
 
                     <!-- Question 41 -->
                     <div class="mb-6">
-                        <p class="text-md">41. The word "perceive" in line 40 is closest in meaning to </p>
+                        <p class="text-md">41. What can be inferred from the passage about the difference between
+                            written and oral literature? </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[41]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    recognize
+                                    <input type="radio" required name="exam2section3question[41]" value="A"
+                                        class="mr-2"> (A) Written literature reflects social values better than oral
+                                    literature does.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[41]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    overlook
+                                    <input type="radio" required name="exam2section3question[41]" value="B"
+                                        class="mr-2"> (B) Written literature involves less interaction between
+                                    audience and creator during the creative process than oral literature does.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[41]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    ignore
+                                    <input type="radio" required name="exam2section3question[41]" value="C"
+                                        class="mr-2"> (C) Written literature usually is not based on historical
+                                    events, whereas oral literature is.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[41]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    indicate
+                                    <input type="radio" required name="exam2section3question[41]" value="D"
+                                        class="mr-2"> (D) Written literature is not as highly respected as oral
+                                    literature is.
                                 </label>
                             </li>
                         </ul>
@@ -400,78 +380,31 @@
 
                     <!-- Question 42 -->
                     <div class="mb-6">
-                        <p class="text-md">42. The word "reflected" in line 43 is closest in meaning to </p>
+                        <p class="text-md">42. What is the author’s attitude toward Native American literature? </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[42]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    Questioned
+                                    <input type="radio" required name="exam2section3question[42]" value="A"
+                                        class="mr-2"> (A) Admiring of its form
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[42]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    Repeated </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" required name="exam1section3question[42]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    Evidenced
+                                    <input type="radio" required name="exam2section3question[42]" value="B"
+                                        class="mr-2"> (B) Critical of the cost of its production
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[42]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    Exaggerated
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Question 43 -->
-                    <div class="mb-6">
-                        <p class="text-md">43. According to the passage, what does a constricted and harsh voice
-                            suggest?
-                        </p>
-                        <ul class="space-y-2 mt-4 text-sm">
-                            <li>
-                                <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    Lethargy
+                                    <input type="radio" required name="exam2section3question[42]" value="C"
+                                        class="mr-2"> (C) Amused by its content
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    Depression
+                                    <input type="radio" required name="exam2section3question[42]" value="D"
+                                        class="mr-2"> (D) Skeptical about its origins
                                 </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    Boredom
-                                </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    Anger </label>
                             </li>
                         </ul>
                     </div>

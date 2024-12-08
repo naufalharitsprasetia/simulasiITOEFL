@@ -48,32 +48,33 @@
                  <h1 class="text-xl font-bold mb-4">READING</h1>
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
-                     Mineral particles in soil vary in size, from tiny clay particles to large boulders. The most common
-                     particles—sand, silt, and clay—are primarily studied when examining soil texture. Soil texture
-                     refers to the mixture of different particle sizes within a soil sample, which is usually tested by
-                     examining several representative handfuls. To determine soil texture, sand, silt, and clay
-                     particles are separated by size and weight, and their respective weights are then calculated as
-                     percentages of the total sample weight.
+                     Amber is not a mineral but is used as, and called, a semiprecious stone. The oldest and most
+                     continuous use of it is for decoration. Although it is ancient tree resin, amber is not fossilized
+                     in the most commonly understood sense of the word. We often think of fossils as the remains of
+                     extinct organisms, like dinosaur bones, and impressions of ferns,
+                     leaves, and insect wings in rocks. Unlike these kinds of fossils, which are usually
+                     mineral replacements of the original structure, amber is entirely organic; its composition from the
+                     original tree resin has changed little over millions of years. Even the inclusions of tiny
+                     organisms in amber are strikingly intact. Exquisite preservation is a natural property
+                     of certain kinds of resins, although the process is not completely understood
                      <!-- The full passage continues here --> <br> <br>
-                     In practical settings, soil texture can be estimated by taking a handful of soil and shaping the
-                     moist soil into three basic forms: (1) cast, which is a lump formed by squeezing soil in a clenched
-                     fist; (2) thread, which is a pencil-like shape created by rolling soil between the palms; and (3)
-                     ribbon, which is a flat shape made by pressing a small amount of soil between the thumb and index
-                     finger. The way the soil behaves when shaped, if it can be shaped at all, helps determine a general
-                     textural classification. The soil's behavior during the hand test is influenced by the amount of
-                     clay present in the sample. Clay particles are very cohesive and, when wet, act like a plastic
-                     material. Therefore, the higher the clay content, the more refined and durable the shapes that can
-                     be formed.
-                     <br><br>
-                     Another technique for determining soil texture involves using sediment sieves—screens with
-                     specific mesh sizes. When soil is passed through a series of sieves, each with a different mesh
-                     size, the particles are grouped according to size. Each group can then be weighed to determine the
-                     soil texture. While sieves are effective for separating silt, sand, and larger particles, they are
-                     not suitable for clay particles because clay is too small to be sieved accurately. In soils with
-                     high clay content, the fine particles are measured based on their settling speed in water. Since
-                     clay particles settle very slowly, they can easily be separated from sand and silt. The water can
-                     then be removed and evaporated, leaving behind the clay, which can be weighed.
-
+                     Hundreds of deposits of amber occur around the world, most of them in trace quantities. Amber is
+                     found in places where the hardened resin of various extinct plants is preserved, but special
+                     conditions are required to preserve this substance over millions of years, and only occasionally
+                     has amber survived in quantities large enough to be mined.
+                     Only about 20 such rich deposits of amber exist in the world, and the
+                     deposits vary greatly in age. It is a common misconception that amber is derived exclusively from
+                     pine trees; in fact, amber was formed by various conifer trees (only a few of them apparently
+                     related to pines), as well as by some tropical broad-leaved trees.
+                     <!-- The full passage continues here --> <br> <br>
+                     Amber is almost always preserved in a sediment that collected at the bottom of an
+                     ancient lagoon or river delta at the edge of an ocean or sea. The specific gravity of solid amber
+                     is only slightly higher than that of water; although it does not float, it is buoyant and easily
+                     carried by water (amber with bubbles is even more buoyant). Thus, amber would be
+                     carried downriver with logs from fallen amber-producing trees and cast up as beach drift on the
+                     shores or in the shallows of a delta into which the river empties.
+                     Over time, sediments would gradually bury the wood and resin. The resin would become
+                     amber, and the wood a blackened, charcoal-like substance called lignite.
                  </p>
              </div>
          </div>
@@ -82,41 +83,66 @@
          <div class="w-full p-4">
              <div class="scrollable" style="width: 600px;">
                  <div class="bg-white shadow-lg rounded-lg p-6 w-[800px]">
-                     <h2 class="text-xl font-bold mb-4">Questions 23-33</h2>
+                     <h2 class="text-xl font-bold mb-4">Questions 22-32</h2>
 
-                     <!-- Question 23 -->
+                     <!-- Question 22 -->
                      <div class="mb-6">
-                         <p class="text-md">23. What is the main focus of the passage? </p>
+                         <p class="text-md">22. The passage mainly discusses the </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[23]" value="A"
-                                         class="mr-2"> (A)
-                                     Characteristics of high-quality soil
+                                     <input type="radio" required name="exam2section3question[22]" value="A"
+                                         class="mr-2"> (A) difference between amber and mineral fossils
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[23]" value="B"
-                                         class="mr-2"> (B)
-                                     Common particles found in most soils
+                                     <input type="radio" required name="exam2section3question[22]" value="B"
+                                         class="mr-2"> (B) places where amber can be found
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[23]" value="C"
-                                         class="mr-2"> (C)
-                                     The
-                                     impact of
-                                     high clay content on soil texture
+                                     <input type="radio" required name="exam2section3question[22]" value="C"
+                                         class="mr-2"> (C) various characteristics of amber
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[23]" value="D"
-                                         class="mr-2"> (D)
-                                     Methods to
-                                     determine soil texture.
+                                     <input type="radio" required name="exam2section3question[22]" value="D"
+                                         class="mr-2"> (D) types of trees that produced amber
+                                 </label>
+                             </li>
+                         </ul>
+                     </div>
+
+                     <!-- Question 23 -->
+                     <div class="mb-6">
+                         <p class="text-md">23. Why does the author mention dinosaur bones in the first paragraph? </p>
+                         <ul class="space-y-2 mt-4 text-sm">
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[23]" value="A"
+                                         class="mr-2"> (A) To emphasize the age of fossils
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[23]" value="B"
+                                         class="mr-2"> (B) To explain why there are more mineral replacement fossils
+                                     than organic fossils
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[23]" value="C"
+                                         class="mr-2"> (C) To compare them with amber as a different type of fossil
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[23]" value="D"
+                                         class="mr-2"> (D) To give an example of an object in which amber is commonly
                                  </label>
                              </li>
                          </ul>
@@ -124,76 +150,60 @@
 
                      <!-- Question 24 -->
                      <div class="mb-6">
-                         <p class="text-md">24. The author refers to "several representative handfuls" in line 7 to
-                             illustrate: </p>
+                         <p class="text-md">24. The word “intact” is closest in meaning to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[24]" value="A"
-                                         class="mr-2"> (A)
-                                     The
-                                     variety
-                                     of soil samples
+                                     <input type="radio" required name="exam2section3question[24]" value="A"
+                                         class="mr-2"> (A) beautiful
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[24]" value="B"
-                                         class="mr-2"> (B)
-                                     The
-                                     method
-                                     used to weigh soil
+                                     <input type="radio" required name="exam2section3question[24]" value="B"
+                                         class="mr-2"> (B) unusual
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[24]" value="C"
-                                         class="mr-2"> (C)
-                                     The
-                                     criteria
-                                     for a sufficient soil sample
+                                     <input type="radio" required name="exam2section3question[24]" value="C"
+                                         class="mr-2"> (C) obvious
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[24]" value="D"
-                                         class="mr-2"> (D)
-                                     The
-                                     small
-                                     size of soil particles.</label>
+                                     <input type="radio" required name="exam2section3question[24]" value="D"
+                                         class="mr-2"> (D) unchanged</label>
                              </li>
                          </ul>
                      </div>
 
                      <!-- Question 25 -->
                      <div class="mb-6">
-                         <p class="text-md">25. The term separated is most similar in meaning to: </p>
+                         <p class="text-md">25. The word “trace” is closest in meaning to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[25]" value="A"
-                                         class="mr-2"> (A)
-                                     combined</label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[25]" value="B"
-                                         class="mr-2"> (B)
-                                     substituted
+                                     <input type="radio" required name="exam2section3question[25]" value="A"
+                                         class="mr-2"> (A) unknown
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[25]" value="C"
-                                         class="mr-2"> (C)
-                                     moved
+                                     <input type="radio" required name="exam2section3question[25]" value="B"
+                                         class="mr-2"> (B) decreasing
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[25]" value="D"
-                                         class="mr-2"> (D)
-                                     divided
+                                     <input type="radio" required name="exam2section3question[25]" value="C"
+                                         class="mr-2"> (C) very small
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[25]" value="D"
+                                         class="mr-2"> (D) somewhat similar
                                  </label>
                              </li>
                          </ul>
@@ -201,42 +211,34 @@
 
                      <!-- Question 26 -->
                      <div class="mb-6">
-                         <p class="text-md">26. It can be inferred that the names of the three basic shapes mentioned in
-                             paragraph 2 indicate: </p>
+                         <p class="text-md">26. According to the second paragraph, which of the following is true about
+                             deposits of amber? </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[26]" value="A"
-                                         class="mr-2"> (A)
-                                     the
-                                     method of
-                                     soil extraction
+                                     <input type="radio" required name="exam2section3question[26]" value="A"
+                                         class="mr-2"> (A) There is a limited number of large deposits of amber in the
+                                     world.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[26]" value="B"
-                                         class="mr-2"> (B)
-                                     the
-                                     outcome
-                                     of compressing the soil
+                                     <input type="radio" required name="exam2section3question[26]" value="B"
+                                         class="mr-2"> (B) Most deposits contain large quantities of amber specimens.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[26]" value="C"
-                                         class="mr-2"> (C)
-                                     the
-                                     importance of testing multiple samples
+                                     <input type="radio" required name="exam2section3question[26]" value="C"
+                                         class="mr-2"> (C) The major amber deposits were formed at approximately the
+                                     same time.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[26]" value="D"
-                                         class="mr-2"> (D)
-                                     the
-                                     challenge
-                                     of creating different shapes
+                                     <input type="radio" required name="exam2section3question[26]" value="D"
+                                         class="mr-2"> (D) The deposits were formed primarily by tropical
+                                     broad-leaved trees
                                  </label>
                              </li>
                          </ul>
@@ -244,35 +246,31 @@
 
                      <!-- Question 27 -->
                      <div class="mb-6">
-                         <p class="text-md">27. The term "wet" in line 26 is most similar in meaning to: </p>
+                         <p class="text-md">27. The word “misconception” is closest in meaning to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[27]" value="A"
-                                         class="mr-2"> (A)
-                                     harmed
+                                     <input type="radio" required name="exam2section3question[27]" value="A"
+                                         class="mr-2"> (A) false belief
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[27]" value="B"
-                                         class="mr-2"> (B)
-                                     extended
+                                     <input type="radio" required name="exam2section3question[27]" value="B"
+                                         class="mr-2"> (B) known fact
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[27]" value="C"
-                                         class="mr-2"> (C)
-                                     dampened
+                                     <input type="radio" required name="exam2section3question[27]" value="C"
+                                         class="mr-2"> (C) scientific theory
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[27]" value="D"
+                                     <input type="radio" required name="exam2section3question[27]" value="D"
                                          class="mr-2">
-                                     (D)
-                                     inspected
+                                     (D) subject of debate
                                  </label>
                              </li>
                          </ul>
@@ -280,41 +278,31 @@
 
                      <!-- Question 28 -->
                      <div class="mb-6">
-                         <p class="text-md">28. Which of the following can be inferred about a soil sample with minimal
-                             or
-                             no clay from the passage?
+                         <p class="text-md">28. The word “them” refers to
                          </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[28]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     It is
-                                     relatively light. </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[28]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     It might not retain its shape when formed
+                                     <input type="radio" required name="exam2section3question[28]" value="A"
+                                         class="mr-2"> (A) deposits
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[28]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     Its shape is long-lasting
+                                     <input type="radio" required name="exam2section3question[28]" value="B"
+                                         class="mr-2"> (B) pine trees
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[28]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     Its texture cannot be categorized.
+                                     <input type="radio" required name="exam2section3question[28]" value="C"
+                                         class="mr-2"> (C) conifer trees
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[28]" value="D"
+                                         class="mr-2"> (D) broad-leaved trees
                                  </label>
                              </li>
                          </ul>
@@ -322,40 +310,30 @@
 
                      <!-- Question 29 -->
                      <div class="mb-6">
-                         <p class="text-md">29. The word "they" in line 38 refers to: </p>
+                         <p class="text-md">29. The word “Thus” is closest in meaning to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[29]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     classifications
+                                     <input type="radio" required name="exam2section3question[29]" value="A"
+                                         class="mr-2"> (A) consequently
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[29]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     sieves
+                                     <input type="radio" required name="exam2section3question[29]" value="B"
+                                         class="mr-2"> (B) instead
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[29]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     larger
-                                     particles
+                                     <input type="radio" required name="exam2section3question[29]" value="C"
+                                         class="mr-2"> (C) moreover
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[29]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     clay
-                                     particles
+                                     <input type="radio" required name="exam2section3question[29]" value="D"
+                                         class="mr-2"> (D) initially
                                  </label>
                              </li>
                          </ul>
@@ -363,43 +341,30 @@
 
                      <!-- Question 30 -->
                      <div class="mb-6">
-                         <p class="text-md">30. It can be inferred from the passage that the sediment sieve has an
-                             advantage over the hand test in determining soil texture because: </p>
+                         <p class="text-md">30. The word “bury” is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[30]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     the sieve
-                                     method is quicker
+                                     <input type="radio" required name="exam2section3question[30]" value="A"
+                                         class="mr-2"> (A) cover
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[30]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     the sieve
-                                     can quantify clay
+                                     <input type="radio" required name="exam2section3question[30]" value="B"
+                                         class="mr-2"> (B) color
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[30]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     using the
-                                     sieve requires less expertise
+                                     <input type="radio" required name="exam2section3question[30]" value="C"
+                                         class="mr-2"> (C) fill
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[30]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     the sieve
-                                     provides a more accurate measurement
+                                     <input type="radio" required name="exam2section3question[30]" value="D"
+                                         class="mr-2"> (D) damage
                                  </label>
                              </li>
                          </ul>
@@ -407,41 +372,33 @@
 
                      <!-- Question 31 -->
                      <div class="mb-6">
-                         <p class="text-md">31. During the process described in paragraph 3, when clay particles are
-                             placed
-                             in water, they: </p>
+                         <p class="text-md"> 31. It can be inferred from the passage that amber is most commonly used
+                         </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[31]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     adhere to the sides of the container
+                                     <input type="radio" required name="exam2section3question[31]" value="A"
+                                         class="mr-2"> (A) to determine the age of other ancient materials that are
+                                     found with it
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[31]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     take some time to settle at the bottom </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[31]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     separate
-                                     into various sizes
+                                     <input type="radio" required name="exam2section3question[31]" value="B"
+                                         class="mr-2"> (B) to create jewelry
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[31]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     dissolve
-                                     rapidly
+                                     <input type="radio" required name="exam2section3question[31]" value="C"
+                                         class="mr-2"> (C) to compare the characteristics of living trees to those of
+                                     ancient trees
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[31]" value="D"
+                                         class="mr-2"> (D) to preserve fossil impressions
                                  </label>
                              </li>
                          </ul>
@@ -449,79 +406,32 @@
 
                      <!-- Question 32 -->
                      <div class="mb-6">
-                         <p class="text-md">32. The word "fine" in line 41 is most similar in meaning to:
+                         <p class="text-md">32. Which of the following is NOT true of amber?
                          </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[32]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     tiny
+                                     <input type="radio" required name="exam2section3question[32]" value="A"
+                                         class="mr-2"> (A) It is composed of an organic material.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[32]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     numerous
+                                     <input type="radio" required name="exam2section3question[32]" value="B"
+                                         class="mr-2"> (B) It is basically the same as it was millions of years ago.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[32]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     high-quality
+                                     <input type="radio" required name="exam2section3question[32]" value="C"
+                                         class="mr-2"> (C) It may contain the remains of tiny animals.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[32]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     different </label>
-                             </li>
-                         </ul>
-                     </div>
-
-                     <!-- Question 33 -->
-                     <div class="mb-6">
-                         <p class="text-md">33. All of the following terms are defined in the passage EXCEPT:
-                         </p>
-                         <ul class="space-y-2 mt-4 text-sm">
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[33]" value="A"
-                                         class="mr-2">
-                                     (A)
-                                     texture
+                                     <input type="radio" required name="exam2section3question[32]" value="D"
+                                         class="mr-2"> (D) It is made by a process of mineral replacement.
                                  </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[33]" value="B"
-                                         class="mr-2">
-                                     (B)
-                                     ribbon
-                                 </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[33]" value="C"
-                                         class="mr-2">
-                                     (C)
-                                     sediment
-                                     sieves
-                                 </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[33]" value="D"
-                                         class="mr-2">
-                                     (D)
-                                     evaporated </label>
                              </li>
                          </ul>
                      </div>

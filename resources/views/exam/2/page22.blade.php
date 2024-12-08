@@ -48,31 +48,33 @@
                 <h1 class="text-xl font-bold mb-4">READING</h1>
                 <p class="text-justify leading-relaxed w-[400px]">
                     <!-- Add your reading passage here -->
-                    At the start of the twentieth century, formal education gained greater significance in the United
-                    States. With the frontier mostly gone by 1910 and most Americans living in towns and cities,
-                    industrialization and a new focus on credentials made education increasingly vital for economic and
-                    social advancement. Schools were also seen as the most significant means for integrating immigrants
-                    into American society.
+                    Color in textiles is produced by dyeing, by printing, or by painting. Until the nineteenth century,
+                    all dyes were derived from vegetable or, more rarely, animal or mineral sources.
                     <!-- The full passage continues here --> <br> <br>
-                    The arrival of many southern and eastern European immigrants around this time led to a significant
-                    expansion in formal schooling. By 1920, most states had made schooling until at least age fourteen
-                    compulsory, and the school year was extended. Public schools increasingly influenced students'
-                    lives through kindergartens, vacation schools, extracurricular activities, vocational education,
-                    and counseling. They also offered classes for adult immigrants, with support from schools,
-                    corporations, unions, churches, settlement houses, and other organizations
-                    <br><br>
-                    Early twentieth-century reformers proposed that education programs should be tailored to meet the
-                    needs of different groups. Immigrant women were one such group. Schools aimed to prepare young
-                    women to take on valuable roles in the urban industrial economy, with many educators viewing the
-                    home as a suitable environment for women.
-                    <br><br>
-                    While immigrant women were accustomed to managing a household and family, American education
-                    redefined homemaking. In pre-industrial times, homemaking involved both producing and consuming
-                    goods and often included activities that generated income, both within and outside the home.
-                    However, by the early twentieth century, with overproduction becoming an issue, the ideal American
-                    homemaker was seen more as a consumer than a producer. Schools trained women to be efficient
-                    homemakers by focusing on cooking, shopping, decorating, and child care in their own homes, or, if
-                    needed, working in the homes of others. Later reforms have made these ideas seem outdated.
+                    Since madder plants could be grown practically everywhere, the roots of some species of the madder
+                    plant family were used from the earliest period to produce a
+                    whole range of reds. Red animal dyes, derived from certain species of scale insects, were also
+                    highly valued from ancient times through the Middle Ages. Blues were obtained from indigo, which was
+                    widely cultivated in India and exported from there, and from wood, a plant common in Europe and also
+                    used in the Near East from the
+                    beginning of the Christian era. Before the first, nonfading “solid” green was invented
+                    in the early nineteenth century, greens were achieved by the overdyeing or overprinting of yellow
+                    and blue. However, yellow dyes, whether from weld or some other plant source such as saffron or
+                    turmeric, invariably fade or disappear. This accounts for the
+                    bluish tinge of what were once bright greens in, for example, woven tapestry. The range of natural
+                    colors was hugely expanded and, indeed, superseded by the
+                    chemical dyes developed during the eighteen hundreds. By 1900 a complete range of synthetic colors
+                    had been evolved, many of them reaching a standard of resistance to fading from exposure to light
+                    and to washing that greatly exceeded that of natural dyestuffs. Since then, the petroleum industry
+                    has added many new chemicals, and from these other types of
+                    dyestuffs have been developed. Much of the research in dyes was
+                    stimulated by the peculiarities of some of the new synthetic fibers. Acetate rayon, for example,
+                    seemed at first to have no affinity for dyes and a new range of dyes had to be developed; nylon and
+                    Terylene presented similar problems. The printing of textiles has
+                    involved a number of distinct methods. With the exception of printing patterns directly onto the
+                    cloth, whether by block, roller, or
+                    screen, all of these are based on dyeing; that is, the immersion of the fabric in a dye
+                    bath.
                 </p>
             </div>
         </div>
@@ -81,43 +83,69 @@
         <div class="w-full p-4">
             <div class="scrollable" style="width: 600px;">
                 <div class="bg-white shadow-lg rounded-lg p-6 w-[800px]">
-                    <h2 class="text-xl font-bold mb-4">Questions 44-50</h2>
+                    <h2 class="text-xl font-bold mb-4">Questions 43-50</h2>
+
+                    <!-- Question 43 -->
+                    <div class="mb-6">
+                        <p class="text-md">43. The passage mainly discusses the </p>
+                        <ul class="space-y-2 mt-4 text-sm">
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam1section3question[43]" value="A"
+                                        class="mr-2"> (A) development of synthetic colors for textiles during the
+                                    nineteenth century
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam1section3question[43]" value="B"
+                                        class="mr-2"> (B) advantages of chemical dyes over dyes derived from plants
+                                    and animals
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam1section3question[43]" value="C"
+                                        class="mr-2"> (C) differences between dyeing textiles and printing them
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" required name="exam1section3question[43]" value="D"
+                                        class="mr-2"> (D) history of the use of natural and chemical dyes to color
+                                    textiles
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
 
                     <!-- Question 44 -->
                     <div class="mb-6">
-                        <p class="text-md">44. From paragraph 1, it can be inferred that one important factor in the
-                            increasing significance of education in the United States was </p>
+                        <p class="text-md">44. According to the passage, what was the source of most textile dyes that
+                            were used before the nineteenth century?</p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[44]" value="A"
-                                        class="mr-2"> (A)
-                                    the growing number of schools in frontier communities
+                                        class="mr-2"> (A) Animals
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[44]" value="B"
-                                        class="mr-2"> (B)
-                                    an increase in the number of trained teachers
+                                        class="mr-2"> (B) Minerals
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[44]" value="C"
-                                        class="mr-2"> (C)
-                                    the
-                                    expanding
-                                    economic problems of schools
+                                        class="mr-2"> (C) Plants
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[44]" value="D"
-                                        class="mr-2"> (D)
-                                    the
-                                    increased
-                                    urbanization of the entire country
+                                        class="mr-2"> (D) Chemicals
                                 </label>
                             </li>
                         </ul>
@@ -125,67 +153,66 @@
 
                     <!-- Question 45 -->
                     <div class="mb-6">
-                        <p class="text-md">45. The word "means" in line 8 is closest in meaning to </p>
+                        <p class="text-md">45. What was the advantage of using madder plants for different shades of
+                            red?</p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[45]" value="A"
-                                        class="mr-2"> (A)
-                                    drawbacks
+                                        class="mr-2"> (A) It was possible to cultivate madder plants in almost every
+                                    location.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[45]" value="B"
-                                        class="mr-2"> (B)
-                                    probability
+                                        class="mr-2"> (B) Madder plants produced brighter colors than other plant
+                                    sources.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[45]" value="C"
-                                        class="mr-2"> (C)
-                                    methods
+                                        class="mr-2"> (C) Plant sources produced more lasting colors than animal
+                                    sources.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[45]" value="D"
-                                        class="mr-2"> (D)
-                                    qualifications</label>
+                                        class="mr-2"> (D) Dyes derived from the madder plants were easier to work with
+                                    than other dyes.
+                                </label>
                             </li>
                         </ul>
                     </div>
 
                     <!-- Question 46 -->
                     <div class="mb-6">
-                        <p class="text-md">46. The phrase "led to" in line 12 is closest in meaning to </p>
+                        <p class="text-md">46. The word “invariably” is closest in meaning to</p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[46]" value="A"
-                                        class="mr-2"> (A)
-                                    influenced </label>
+                                        class="mr-2"> (A) without exception
+                                </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[46]" value="B"
-                                        class="mr-2"> (B)
-                                    happened
+                                        class="mr-2"> (B) steadily
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[46]" value="C"
-                                        class="mr-2"> (C)
-                                    began
+                                        class="mr-2"> (C) after some time
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[46]" value="D"
-                                        class="mr-2"> (D)
-                                    ensured
+                                        class="mr-2"> (D) noticeably
                                 </label>
                             </li>
                         </ul>
@@ -193,43 +220,34 @@
 
                     <!-- Question 47 -->
                     <div class="mb-6">
-                        <p class="text-md">47. By the 1920s, what was a significant development in education in the
-                            United
-                            States? </p>
+                        <p class="text-md">47. It can be inferred from the passage that the green areas in woven
+                            tapestries developed a bluish tinge because </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[47]" value="A"
-                                        class="mr-2"> (A)
-                                    Most
-                                    regions
-                                    mandated school attendance for children
+                                        class="mr-2"> (A) a darker color, like blue, dominates a light color, like
+                                    yellow
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[47]" value="B"
-                                        class="mr-2"> (B)
-                                    The
-                                    duration
-                                    of formal education was restricted
+                                        class="mr-2"> (B) light changed some of the green dye used in the tapestries
+                                    to blue
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[47]" value="C"
-                                        class="mr-2"> (C)
-                                    New
-                                    rules
-                                    were introduced for nontraditional forms of education
+                                        class="mr-2"> (C) the yellow dye that was used in the tapestries had faded
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[47]" value="D"
-                                        class="mr-2"> (D)
-                                    Adults and
-                                    children were taught in the same classes
+                                        class="mr-2"> (D) the dyes used to color woven tapestries were made from
+                                    minerals
                                 </label>
                             </li>
                         </ul>
@@ -237,40 +255,30 @@
 
                     <!-- Question 48 -->
                     <div class="mb-6">
-                        <p class="text-md">48. The mention of vacation schools and extracurricular activities is used
-                            to show: </p>
+                        <p class="text-md">48. The word “superseded” is closest in meaning to </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[48]" value="A"
-                                        class="mr-2"> (A)
-                                    Alternatives
-                                    to the formal education offered by public schools
+                                        class="mr-2"> (A) strengthened
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[48]" value="B"
-                                        class="mr-2"> (B)
-                                    The
-                                    significance of changes in education
+                                        class="mr-2"> (B) improved
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[48]" value="C"
-                                        class="mr-2"> (C)
-                                    Programs
-                                    that competed to draw new immigrants
+                                        class="mr-2"> (C) replaced
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[48]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    The
-                                    growing influence of public schools on students
+                                        class="mr-2"> (D) complemented
                                 </label>
                             </li>
                         </ul>
@@ -278,39 +286,34 @@
 
                     <!-- Question 49 -->
                     <div class="mb-6">
-                        <p class="text-md">49. Early-twentieth-century education reformers thought that:
+                        <p class="text-md">49. According to the passage, how did chemical dyes compare to natural dyes?
                         </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[49]" value="A"
                                         class="mr-2">
-                                    (A)
-                                    Different
-                                    groups required different types of education </label>
+                                    (A) The chemical dyes had less attractive colors. </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[49]" value="B"
                                         class="mr-2">
-                                    (B)
-                                    Special programs were needed in frontier areas to modernize them
+                                    (B) The chemical dyes were less easy to use.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[49]" value="C"
                                         class="mr-2">
-                                    (C)
-                                    Corporations and other entities were hindering educational progress
+                                    (C) The chemical dyes lost their brightness more quickly when exposed to light.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[49]" value="D"
                                         class="mr-2">
-                                    (D)
-                                    More women should participate in education and industry
+                                    (D) The chemical dyes held up better after washing
                                 </label>
                             </li>
                         </ul>
@@ -318,38 +321,34 @@
 
                     <!-- Question 50 -->
                     <div class="mb-6">
-                        <p class="text-md">50. In line 45, what does the term “their” refer to? </p>
+                        <p class="text-md">50. According to the passage, what problem led to the development of new
+                            dyes after 1900?</p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[50]" value="A"
-                                        class="mr-2">
-                                    (A)
-                                    Women
+                                        class="mr-2"> (A) Previously developed dyes did not work on new types of
+                                    fibers.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[50]" value="B"
-                                        class="mr-2">
-                                    (B)
-                                    Homemakers
+                                        class="mr-2"> (B) Dyes derived from petroleum caused damage to new synthetic
+                                    fibers.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[50]" value="C"
-                                        class="mr-2">
-                                    (C)
-                                    Schools
+                                        class="mr-2"> (C) New synthetic fibers required brighter colors than natural
+                                    fibers did.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" required name="exam1section3question[50]" value="D"
-                                        class="mr-2">
-                                    (D)
-                                    Consumers
+                                        class="mr-2"> (D) New fabrics easily lost their colors when washed.
                                 </label>
                             </li>
                         </ul>

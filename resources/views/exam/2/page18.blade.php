@@ -49,29 +49,30 @@
                  <h1 class="text-xl font-bold mb-4">READING</h1>
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
-                     As Philadelphia expanded from a small town to a city in the first half of the eighteenth century,
-                     it became an increasingly vital hub for marketing a vast and growing agricultural region. On market
-                     days, the already busy city became even more crowded as farmers from up to 24 kilometers away
-                     brought their livestock, vegetables, cider, and other goods to sell directly to city residents. The
-                     High Street Market was continuously expanded until 1736, eventually stretching from Front Street to
-                     Third Street. By 1745, New Market had opened on Second Street between Pine and Cedar, followed by
-                     the Callowhill Market the next year. In addition to market days, Philadelphia continued to host
-                     twice-yearly fairs, even after similar events were discontinued in other colonial cities. These
-                     fairs offered a way for handmade goods from surrounding areas to reach buyers in the city, with
-                     items like Germantown linens and stockings being especially popular.
+                     In the later part of the nineteenth century, the direction of expansion in the United States
+                     shifted from the countryside to the city. During the crises of the 1870s and the 1890s, tens of
+                     thousands of families abandoned their farms and ranches and headed for urban areas. Even prosperity
+                     produced migration from the countryside to the city. As pioneers settled rural districts,
+                     eventually the number of farms or ranches approached the maximum number the land would support.
+                     Landowners sought to increase their productivity through mechanization, and those who were
+                     successful invested their returns in the purchase of additional land and equipment, expanding their
+                     holdings by buying the farms of less fortunate neighbors, who moved on. Compare this pattern of
+                     economic development with that of the city, where innovations in manufacturing led to the creation
+                     of new opportunities and new jobs. But in the countryside, economic development inevitably meant
+                     depopulation. Rural areas in the central part of the country had begun to lose population by the
+                     1880s, and over the next half century most of the rural West was overtaken by this trend. For every
+                     industrial worker who became a farmer, 20 young men from farms rushed to the city to compete for
+                     his job.
                      <!-- The full passage continues here --> <br> <br>
-                     Auctions were another common form of occasional trade. Retail merchants opposed these, as well as
-                     fairs, due to the competition they presented. Although government efforts to eliminate fairs and
-                     auctions were largely unsuccessful, the natural progression of economic development favored the
-                     merchants, as business specialization became more prevalent. Export merchants began to distinguish
-                     themselves from import merchants, and specialty shops started to emerge alongside general stores
-                     that offered a wide range of products.
+                     Less well-known is the fact that for every 20 young farm men, as many as 25 or 30 young farm women
+                     moved from the rural West to the cities. As a government report noted in 1920, young farm women
+                     were more likely to leave the farm and move to a western city than were young farm men. This
+                     amounted to a stunning reversal of the traditional pattern of western urban settlement, which
+                     featured the presence of many young, unattached men among the migrants but almost no single women.
                      <br><br>
-                     One reason Philadelphia's merchants generally thrived was the significant economic and demographic
-                     growth occurring in the surrounding region. As the capital city of the province, Philadelphia was a
-                     hub for business. Merchants served not only the governor and his associates but also citizens from
-                     across the colony who visited the capital for legislative sessions, council meetings, and court
-                     proceedings.
+                     What explains the greater rates of female migration to the cities? In the opinion of many
+                     contemporaries, young women were pushed out of the countryside by constricted opportunities,
+                     particularly limited educational and vocational options.
                  </p>
              </div>
          </div>
@@ -84,39 +85,32 @@
 
                      <!-- Question 1 -->
                      <div class="mb-6">
-                         <p class="text-md">1. What is the main focus of the passage?</p>
+                         <p class="text-md">1. What aspect of the United States in the late nineteenth and early
+                             twentieth centuries does the passage mainly discuss?</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[1]" value="A"
-                                         class="mr-2"> (A)
-                                     Philadelphia's
-                                     significance in agriculture
+                                     <input type="radio" required name="exam2section3question[1]" value="A"
+                                         class="mr-2"> (A) Why young women chose to move from farms to cities
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[1]" value="B"
-                                         class="mr-2"> (B)
-                                     Philadelphia's growth
-                                     as a marketing hub
+                                     <input type="radio" required name="exam2section3question[1]" value="B"
+                                         class="mr-2"> (B) The number and types of manufacturing jobs created in
+                                     cities
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[1]" value="C"
-                                         class="mr-2"> (C) The
-                                     trade of
-                                     imported
-                                     goods in Philadelphia
+                                     <input type="radio" required name="exam2section3question[1]" value="C"
+                                         class="mr-2"> (C) Changes in settlement patterns between farms and cities
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[1]" value="D"
-                                         class="mr-2"> (D) The
-                                     governance of the
-                                     city of Philadelphia
+                                     <input type="radio" required name="exam2section3question[1]" value="D"
+                                         class="mr-2"> (D) The effects of mechanization on western migration
                                  </label>
                              </li>
                          </ul>
@@ -124,81 +118,59 @@
 
                      <!-- Question 2 -->
                      <div class="mb-6">
-                         <p class="text-md">2. What can be inferred from the passage about why new markets were
-                             established
-                             in
-                             Philadelphia?</p>
+                         <p class="text-md">2. The word “expansion” is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[2]" value="A"
-                                         class="mr-2"> (A)
-                                     They
-                                     offered
-                                     more
-                                     modern facilities than the older markets
+                                     <input type="radio" required name="exam2section3question[2]" value="A"
+                                         class="mr-2"> (A) change
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[2]" value="B"
-                                         class="mr-2"> (B) The
-                                     High
-                                     Street
-                                     Market
-                                     was forced to close.
+                                     <input type="radio" required name="exam2section3question[2]" value="B"
+                                         class="mr-2"> (B) growth
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[2]" value="C"
-                                         class="mr-2"> (C)
-                                     Existing
-                                     markets
-                                     couldn't accommodate the growing population.
+                                     <input type="radio" required name="exam2section3question[2]" value="C"
+                                         class="mr-2"> (C) population
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[2]" value="D"
-                                         class="mr-2"> (D)
-                                     Farmers
-                                     wanted
-                                     markets
-                                     closer to their farms.</label>
+                                     <input type="radio" required name="exam2section3question[2]" value="D"
+                                         class="mr-2"> (D) labor</label>
                              </li>
                          </ul>
                      </div>
 
                      <!-- Question 3 -->
                      <div class="mb-6">
-                         <p class="text-md">3. The word "region" in line 4 is closest in meaning to</p>
+                         <p class="text-md">3. The word “abandoned” is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[3]" value="A"
-                                         class="mr-2"> (A)
-                                     Harvest</label>
+                                     <input type="radio" required name="exam2section3question[3]" value="A"
+                                         class="mr-2"> (A) left behind</label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[3]" value="B"
-                                         class="mr-2"> (B)
-                                     Tradition
+                                     <input type="radio" required name="exam2section3question[3]" value="B"
+                                         class="mr-2"> (B) sold
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[3]" value="C"
-                                         class="mr-2"> (C)
-                                     Product
+                                     <input type="radio" required name="exam2section3question[3]" value="C"
+                                         class="mr-2"> (C) gave away
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[3]" value="D"
-                                         class="mr-2"> (D)
-                                     Hinterland
+                                     <input type="radio" required name="exam2section3question[3]" value="D"
+                                         class="mr-2"> (D) gradually reduced the size of
                                  </label>
                              </li>
                          </ul>
@@ -206,34 +178,34 @@
 
                      <!-- Question 4 -->
                      <div class="mb-6">
-                         <p class="text-md">4. The word "host" in line 15 is closest in meaning to</p>
+                         <p class="text-md">4. Why does the author discuss “prosperity”?</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[4]" value="A"
-                                         class="mr-2"> (A)
-                                     Organize
+                                     <input type="radio" required name="exam2section3question[4]" value="A"
+                                         class="mr-2"> (A) To indicate that more than one factor contributed to the
+                                     movement from rural to urban settlement
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[4]" value="B"
-                                         class="mr-2"> (B)
-                                     Decline
+                                     <input type="radio" required name="exam2section3question[4]" value="B"
+                                         class="mr-2"> (B) To support the idea that many families were able to stop
+                                     farming and migrate to the cities
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[4]" value="C"
-                                         class="mr-2"> (C)
-                                     Request
+                                     <input type="radio" required name="exam2section3question[4]" value="C"
+                                         class="mr-2"> (C) To suggest that the migration would have happened despite
+                                     the economic situation
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[4]" value="D"
-                                         class="mr-2"> (D)
-                                     Eliminate
+                                     <input type="radio" required name="exam2section3question[4]" value="D"
+                                         class="mr-2"> (D) To argue against economics as the primary factor in
+                                     migration
                                  </label>
                              </li>
                          </ul>
@@ -241,41 +213,31 @@
 
                      <!-- Question 5 -->
                      <div class="mb-6">
-                         <p class="text-md">5. According to the passage, fairs in Philadelphia has been held.</p>
+                         <p class="text-md">5. According to the first paragraph, in the late 1800s, farmland was most
+                             likely to be purchased by</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[5]" value="A"
-                                         class="mr-2"> (A) on
-                                     the same
-                                     day as
-                                     market
+                                     <input type="radio" required name="exam2section3question[5]" value="A"
+                                         class="mr-2"> (A) city businessmen seeking new investments
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[5]" value="B"
-                                         class="mr-2"> (B) as
-                                     often as
-                                     possible
+                                     <input type="radio" required name="exam2section3question[5]" value="B"
+                                         class="mr-2"> (B) successful landowners who had mechanized farms
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[5]" value="C"
-                                         class="mr-2"> (C) a
-                                     couple of
-                                     times a
-                                     year
+                                     <input type="radio" required name="exam2section3question[5]" value="C"
+                                         class="mr-2"> (C) young farm men starting to work
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[5]" value="D"
-                                         class="mr-2"> (D)
-                                     whenever
-                                     the
-                                     government allowed it
+                                     <input type="radio" required name="exam2section3question[5]" value="D"
+                                         class="mr-2"> (D) people who had few opportunities in cities
                                  </label>
                              </li>
                          </ul>
@@ -283,37 +245,30 @@
 
                      <!-- Question 6 -->
                      <div class="mb-6">
-                         <p class="text-md">6. What type of goods was particularly popular at the twice-yearly fairs in
-                             Philadelphia?</p>
+                         <p class="text-md">6. The word “inevitably” is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[6]" value="A"
-                                         class="mr-2"> (A)
-                                     Imported
-                                     luxury items
+                                     <input type="radio" required name="exam2section3question[6]" value="A"
+                                         class="mr-2"> (A) unexpectedly
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[6]" value="B"
-                                         class="mr-2"> (B)
-                                     Germantown linens and stockings
+                                     <input type="radio" required name="exam2section3question[6]" value="B"
+                                         class="mr-2"> (B) usually
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[6]" value="C"
-                                         class="mr-2"> (C)
-                                     Livestock
-                                     and vegetables
+                                     <input type="radio" required name="exam2section3question[6]" value="C"
+                                         class="mr-2"> (C) unavoidably
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[6]" value="D"
-                                         class="mr-2"> (D)
-                                     Handcrafted furniture
+                                     <input type="radio" required name="exam2section3question[6]" value="D"
+                                         class="mr-2"> (D) possibly
                                  </label>
                              </li>
                          </ul>
@@ -321,39 +276,31 @@
 
                      <!-- Question 7 -->
                      <div class="mb-6">
-                         <p class="text-md">7. What can be inferred about "linens and stockings" mentioned in line 19?
+                         <p class="text-md">7. The phrase “this trend” refers to
                          </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[7]" value="A"
-                                         class="mr-2"> (A)
-                                     Retail
-                                     merchants were unwilling to sell them
+                                     <input type="radio" required name="exam2section3question[7]" value="A"
+                                         class="mr-2"> (A) industrial workers becoming farmers
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[7]" value="B"
-                                         class="mr-2"> (B)
-                                     They
-                                     weren't available in Philadelphia stores
+                                     <input type="radio" required name="exam2section3question[7]" value="B"
+                                         class="mr-2"> (B) the economic development of the countryside
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[7]" value="C"
-                                         class="mr-2"> (C)
-                                     They were
-                                     more popular in Germantown than in Philadelphia
+                                     <input type="radio" required name="exam2section3question[7]" value="C"
+                                         class="mr-2"> (C) the loss of rural population
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[7]" value="D"
-                                         class="mr-2"> (D)
-                                     They were
-                                     easy to transport.
+                                     <input type="radio" required name="exam2section3question[7]" value="D"
+                                         class="mr-2"> (D) innovations in manufacturing
                                  </label>
                              </li>
                          </ul>
@@ -361,34 +308,33 @@
 
                      <!-- Question 8 -->
                      <div class="mb-6">
-                         <p class="text-md">8. The word "opposed" in line 23 is closest in meaning to: </p>
+                         <p class="text-md">8. According to the first paragraph, which of the following is true about
+                             the population of the United States after the 1880s?</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[8]" value="A"
-                                         class="mr-2"> (A)
-                                     Resisted
+                                     <input type="radio" required name="exam2section3question[8]" value="A"
+                                         class="mr-2"> (A) Fewer people lived on farms.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[8]" value="B"
-                                         class="mr-2"> (B)
-                                     Support
+                                     <input type="radio" required name="exam2section3question[8]" value="B"
+                                         class="mr-2"> (B) The central part of the United States lost much of its
+                                     population to rural areas in the West.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[8]" value="C"
-                                         class="mr-2"> (C)
-                                     Offered
+                                     <input type="radio" required name="exam2section3question[8]" value="C"
+                                         class="mr-2"> (C) Rural areas of the West became more populated than those
+                                     in the central part of the country.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[8]" value="D"
-                                         class="mr-2"> (D)
-                                     Operated
+                                     <input type="radio" required name="exam2section3question[8]" value="D"
+                                         class="mr-2"> (D) Work opportunities in urban areas began to decline.
                                  </label>
                              </li>
                          </ul>
@@ -396,38 +342,33 @@
 
                      <!-- Question 9 -->
                      <div class="mb-6">
-                         <p class="text-md">9. What does the author mean by saying "economic development favored the
-                             merchants" in line 28? </p>
+                         <p class="text-md">9. According to the second paragraph, how did migration among young women
+                             in the rural West differ from that of young men? </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[9]" value="A"
-                                         class="mr-2"> (A)
-                                     Merchants
-                                     had a significant influence on economic growth
+                                     <input type="radio" required name="exam2section3question[9]" value="A"
+                                         class="mr-2"> (A) Young women were more likely to leave rural areas to go to
+                                     urban areas.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[9]" value="B"
-                                         class="mr-2"> (B)
-                                     Economic
-                                     trends allowed merchants to succeed </label>
-                             </li>
-                             <li>
-                                 <label>
-                                     <input type="radio" required name="exam1section3question[9]" value="C"
-                                         class="mr-2"> (C)
-                                     Merchants
-                                     needed to collaborate to achieve economic independence
+                                     <input type="radio" required name="exam2section3question[9]" value="B"
+                                         class="mr-2"> (B) Young women were more likely to take jobs on farms.
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[9]" value="D"
-                                         class="mr-2"> (D)
-                                     Specialty
-                                     shops near large markets were more likely to be economically successful
+                                     <input type="radio" required name="exam2section3question[9]" value="C"
+                                         class="mr-2"> (C) Young women who migrated generally had more education.
+                                 </label>
+                             </li>
+                             <li>
+                                 <label>
+                                     <input type="radio" required name="exam2section3question[9]" value="D"
+                                         class="mr-2"> (D) Young women generally moved more frequently from one rural
+                                     area to another.
                                  </label>
                              </li>
                          </ul>
@@ -435,44 +376,33 @@
 
                      <!-- Question 10 -->
                      <div class="mb-6">
-                         <p class="text-md">10. In what way did Philadelphia's status as the provincial capital
-                             contribute
-                             to the success of its merchants?</p>
+                         <p class="text-md">10. The word “constricted” is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[10]" value="A"
+                                     <input type="radio" required name="exam2section3question[10]" value="A"
                                          class="mr-2">
-                                     (A)
-                                     It
-                                     provided access to exclusive international trade agreements </label>
+                                     (A) unappealing </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[10]" value="B"
+                                     <input type="radio" required name="exam2section3question[10]" value="B"
                                          class="mr-2">
-                                     (B)
-                                     It
-                                     attracted a steady flow of influential visitors for legislative, council, and court
-                                     activities.
+                                     (B) reduced
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[10]" value="C"
+                                     <input type="radio" required name="exam2section3question[10]" value="C"
                                          class="mr-2">
-                                     (C)
-                                     It
-                                     offered merchants significant tax exemptions and financial incentives
+                                     (C) low-paying
                                  </label>
                              </li>
                              <li>
                                  <label>
-                                     <input type="radio" required name="exam1section3question[10]" value="D"
+                                     <input type="radio" required name="exam2section3question[10]" value="D"
                                          class="mr-2">
-                                     (D)
-                                     It gave
-                                     merchants control over the distribution of agricultural products in the region
+                                     (D) disappearing
                                  </label>
                              </li>
                          </ul>

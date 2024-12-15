@@ -4,7 +4,7 @@
 <main class="main-screen pt-[64px]">
     @yield('content')
     <button onclick="topFunction()" id="myBtnTop" title="Go to top" style="display: block">
-        <i class="fa-solid fa-arrow-up fa-flip fa-xl" style="color: white;"></i>
+        <i class="fa-solid fa-arrow-up fa-flip fa-xl" style="color: #164863;"></i>
     </button>
 </main>
 @include('layout.navfooter')

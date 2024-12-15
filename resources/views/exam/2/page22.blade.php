@@ -91,27 +91,27 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="A"
+                                    <input type="radio" required name="exam2section3question[43]" value="A"
                                         class="mr-2"> (A) development of synthetic colors for textiles during the
                                     nineteenth century
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="B"
+                                    <input type="radio" required name="exam2section3question[43]" value="B"
                                         class="mr-2"> (B) advantages of chemical dyes over dyes derived from plants
                                     and animals
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="C"
+                                    <input type="radio" required name="exam2section3question[43]" value="C"
                                         class="mr-2"> (C) differences between dyeing textiles and printing them
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[43]" value="D"
+                                    <input type="radio" required name="exam2section3question[43]" value="D"
                                         class="mr-2"> (D) history of the use of natural and chemical dyes to color
                                     textiles
                                 </label>
@@ -126,25 +126,25 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[44]" value="A"
+                                    <input type="radio" required name="exam2section3question[44]" value="A"
                                         class="mr-2"> (A) Animals
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[44]" value="B"
+                                    <input type="radio" required name="exam2section3question[44]" value="B"
                                         class="mr-2"> (B) Minerals
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[44]" value="C"
+                                    <input type="radio" required name="exam2section3question[44]" value="C"
                                         class="mr-2"> (C) Plants
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[44]" value="D"
+                                    <input type="radio" required name="exam2section3question[44]" value="D"
                                         class="mr-2"> (D) Chemicals
                                 </label>
                             </li>
@@ -158,28 +158,28 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[45]" value="A"
+                                    <input type="radio" required name="exam2section3question[45]" value="A"
                                         class="mr-2"> (A) It was possible to cultivate madder plants in almost every
                                     location.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[45]" value="B"
+                                    <input type="radio" required name="exam2section3question[45]" value="B"
                                         class="mr-2"> (B) Madder plants produced brighter colors than other plant
                                     sources.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[45]" value="C"
+                                    <input type="radio" required name="exam2section3question[45]" value="C"
                                         class="mr-2"> (C) Plant sources produced more lasting colors than animal
                                     sources.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[45]" value="D"
+                                    <input type="radio" required name="exam2section3question[45]" value="D"
                                         class="mr-2"> (D) Dyes derived from the madder plants were easier to work with
                                     than other dyes.
                                 </label>
@@ -193,25 +193,25 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[46]" value="A"
+                                    <input type="radio" required name="exam2section3question[46]" value="A"
                                         class="mr-2"> (A) without exception
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[46]" value="B"
+                                    <input type="radio" required name="exam2section3question[46]" value="B"
                                         class="mr-2"> (B) steadily
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[46]" value="C"
+                                    <input type="radio" required name="exam2section3question[46]" value="C"
                                         class="mr-2"> (C) after some time
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[46]" value="D"
+                                    <input type="radio" required name="exam2section3question[46]" value="D"
                                         class="mr-2"> (D) noticeably
                                 </label>
                             </li>
@@ -225,27 +225,27 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[47]" value="A"
+                                    <input type="radio" required name="exam2section3question[47]" value="A"
                                         class="mr-2"> (A) a darker color, like blue, dominates a light color, like
                                     yellow
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[47]" value="B"
+                                    <input type="radio" required name="exam2section3question[47]" value="B"
                                         class="mr-2"> (B) light changed some of the green dye used in the tapestries
                                     to blue
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[47]" value="C"
+                                    <input type="radio" required name="exam2section3question[47]" value="C"
                                         class="mr-2"> (C) the yellow dye that was used in the tapestries had faded
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[47]" value="D"
+                                    <input type="radio" required name="exam2section3question[47]" value="D"
                                         class="mr-2"> (D) the dyes used to color woven tapestries were made from
                                     minerals
                                 </label>
@@ -259,25 +259,25 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[48]" value="A"
+                                    <input type="radio" required name="exam2section3question[48]" value="A"
                                         class="mr-2"> (A) strengthened
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[48]" value="B"
+                                    <input type="radio" required name="exam2section3question[48]" value="B"
                                         class="mr-2"> (B) improved
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[48]" value="C"
+                                    <input type="radio" required name="exam2section3question[48]" value="C"
                                         class="mr-2"> (C) replaced
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[48]" value="D"
+                                    <input type="radio" required name="exam2section3question[48]" value="D"
                                         class="mr-2"> (D) complemented
                                 </label>
                             </li>
@@ -291,27 +291,27 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[49]" value="A"
+                                    <input type="radio" required name="exam2section3question[49]" value="A"
                                         class="mr-2">
                                     (A) The chemical dyes had less attractive colors. </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[49]" value="B"
+                                    <input type="radio" required name="exam2section3question[49]" value="B"
                                         class="mr-2">
                                     (B) The chemical dyes were less easy to use.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[49]" value="C"
+                                    <input type="radio" required name="exam2section3question[49]" value="C"
                                         class="mr-2">
                                     (C) The chemical dyes lost their brightness more quickly when exposed to light.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[49]" value="D"
+                                    <input type="radio" required name="exam2section3question[49]" value="D"
                                         class="mr-2">
                                     (D) The chemical dyes held up better after washing
                                 </label>
@@ -326,28 +326,28 @@
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[50]" value="A"
+                                    <input type="radio" required name="exam2section3question[50]" value="A"
                                         class="mr-2"> (A) Previously developed dyes did not work on new types of
                                     fibers.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[50]" value="B"
+                                    <input type="radio" required name="exam2section3question[50]" value="B"
                                         class="mr-2"> (B) Dyes derived from petroleum caused damage to new synthetic
                                     fibers.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[50]" value="C"
+                                    <input type="radio" required name="exam2section3question[50]" value="C"
                                         class="mr-2"> (C) New synthetic fibers required brighter colors than natural
                                     fibers did.
                                 </label>
                             </li>
                             <li>
                                 <label>
-                                    <input type="radio" required name="exam1section3question[50]" value="D"
+                                    <input type="radio" required name="exam2section3question[50]" value="D"
                                         class="mr-2"> (D) New fabrics easily lost their colors when washed.
                                 </label>
                             </li>

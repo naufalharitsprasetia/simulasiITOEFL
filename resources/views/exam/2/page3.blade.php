@@ -292,7 +292,7 @@
                     </label>
                     <label class="block mb-2">
                         <input type="radio" name="exam2section1question[10]" class="mr-2" required
-                            value="B"> 
+                            value="B">
                         B. She has never been in Montana
                     </label>
                     <label class="block mb-2">

@@ -141,18 +141,25 @@ class ExamController extends Controller
 
     public function submit(Request $request)
     {
-        // Kunci jawaban untuk section2 dan section3
-        $answerKeySection1 = $this->getAnswerKeySection1();
-        $answerKeySection2 = $this->getAnswerKeySection2();
-        $answerKeySection3 = $this->getAnswerKeySection3();
-
         $user_exam_id = $request->input('user_exam_id');
         $currentPage = $request->input('pageNow', 1);
+        // buat variabel examId
+        $userExam = UserExam::find($user_exam_id);
+        $examId = $userExam->exam->id;
+        // Kunci jawaban untuk section2 dan section3
+        // kirim id exam ke fungsi get jawaban
+        $answerKeySection1 = $this->getAnswerKeySection1($examId);
+        $answerKeySection2 = $this->getAnswerKeySection2($examId);
+        $answerKeySection3 = $this->getAnswerKeySection3($examId);
 
+        // bikin variabel sesuai exam
+        $section1question = "exam" . $examId . "section1question";
+        $section2question = "exam" . $examId . "section2question";
+        $section3question = "exam" . $examId . "section3question";
         // Ambil jawaban dari section2 dan section3
-        $answersS1 = $request->input('exam1section1question', []);
-        $answersS2 = $request->input('exam1section2question', []);
-        $answersS3 = $request->input('exam1section3question', []);
+        $answersS1 = $request->input($section1question, []);
+        $answersS2 = $request->input($section2question, []);
+        $answersS3 = $request->input($section3question, []);
 
         // Jika tidak ada jawaban, redirect ke halaman berikutnya
         if (empty($answersS1) && empty($answersS2) && empty($answersS3)) {
@@ -161,18 +168,18 @@ class ExamController extends Controller
 
         // Validasi input
         $validated = $request->validate([
-            'exam1section1question.*' => 'nullable|string',
-            'exam1section2question.*' => 'nullable|string',
-            'exam1section3question.*' => 'nullable|string',
+            $section1question . '.*' => 'nullable|string',
+            $section2question . '.*' => 'nullable|string',
+            $section3question . '.*' => 'nullable|string',
         ]);
         // Simpan jawaban section1
-        $this->saveAnswers($validated['exam1section1question'] ?? [], $answerKeySection1, $user_exam_id, 'exam1section1question');
+        $this->saveAnswers($validated[$section1question] ?? [], $answerKeySection1, $user_exam_id, $section1question);
 
         // Simpan jawaban section2
-        $this->saveAnswers($validated['exam1section2question'] ?? [], $answerKeySection2, $user_exam_id, 'exam1section2question');
+        $this->saveAnswers($validated[$section2question] ?? [], $answerKeySection2, $user_exam_id, $section2question);
 
         // Simpan jawaban section3
-        $this->saveAnswers($validated['exam1section3question'] ?? [], $answerKeySection3, $user_exam_id, 'exam1section3question');
+        $this->saveAnswers($validated[$section3question] ?? [], $answerKeySection3, $user_exam_id, $section3question);
 
         // Cek jika ujian telah selesai
         if ($request->input('finish') === "true") {
@@ -183,46 +190,91 @@ class ExamController extends Controller
         return $this->redirectToNextPage($user_exam_id, $currentPage);
     }
     // Fungsi untuk mengambil kunci jawaban section1
-    private function getAnswerKeySection1()
+    private function getAnswerKeySection1($examId)
     {
         // Cek id EXAM 1 ATAU 2
         // Jika Exam 1 maka return kunci jawaban dibawah 
-        return [
-            1 => 'C', 2 => 'D', 3 => 'B', 4 => 'C', 5 => 'D',
-            6 => 'A', 7 => 'B', 8 => 'B', 9 => 'C', 10 => 'D',
-            11 => 'A', 12 => 'C', 13 => 'C', 14 => 'C', 15 => 'B',
-            16 => 'C', 17 => 'D', 18 => 'A', 19 => 'D', 20 => 'B',
-            21 => 'C', 22 => 'D', 23 => 'A', 24 => 'B', 25 => 'C',
-            26 => 'A', 27 => 'A', 28 => 'D', 29 => 'A', 30 => 'C',
-            31 => 'B', 32 => 'A', 33 => 'A', 34 => 'B', 35 => 'D',
-            36 => 'A', 37 => 'C', 38 => 'A', 39 => 'C', 40 => 'C',
-            41 => 'A', 42 => 'C', 43 => 'B', 44 => 'D', 45 => 'A',
-            46 => 'D', 47 => 'D', 48 => 'A', 49 => 'B', 50 => 'A'
-        ];
+        if ($examId == 1) {
+            return [
+                1 => 'C', 2 => 'D', 3 => 'B', 4 => 'C', 5 => 'D',
+                6 => 'A', 7 => 'B', 8 => 'B', 9 => 'C', 10 => 'D',
+                11 => 'A', 12 => 'C', 13 => 'C', 14 => 'C', 15 => 'B',
+                16 => 'C', 17 => 'D', 18 => 'A', 19 => 'D', 20 => 'B',
+                21 => 'C', 22 => 'D', 23 => 'A', 24 => 'B', 25 => 'C',
+                26 => 'A', 27 => 'A', 28 => 'D', 29 => 'A', 30 => 'C',
+                31 => 'B', 32 => 'A', 33 => 'A', 34 => 'B', 35 => 'D',
+                36 => 'A', 37 => 'C', 38 => 'A', 39 => 'C', 40 => 'C',
+                41 => 'A', 42 => 'C', 43 => 'B', 44 => 'D', 45 => 'A',
+                46 => 'D', 47 => 'D', 48 => 'A', 49 => 'B', 50 => 'A'
+            ];
+        } elseif ($examId == 2) {
+            return [
+                1 => 'A', 2 => 'C', 3 => 'B', 4 => 'D', 5 => 'C',
+                6 => 'D', 7 => 'D', 8 => 'B', 9 => 'B', 10 => 'D',
+                11 => 'B', 12 => 'B', 13 => 'D', 14 => 'A', 15 => 'D',
+                16 => 'B', 17 => 'C', 18 => 'C', 19 => 'A', 20 => 'D',
+                21 => 'D', 22 => 'D', 23 => 'A', 24 => 'A', 25 => 'A',
+                26 => 'B', 27 => 'C', 28 => 'C', 29 => 'A', 30 => 'A',
+                31 => 'A', 32 => 'D', 33 => 'B', 34 => 'B', 35 => 'B',
+                36 => 'C', 37 => 'B', 38 => 'A', 39 => 'D', 40 => 'C',
+                41 => 'B', 42 => 'D', 43 => 'B', 44 => 'C', 45 => 'A',
+                46 => 'C', 47 => 'C', 48 => 'D', 49 => 'A', 50 => 'B'
+            ];
+        } else {
+            echo "id exam tidak ditemukan";
+        }
     }
 
     // Fungsi untuk mengambil kunci jawaban section2
-    private function getAnswerKeySection2()
+    private function getAnswerKeySection2($examId)
     {
-        return [
-            1 => 'B', 2 => 'A', 3 => 'C', 4 => 'B', 5 => 'B', 6 => 'C', 7 => 'C', 8 => 'A',
-            9 => 'D', 10 => 'D', 11 => 'C', 12 => 'B', 13 => 'B', 14 => 'C', 15 => 'D', 16 => 'D',
-            17 => 'B', 18 => 'B', 19 => 'D', 20 => 'B', 21 => 'A', 22 => 'B', 23 => 'D', 24 => 'C',
-            25 => 'C', 26 => 'C', 27 => 'B', 28 => 'C', 29 => 'D', 30 => 'D', 31 => 'C', 32 => 'A',
-            33 => 'A', 34 => 'D', 35 => 'B', 36 => 'D', 37 => 'B', 38 => 'B', 39 => 'D', 40 => 'D'
-        ];
+        // Cek id EXAM 1 ATAU 2
+        // Jika Exam 1 maka return kunci jawaban dibawah 
+        if ($examId == 1) {
+            return [
+                1 => 'B', 2 => 'A', 3 => 'C', 4 => 'B', 5 => 'B', 6 => 'C', 7 => 'C', 8 => 'A',
+                9 => 'D', 10 => 'D', 11 => 'C', 12 => 'B', 13 => 'B', 14 => 'C', 15 => 'D', 16 => 'D',
+                17 => 'B', 18 => 'B', 19 => 'D', 20 => 'B', 21 => 'A', 22 => 'B', 23 => 'D', 24 => 'C',
+                25 => 'C', 26 => 'C', 27 => 'B', 28 => 'C', 29 => 'D', 30 => 'D', 31 => 'C', 32 => 'A',
+                33 => 'A', 34 => 'D', 35 => 'B', 36 => 'D', 37 => 'B', 38 => 'B', 39 => 'D', 40 => 'D'
+            ];
+        } elseif ($examId == 2) {
+            return [
+                1 => 'A', 2 => 'A', 3 => 'C', 4 => 'B', 5 => 'B', 6 => 'C', 7 => 'C', 8 => 'A',
+                9 => 'D', 10 => 'D', 11 => 'C', 12 => 'B', 13 => 'B', 14 => 'C', 15 => 'D', 16 => 'D',
+                17 => 'B', 18 => 'B', 19 => 'D', 20 => 'B', 21 => 'A', 22 => 'B', 23 => 'D', 24 => 'C',
+                25 => 'C', 26 => 'C', 27 => 'B', 28 => 'C', 29 => 'D', 30 => 'D', 31 => 'C', 32 => 'A',
+                33 => 'A', 34 => 'D', 35 => 'B', 36 => 'D', 37 => 'B', 38 => 'B', 39 => 'D', 40 => 'D'
+            ];
+        } else {
+            echo "id exam tidak ditemukan";
+        }
     }
 
     // Fungsi untuk mengambil kunci jawaban section3
-    private function getAnswerKeySection3()
+    private function getAnswerKeySection3($examId)
     {
-        return [
-            1 => 'B', 2 => 'C', 3 => 'D', 4 => 'A', 5 => 'C', 6 => 'B', 7 => 'B', 8 => 'A', 9 => 'B', 10 => 'B',
-            11 => 'D', 12 => 'A', 13 => 'A', 14 => 'C', 15 => 'A', 16 => 'A', 17 => 'B', 18 => 'B', 19 => 'C', 20 => 'D',
-            21 => 'C', 22 => 'A', 23 => 'D', 24 => 'A', 25 => 'D', 26 => 'D', 27 => 'C', 28 => 'B', 29 => 'B', 30 => 'D',
-            31 => 'B', 32 => 'A', 33 => 'D', 34 => 'B', 35 => 'B', 36 => 'A', 37 => 'A', 38 => 'A', 39 => 'D', 40 => 'B',
-            41 => 'A', 42 => 'C', 43 => 'D', 44 => 'D', 45 => 'B', 46 => 'A', 47 => 'A', 48 => 'D', 49 => 'A', 50 => 'A'
-        ];
+        // Cek id EXAM 1 ATAU 2
+        // Jika Exam 1 maka return kunci jawaban dibawah 
+        if ($examId == 1) {
+            return [
+                1 => 'B', 2 => 'C', 3 => 'D', 4 => 'A', 5 => 'C', 6 => 'B', 7 => 'B', 8 => 'A', 9 => 'B', 10 => 'B',
+                11 => 'D', 12 => 'A', 13 => 'A', 14 => 'C', 15 => 'A', 16 => 'A', 17 => 'B', 18 => 'B', 19 => 'C', 20 => 'D',
+                21 => 'C', 22 => 'A', 23 => 'D', 24 => 'A', 25 => 'D', 26 => 'D', 27 => 'C', 28 => 'B', 29 => 'B', 30 => 'D',
+                31 => 'B', 32 => 'A', 33 => 'D', 34 => 'B', 35 => 'B', 36 => 'A', 37 => 'A', 38 => 'A', 39 => 'D', 40 => 'B',
+                41 => 'A', 42 => 'C', 43 => 'D', 44 => 'D', 45 => 'B', 46 => 'A', 47 => 'A', 48 => 'D', 49 => 'A', 50 => 'A'
+            ];
+        } elseif ($examId == 2) {
+            return [
+                1 => 'C', 2 => 'B', 3 => 'B', 4 => 'A', 5 => 'A', 6 => 'B', 7 => 'C', 8 => 'A', 9 => 'A', 10 => 'B',
+                11 => 'B', 12 => 'B', 13 => 'C', 14 => 'D', 15 => 'D', 16 => 'B', 17 => 'A', 18 => 'D', 19 => 'A', 20 => 'A',
+                21 => 'C', 22 => 'C', 23 => 'C', 24 => 'D', 25 => 'C', 26 => 'A', 27 => 'A', 28 => 'C', 29 => 'A', 30 => 'A',
+                31 => 'B', 32 => 'D', 33 => 'D', 34 => 'C', 35 => 'D', 36 => 'D', 37 => 'B', 38 => 'B', 39 => 'D', 40 => 'C',
+                41 => 'B', 42 => 'A', 43 => 'D', 44 => 'C', 45 => 'A', 46 => 'A', 47 => 'C', 48 => 'C', 49 => 'D', 50 => 'A'
+            ];
+        } else {
+            echo "id exam tidak ditemukan";
+        }
     }
 
     // Fungsi untuk menyimpan jawaban
@@ -258,6 +310,11 @@ class ExamController extends Controller
 
         // Mengambil data dari UserExam
         $userExam = UserExam::find($user_exam_id);
+        $examId = $userExam->exam->id;
+        // bikin variabel sesuai exam
+        $section1question = "exam" . $examId . "section1question";
+        $section2question = "exam" . $examId . "section2question";
+        $section3question = "exam" . $examId . "section3question";
 
         if (!$userExam) {
             return redirect()->back()->with('error', 'Practice not found.');
@@ -265,15 +322,15 @@ class ExamController extends Controller
 
         // Ambil jawaban dari tabel Answers untuk Section 2 dan Section 3
         $section1Answers = Answer::where('user_exam_id', $user_exam_id)
-            ->where('question_id', 'LIKE', 'exam1section1question[%]')
+            ->where('question_id', 'LIKE', $section1question . '[%]')
             ->get();
 
         $section2Answers = Answer::where('user_exam_id', $user_exam_id)
-            ->where('question_id', 'LIKE', 'exam1section2question[%]')
+            ->where('question_id', 'LIKE', $section2question . '[%]')
             ->get();
 
         $section3Answers = Answer::where('user_exam_id', $user_exam_id)
-            ->where('question_id', 'LIKE', 'exam1section3question[%]')
+            ->where('question_id', 'LIKE', $section3question . '[%]')
             ->get();
 
         // Hitung jumlah benar di setiap section
@@ -365,17 +422,22 @@ class ExamController extends Controller
             ->get();
 
         foreach ($expiredExams as $userExam) {
+            $examId = $userExam->exam->id;
+            // bikin variabel sesuai exam
+            $section1question = "exam" . $examId . "section1question";
+            $section2question = "exam" . $examId . "section2question";
+            $section3question = "exam" . $examId . "section3question";
             // Ambil jawaban dari tabel Answers untuk section 2 dan section 3
             $section1Answers = Answer::where('user_exam_id', $userExam->id)
-                ->where('question_id', 'LIKE', 'exam1section1question[%]')
+                ->where('question_id', 'LIKE', $section1question . '[%]')
                 ->get();
 
             $section2Answers = Answer::where('user_exam_id', $userExam->id)
-                ->where('question_id', 'LIKE', 'exam1section2question[%]')
+                ->where('question_id', 'LIKE', $section2question . '[%]')
                 ->get();
 
             $section3Answers = Answer::where('user_exam_id', $userExam->id)
-                ->where('question_id', 'LIKE', 'exam1section3question[%]')
+                ->where('question_id', 'LIKE', $section3question . '[%]')
                 ->get();
 
             // Hitung jumlah jawaban benar di setiap section
@@ -389,7 +451,7 @@ class ExamController extends Controller
             $section3Score = $section3Answers->isEmpty() ? 0 : max(67 - (50 - $section3CorrectAnswers), 0);
 
             // Hitung total skor berdasarkan formula
-            $totalScore = ($section1Score + $section2Score + $section3Score) * 10 / 2;
+            $totalScore = ($section1Score + $section2Score + $section3Score) * 10 / 3;
 
             // Update UserExam dengan is_finish menjadi true dan menyimpan total score
             // $userExam->update([

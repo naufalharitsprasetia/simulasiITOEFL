@@ -17,7 +17,7 @@
     </div>
     {{-- AUDIO HIDDEN --}}
     <audio autoplay loop style="display: none;">
-        <source src="{{ asset('audio/partB/PartBdirections.mp3.mp3') }}" type="audio/mpeg">
+        <source src="{{ asset('audio/partB/PartBdirections.mp3') }}" type="audio/mpeg">
         Browser Anda tidak mendukung elemen audio.
     </audio>
     {{-- AUDIO HIDDEN --}}

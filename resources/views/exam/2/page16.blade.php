@@ -30,36 +30,35 @@
          <!-- Question 31 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 31. North American bison <span class="word-container"><span class="word">differ from </span><span
-                         class="letter">A</span></span>
-                 <span class="word-container"><span class="word">domestic </span><span class="letter">B</span></span>
-                 cattle in
-                 <span class="word-container"><span class="word">have </span><span class="letter">C</span></span> 14
-                 <span class="word-container"><span class="word">rather than </span><span
-                         class="letter">D</span></span> 13 pairs of ribs.
+                 31. The <span class="word-container"><span class="word">long of time </span><span
+                         class="letter">A</span></span> a battery maintains its useful life
+                 <span class="word-container"><span class="word">while idle </span><span class="letter">B</span></span>
+                 <span class="word-container"><span class="word">depends </span><span class="letter">C</span></span>
+                 <span class="word-container"><span class="word">on </span><span class="letter">D</span></span> many
+                 factors: quality of construction, cell size, cell type, and storage temperature.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[31]" value="A" class="mr-2">
+                         <input type="radio" required name="exam2section2question[31]" value="A" class="mr-2">
                          (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[31]" value="B" class="mr-2">
+                         <input type="radio" required name="exam2section2question[31]" value="B" class="mr-2">
                          (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[31]" value="C" class="mr-2">
+                         <input type="radio" required name="exam2section2question[31]" value="C" class="mr-2">
                          (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[31]" value="D" class="mr-2">
+                         <input type="radio" required name="exam2section2question[31]" value="D" class="mr-2">
                          (D)
                      </label>
                  </li>
@@ -69,37 +68,37 @@
          <!-- Question 32 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 32. Female sea turtles, before laying <span class="word-container"><span class="word">her
+                 32. Leather is <span class="word-container"><span class="word">dried
                      </span><span class="letter">A</span></span>
-                 eggs, swim as <span class="word-container"><span class="word">much </span><span
-                         class="letter">B</span></span> as 2,000 kilometers to
-                 <span class="word-container"><span class="word">return </span><span class="letter">C</span></span>
-                 to the beaches <span class="word-container"><span class="word">where </span><span
+                 under <span class="word-container"><span class="word">natural </span><span
+                         class="letter">B</span></span> or controlled humidity conditions,
+                 <span class="word-container"><span class="word">prepared </span><span class="letter">C</span></span>
+                 it for <span class="word-container"><span class="word">subsequent </span><span
                          class="letter">D</span></span>
-                 they themselves were hatched.
+                 softening and finishing operations.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[32]" value="A" class="mr-2">
+                         <input type="radio" required name="exam2section2question[32]" value="A" class="mr-2">
                          (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[32]" value="B" class="mr-2">
+                         <input type="radio" required name="exam2section2question[32]" value="B" class="mr-2">
                          (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[32]" value="C" class="mr-2">
+                         <input type="radio" required name="exam2section2question[32]" value="C" class="mr-2">
                          (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[32]" value="D" class="mr-2">
+                         <input type="radio" required name="exam2section2question[32]" value="D" class="mr-2">
                          (D)
                      </label>
                  </li>
@@ -109,37 +108,37 @@
          <!-- Question 33 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 33. Water is the only substance that <span class="word-container"><span class="word">occur
+                 33. <span class="word-container"><span class="word">Of
                      </span><span class="letter">A</span></span>
-                 at <span class="word-container"><span class="word">ordinary temperatures </span><span
-                         class="letter">B</span></span>
-                 in
-                 <span class="word-container"><span class="word">all three </span><span class="letter">C</span></span>
-                 states of matter: <span class="word-container"><span class="word">solid</span><span
-                         class="letter">D</span></span>, liquid and gas.
+                 all the organized, independent <span class="word-container"><span class="word">city
+                     </span><span class="letter">B</span></span>
+                 in Texas, Laredo,
+                 <span class="word-container"><span class="word">founded </span><span class="letter">C</span></span>
+                 in 1755, is the <span class="word-container"><span class="word">oldest. </span><span
+                         class="letter">D</span></span>
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[33]" value="A" class="mr-2">
+                         <input type="radio" required name="exam2section2question[33]" value="A" class="mr-2">
                          (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[33]" value="B" class="mr-2">
+                         <input type="radio" required name="exam2section2question[33]" value="B" class="mr-2">
                          (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[33]" value="C" class="mr-2">
+                         <input type="radio" required name="exam2section2question[33]" value="C" class="mr-2">
                          (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[33]" value="D" class="mr-2">
+                         <input type="radio" required name="exam2section2question[33]" value="D" class="mr-2">
                          (D)
                      </label>
                  </li>
@@ -149,38 +148,39 @@
          <!-- Question 34 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 34. <span class="word-container"><span class="word">Despite </span><span
+                 34. <span class="word-container"><span class="word">There </span><span
                          class="letter">A</span></span>
-                 the growth of <span class="word-container"><span class="word">manufacturing
-                     </span><span class="letter">B</span></span> and other industries, the economy of the state of
-                 Texas
-                 <span class="word-container"><span class="word">has </span><span class="letter">C</span></span>
-                 remained heavily <span class="word-container"><span class="word">dependence </span><span
+                 was in Kitty Hawk, North Carolina, on December 17, 1903, that the first controlled <span
+                     class="word-container"><span class="word">flight
+                     </span><span class="letter">B</span></span> of a
+                 <span class="word-container"><span class="word">powered, </span><span
+                         class="letter">C</span></span>
+                 heavier-than-air craft <span class="word-container"><span class="word">took </span><span
                          class="letter">D</span></span>
-                 on oil and gas.
+                 place.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[34]" value="A"
+                         <input type="radio" required name="exam2section2question[34]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[34]" value="B"
+                         <input type="radio" required name="exam2section2question[34]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[34]" value="C"
+                         <input type="radio" required name="exam2section2question[34]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[34]" value="D"
+                         <input type="radio" required name="exam2section2question[34]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -190,37 +190,37 @@
          <!-- Question 35 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 35. Lyndon B. Johnson <span class="word-container"><span class="word">was </span><span
-                         class="letter">A</span></span> the only United States President <span
-                     class="word-container"><span class="word">who </span><span class="letter">B</span></span>
-                 oath of ofﬁce was
-                 <span class="word-container"><span class="word">administered </span><span
+                 35. The <span class="word-container"><span class="word">favored </span><span
+                         class="letter">A</span></span> habitat of the junco, a small sparrow, is a <span
+                     class="word-container"><span class="word">mixed </span><span class="letter">B</span></span>
+                 or coniferous forest,
+                 <span class="word-container"><span class="word">despite </span><span
                          class="letter">C</span></span>
-                 by <span class="word-container"><span class="word">a woman </span><span
-                         class="letter">D</span></span> Judge Sarah Tilghman Hughes
+                 it is <span class="word-container"><span class="word">often noted </span><span
+                         class="letter">D</span></span> in fields, thickets, and city parks.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[35]" value="A"
+                         <input type="radio" required name="exam2section2question[35]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[35]" value="B"
+                         <input type="radio" required name="exam2section2question[35]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[35]" value="C"
+                         <input type="radio" required name="exam2section2question[35]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[35]" value="D"
+                         <input type="radio" required name="exam2section2question[35]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -230,38 +230,38 @@
          <!-- Question 36 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 36. <span class="word-container"><span class="word">It
-                     </span><span class="letter">A</span></span> took <span class="word-container"><span
-                         class="word">
-                         more than </span><span class="letter">B</span></span>
-                 fourteen years
-                 <span class="word-container"><span class="word">to carve </span><span
+                 36. <span class="word-container"><span class="word">By
+                     </span><span class="letter">A</span></span> studying modern coral reefs, geologists and biologists
+                 <span class="word-container"><span class="word">
+                         hope </span><span class="letter">B</span></span>
+                 to
+                 <span class="word-container"><span class="word">understand mechanism </span><span
                          class="letter">C</span></span>
-                 the faces of four United States Presidents into the granite cliffs <span class="word-container"><span
-                         class="word">to </span><span class="letter">D</span></span> Mount Rushmore, South Dakota.
+                 of <span class="word-container"><span class="word">formation, </span><span
+                         class="letter">D</span></span> migration, and entrapment of petroleum in ancient reefs.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[36]" value="A"
+                         <input type="radio" required name="exam2section2question[36]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[36]" value="B"
+                         <input type="radio" required name="exam2section2question[36]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[36]" value="C"
+                         <input type="radio" required name="exam2section2question[36]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[36]" value="D"
+                         <input type="radio" required name="exam2section2question[36]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -271,37 +271,38 @@
          <!-- Question 37 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 37. Charles Bullﬁ nch was <span class="word-container"><span class="word">the architect
-                     </span><span class="letter">A</span></span> who <span class="word-container"><span
-                         class="word">design </span><span class="letter">B</span></span>
-                 the
-                 <span class="word-container"><span class="word">original </span><span
+                 37. Searching for <span class="word-container"><span class="word">alternate
+                     </span><span class="letter">A</span></span> forms of energy does not <span
+                     class="word-container"><span class="word">necessary </span><span
+                         class="letter">B</span></span>
+                 mean the
+                 <span class="word-container"><span class="word">abandonment </span><span
                          class="letter">C</span></span>
-                 red brick core <span class="word-container"><span class="word">of the </span><span
-                         class="letter">D</span></span> State House in Boston.
+                 of fossil fuels as an energy <span class="word-container"><span class="word">source. </span><span
+                         class="letter">D</span></span>
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[37]" value="A"
+                         <input type="radio" required name="exam2section2question[37]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[37]" value="B"
+                         <input type="radio" required name="exam2section2question[37]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[37]" value="C"
+                         <input type="radio" required name="exam2section2question[37]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[37]" value="D"
+                         <input type="radio" required name="exam2section2question[37]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -311,37 +312,36 @@
          <!-- Question 38 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 38. <span class="word-container"><span class="word">Rarely has </span><span
-                         class="letter">A</span></span> a technological development had as great an impact on <span
-                     class="word-container"><span class="word">as much </span><span class="letter">B</span></span>
-                 aspects of social, economic, and cultural
-                 <span class="word-container"><span class="word">development </span><span
-                         class="letter">C</span></span>
-                 as the <span class="word-container"><span class="word">growth
-                     </span><span class="letter">D</span></span> of electronics.
+                 38. United States civil rights <span class="word-container"><span class="word">activist
+                     </span><span class="letter">A</span></span> Medgar Evers was a leader
+                 <span class="word-container"><span class="word">in the </span><span class="letter">B</span></span>
+                 struggle to gain equal rights
+                 <span class="word-container"><span class="word">to </span><span class="letter">C</span></span>
+                 African Americans in his <span class="word-container"><span class="word">home state,
+                     </span><span class="letter">D</span></span> Mississippi
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[38]" value="A"
+                         <input type="radio" required name="exam2section2question[38]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[38]" value="B"
+                         <input type="radio" required name="exam2section2question[38]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[38]" value="C"
+                         <input type="radio" required name="exam2section2question[38]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[38]" value="D"
+                         <input type="radio" required name="exam2section2question[38]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -351,37 +351,36 @@
          <!-- Question 39  -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 39. Lowell, Massachusetts, known as the “Spindle City” <span class="word-container"><span
-                         class="word">since </span><span class="letter">A</span></span> 1822
-                 <span class="word-container"><span class="word">when </span><span class="letter">B</span></span>
-                 its ﬁrst textile mills were built,
-                 <span class="word-container"><span class="word">attracted </span><span
-                         class="letter">C</span></span>
-                 worldwide attention as <span class="word-container"><span class="word">textile </span><span
-                         class="letter">D</span></span> center.
+                 39. The <span class="word-container"><span class="word">element </span><span
+                         class="letter">A</span></span> potassium
+                 <span class="word-container"><span class="word">makes up </span><span
+                         class="letter">B</span></span>
+                 <span class="word-container"><span class="word">less </span><span class="letter">C</span></span>
+                 than one half <span class="word-container"><span class="word">percentage </span><span
+                         class="letter">D</span></span> of the human body.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[39]" value="A"
+                         <input type="radio" required name="exam2section2question[39]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[39]" value="B"
+                         <input type="radio" required name="exam2section2question[39]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[39]" value="C"
+                         <input type="radio" required name="exam2section2question[39]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[39]" value="D"
+                         <input type="radio" required name="exam2section2question[39]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>
@@ -391,36 +390,38 @@
          <!-- Question 40 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 40. Strange Victory, Sara Teasdale’s <span class="word-container"><span class="word">smallest
-                     </span><span class="letter">A</span></span> and <span class="word-container"><span
-                         class="word">most perfect </span><span class="letter">B</span></span>
-                 collection
-                 <span class="word-container"><span class="word">of poems </span><span
-                         class="letter">C</span></span>, <span class="word-container"><span class="word"> appear
-                     </span><span class="letter">D</span></span> in print in 1933.
+                 40. The <span class="word-container"><span class="word">canoe designed
+                     </span><span class="letter">A</span></span> by North American Indians was very suitable for use on
+                 inland waters, <span class="word-container"><span class="word">for </span><span
+                         class="letter">B</span></span>
+                 it was easily portable and had
+                 <span class="word-container"><span class="word">amply </span><span
+                         class="letter">C</span></span>storage <span class="word-container"><span class="word">
+                         space.
+                     </span><span class="letter">D</span></span>
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[40]" value="A"
+                         <input type="radio" required name="exam2section2question[40]" value="A"
                              class="mr-2"> (A)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[40]" value="B"
+                         <input type="radio" required name="exam2section2question[40]" value="B"
                              class="mr-2"> (B)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[40]" value="C"
+                         <input type="radio" required name="exam2section2question[40]" value="C"
                              class="mr-2"> (C)
                      </label>
                  </li>
                  <li>
                      <label>
-                         <input type="radio" required name="exam1section2question[40]" value="D"
+                         <input type="radio" required name="exam2section2question[40]" value="D"
                              class="mr-2"> (D)
                      </label>
                  </li>

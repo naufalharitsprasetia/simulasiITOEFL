@@ -428,15 +428,13 @@
          <!-- Question 26 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 26. Adolescence is a <span class="word-container"><span class="word">transitional stage
-                     </span><span class="letter">A</span></span> in human development from
-                 <span class="word-container"><span class="word">the beginning </span><span
-                         class="letter">B</span></span>
-                 of puberty to the attainment of the
-                 <span class="word-container"><span class="word">emotion </span><span
-                         class="letter">C</span></span>
-                 social, and physical maturity of <span class="word-container"><span class="word">adulthood
-                     </span><span class="letter">D</span></span>
+                 26. <span class="word-container"><span class="word">Most
+                     </span><span class="letter">A</span></span> animals
+                 <span class="word-container"><span class="word">have </span><span class="letter">B</span></span>
+                 salivary glands
+                 <span class="word-container"><span class="word">what </span><span class="letter">C</span></span>
+                 resemble <span class="word-container"><span class="word">those
+                     </span><span class="letter">D</span></span> in humans.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
@@ -469,12 +467,14 @@
          <!-- Question 27 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 27. The <span class="word-container"><span class="word">people native </span><span
-                         class="letter">A</span></span> to the northwest coast of North American have long <span
-                     class="word-container"><span class="word">be known </span><span class="letter">B</span></span>
-                 <span class="word-container"><span class="word">for </span><span class="letter">C</span></span>
-                 wood carvings <span class="word-container"><span class="word">of </span><span
-                         class="letter">D</span></span> stunning beauty and extraordinary quality.
+                 27. Used <span class="word-container"><span class="word">for making </span><span
+                         class="letter">A</span></span> pottery, clay has two <span class="word-container"><span
+                         class="word">characteristics distinctive: </span><span class="letter">B</span></span> it
+                 can be molded and it can be baked
+                 <span class="word-container"><span class="word">to form </span><span
+                         class="letter">C</span></span>
+                 a brittle but <span class="word-container"><span class="word">otherwise </span><span
+                         class="letter">D</span></span> durable material.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
@@ -507,14 +507,14 @@
          <!-- Question 28 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 28. Colonial efforts to <span class="word-container"><span class="word">manufacture </span><span
-                         class="letter">A</span></span> glass at Jamestown—and <span class="word-container"><span
-                         class="word">later attempts </span><span class="letter">B</span></span>near Philadelphia
-                 and Boston—failed despite the
-                 <span class="word-container"><span class="word">abundant </span><span
+                 28. The novels of Amy Tan <span class="word-container"><span class="word">depict </span><span
+                         class="letter">A</span></span> of tension between mothers and daughters <span
+                     class="word-container"><span class="word">as well </span><span class="letter">B</span></span>
+                 as conflicts
+                 <span class="word-container"><span class="word">experienced by </span><span
                          class="letter">C</span></span>
-                 of fuel and good raw <span class="word-container"><span class="word">materials </span><span
-                         class="letter">D</span></span>
+                 many Chinese immigrants <span class="word-container"><span class="word">to </span><span
+                         class="letter">D</span></span> the United States.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
@@ -547,13 +547,13 @@
          <!-- Question 29 -->
          <div class="mb-8">
              <p class="text-lg/10">
-                 29. The <span class="word-container"><span class="word">orbit </span><span
-                         class="letter">A</span></span> of a celestial <span class="word-container"><span
-                         class="word">body </span><span class="letter">B</span></span>is
-                 <span class="word-container"><span class="word">usually </span><span
+                 29. The symptoms <span class="word-container"><span class="word">of </span><span
+                         class="letter">A</span></span> pneumonia, <span class="word-container"><span
+                         class="word">a </span><span class="letter">B</span></span> lung infection,
+                 <span class="word-container"><span class="word">include </span><span
                          class="letter">C</span></span>
-                 in the shape of <span class="word-container"><span class="word">ellipse </span><span
-                         class="letter">D</span></span>
+                 high fever, chest pain, breathing <span class="word-container"><span class="word">difficult,
+                     </span><span class="letter">D</span></span> and coughing.
              </p>
              <ul class="space-y-2 mt-4">
                  <li>
@@ -586,12 +586,13 @@
          <!-- Question 30-->
          <div class="mb-8">
              <p class="text-lg/10">
-                 30. Chicago is <span class="word-container"><span class="word">the third </span><span
-                         class="letter">A</span></span> largest <span class="word-container"><span
-                         class="word">publishing </span><span class="letter">B</span></span>
-                 <span class="word-container"><span class="word">center </span><span class="letter">C</span></span>
-                 in the United States, <span class="word-container"><span class="word">exceeding </span><span
-                         class="letter">D</span></span> only by New York City and San Francisco
+                 30. A basic premise of humanism is <span class="word-container"><span class="word">that
+                     </span><span class="letter">A</span></span> people are rational beings who <span
+                     class="word-container"><span class="word">possesses </span><span
+                         class="letter">B</span></span> the capacity
+                 <span class="word-container"><span class="word">for </span><span class="letter">C</span></span>
+                 truth and <span class="word-container"><span class="word">goodness. </span><span
+                         class="letter">D</span></span>
              </p>
              <ul class="space-y-2 mt-4">
                  <li>

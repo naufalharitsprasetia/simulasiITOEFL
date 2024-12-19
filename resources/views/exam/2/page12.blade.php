@@ -5,32 +5,30 @@
     <div class="body-container mt-12">
         <!-- Question 1 -->
         <div class="mb-8">
-            <p class="text-lg">1. Laura Way’s career as a social reformer ____ in 1851 when, at an antislavery meeting in
-                Indiana, she called for a state woman’s rights convention.</p>
+            <p class="text-lg">1. _____ of classical ballet in the United States began around 1830.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[1]" value="A" class="mr-2"> (A)
-                        begins
+                        To teach
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[1]" value="B" class="mr-2">
-                        (B) began
+                        (B) Is teaching
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[1]" value="C" class="mr-2">
-                        (C) has begun
+                        (C) It was taught
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[1]" value="D" class="mr-2">
-                        (D) to have
-                        begun
+                        (D) The teaching
                     </label>
                 </li>
             </ul>
@@ -38,37 +36,32 @@
 
         <!-- Question 2 -->
         <div class="mb-8">
-            <p class="text-lg">2. The celesta, an orchestral percussion instrument, gathers____</p>
+            <p class="text-lg">2. Mason bees are solitary bees, which means _____ in colonies like honeybees or
+                bumblebees.
+            </p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[2]" value="A" class="mr-2">
-                        (A) a small
-                        upright piano
+                        (A) do not live
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[2]" value="B" class="mr-2">
-                        (B) how a small
-                        upright
-                        piano
+                        (B) when they do not live
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[2]" value="C" class="mr-2">
-                        (C) a small
-                        upright piano
-                        is
+                        (C) that they do not live
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[2]" value="D" class="mr-2">
-                        (D) as a small
-                        upright
-                        piano
+                        (D) that do not live
                     </label>
                 </li>
             </ul>
@@ -76,36 +69,31 @@
 
         <!-- Question 3 -->
         <div class="mb-8">
-            <p class="text-lg">3. Thomas Paine, _____, wrote Common Sense, a pamphlet that identified the American
-                colonies with the cause of liberty.</p>
+            <p class="text-lg">3. Long before the advent of written literature, _____ their myths and stories in oral
+                poems told by successive generations.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[3]" value="A" class="mr-2">
-                        (A) writer of
-                        eloquent
+                        (A) people recorded
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[3]" value="B" class="mr-2">
-                        (B) whose
-                        eloquent
-                        writing
+                        (B) recording people
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[3]" value="C" class="mr-2">
-                        (C) an eloquent
-                        writer
+                        (C) people’s recordings
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[3]" value="D" class="mr-2">
-                        (D) writing
-                        eloquent
+                        (D) people who recorded
                     </label>
                 </li>
             </ul>
@@ -113,31 +101,30 @@
 
         <!-- Question 4 -->
         <div class="mb-8">
-            <p class="text-lg">4. Although beavers rarely remain submerged for more than two minutes, they can stay
-                underwater ____ fifteen minutes before having to surface for air.</p>
+            <p class="text-lg">4. Comparative anatomy is _____ classification of both plants and animals.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[4]" value="A" class="mr-2">
-                        (A) as long
+                        (A) the basis for
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[4]" value="B" class="mr-2">
-                        (B) as long as
+                        (B) for basics
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[4]" value="C" class="mr-2">
-                        (C) so long
+                        (C) the basis that
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[4]" value="D" class="mr-2">
-                        (D) so long that
+                        (D) the basically
                     </label>
                 </li>
             </ul>
@@ -145,30 +132,32 @@
 
         <!-- Question 5 -->
         <div class="mb-8">
-            <p class="text-lg">5. Protein digestion begins in the stomach ____ ends in the small intestine.</p>
+            <p class="text-lg">5. Although legend has it that the Pilgrims first set foot in America on Plymouth Rock in
+                1620, _____ documentary evidence confirming this.
+            </p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[5]" value="A" class="mr-2">
-                        (A) while
+                        (A) no
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[5]" value="B" class="mr-2">
-                        (B) and
+                        (B) still is no
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[5]" value="C" class="mr-2">
-                        (C) how
+                        (C) there is no
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[5]" value="D" class="mr-2">
-                        (D) because
+                        (D) but no
                     </label>
                 </li>
             </ul>
@@ -176,38 +165,31 @@
 
         <!-- Question 6 -->
         <div class="mb-8">
-            <p class="text-lg">6. When natural gas burns, its ___ into atoms of carbon and hydrogen.</p>
+            <p class="text-lg">6. Despite its fishlike form, the whale is _____ and will drown if submerged too long.
+            </p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[6]" value="A"
-                            class="mr-2"> (A)
-                        hydrocarbon
-                        molecules, breaking up
+                            class="mr-2"> (A) an animal breathes air that
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[6]" value="B"
-                            class="mr-2"> (B) broke up
-                        by
-                        hydrocarbon molecules
+                            class="mr-2"> (B) an animal that breathes air
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[6]" value="C"
-                            class="mr-2"> (C)
-                        hydrocarbon
-                        molecules break up
+                            class="mr-2"> (C) an animal breathes air
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[6]" value="D"
-                            class="mr-2"> (D) broken
-                        up
-                        hydrocarbon molecules
+                            class="mr-2"> (D) that an animal breathes air
                     </label>
                 </li>
             </ul>
@@ -215,30 +197,30 @@
 
         <!-- Question 7 -->
         <div class="mb-8">
-            <p class="text-lg">7. _____ ballet dancers learn ﬁve basic positions for the arms and feet.</p>
+            <p class="text-lg">7. Clouds _____ in warm air rises, cools, and condenses.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[7]" value="A"
-                            class="mr-2"> (A) All of
+                            class="mr-2"> (A) when form water vapor
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[7]" value="B"
-                            class="mr-2"> (B) Of every
+                            class="mr-2"> (B) form when water vapor
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[7]" value="C"
-                            class="mr-2"> (C) All
+                            class="mr-2"> (C) form vapor water when
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[7]" value="D"
-                            class="mr-2"> (D) Every
+                            class="mr-2"> (D) vapor form when water
                     </label>
                 </li>
             </ul>
@@ -246,35 +228,31 @@
 
         <!-- Question 8 -->
         <div class="mb-8">
-            <p class="text-lg">8. Some colonies of bryozoans, small marine animals, form ___ with trailing stems.</p>
+            <p class="text-lg">8. Portland, _____, is located primarily on two hilly peninsulas overlooking Casco Bay
+                and its many islands.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[8]" value="A"
-                            class="mr-2"> (A) creeping
-                        colonies
+                            class="mr-2"> (A) which Maine’s largest city
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[8]" value="B"
-                            class="mr-2"> (B) which
-                        colonies
-                        creep
+                            class="mr-2"> (B) Maine’s largest city where
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[8]" value="C"
-                            class="mr-2"> (C) creeping
-                        colonies
-                        are
+                            class="mr-2"> (C) is Maine’s largest city
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[8]" value="D"
-                            class="mr-2"> (D) colonies
+                            class="mr-2"> (D) Maine’s largest city
                         creep
                     </label>
                 </li>
@@ -283,39 +261,31 @@
 
         <!-- Question 9 -->
         <div class="mb-8">
-            <p class="text-lg">9. Ruth Bader Ginsburg argued six women’s rights cases before the United States Supreme
-                Court in the 1970’s, ____</p>
+            <p class="text-lg">9. Mars, the so-called red planet, is actually colored red by iron oxide and other
+                impurities _____ the whole surface.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[9]" value="A"
-                            class="mr-2"> (A) of ﬁve
-                        winning
-                        them
+                            class="mr-2"> (A) that cover
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[9]" value="B"
-                            class="mr-2"> (B) ﬁve
-                        winning of
-                        them
+                            class="mr-2"> (B) in which are covered
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[9]" value="C"
-                            class="mr-2"> (C) of them
-                        ﬁve
-                        winning
+                            class="mr-2"> (C) that they cover
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[9]" value="D"
-                            class="mr-2"> (D) winning
-                        ﬁve of
-                        them
+                            class="mr-2"> (D) and covered
                     </label>
                 </li>
             </ul>
@@ -323,38 +293,32 @@
 
         <!-- Question 10 -->
         <div class="mb-8">
-            <p class="text-lg">10. Natural selection is deﬁned as the process ___ the course of evolution by preserving
-                those traits best adapted for an organism’s survival.</p>
+            <p class="text-lg">10. The 1903 film The Great Train Robbery was the first significant film in which the
+                classic western story’s formula of crime and retribution _____.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[10]" value="A"
-                            class="mr-2"> (A) to
-                        which
-                        directs
+                            class="mr-2"> (A) was used
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[10]" value="B"
-                            class="mr-2"> (B) of
-                        which
-                        directs
-                        it
+                            class="mr-2"> (B) to be used
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[10]" value="C"
-                            class="mr-2"> (C) directs
+                            class="mr-2"> (C) used
                         it
                     </label>
                 </li>
                 <li>
                     <label>
                         <input type="radio" required name="exam2section2question[10]" value="D"
-                            class="mr-2"> (D) that
-                        directs
+                            class="mr-2"> (D) had used
                     </label>
                 </li>
             </ul>

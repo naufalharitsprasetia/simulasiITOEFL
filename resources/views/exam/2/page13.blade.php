@@ -5,33 +5,32 @@
     <div class="body-container mt-12">
         <!-- Question 11 -->
         <div class="mb-8">
-            <p class="text-lg">11. ____ 362 miles between the cities of Albany and Buffalo in New York State, the Eric
-                Canal helped link the Atlantic Ocean with the Great Lakes. </p>
+            <p class="text-lg">11. When played in certain ways, the bassoon can produce comical sounds, _____ it is
+                sometimes
+                referred to as the clown of the orchestra.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[11]" value="A" class="mr-2"> (A)
-                        The extension
-                        of
+                        <input type="radio" required name="exam2section2question[11]" value="A" class="mr-2"> (A)
+                        or
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[11]" value="B" class="mr-2">
-                        (B) The
-                        extension
+                        <input type="radio" required name="exam2section2question[11]" value="B" class="mr-2">
+                        (B) that
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[11]" value="C" class="mr-2">
-                        (C) Extending
+                        <input type="radio" required name="exam2section2question[11]" value="C" class="mr-2">
+                        (C) so
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[11]" value="D" class="mr-2">
-                        (D) Extends
+                        <input type="radio" required name="exam2section2question[11]" value="D" class="mr-2">
+                        (D) whether
                     </label>
                 </li>
             </ul>
@@ -39,31 +38,32 @@
 
         <!-- Question 12 -->
         <div class="mb-8">
-            <p class="text-lg">12. The chief sources of B12, a water-soluble vitamin ____ stored in the body, include
-                meat, milk and eggs.</p>
+            <p class="text-lg">12. In modern societies, _____ authorized body such as a legislature or a court makes the
+                law.
+            </p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[12]" value="A" class="mr-2">
-                        (A) is not
+                        <input type="radio" required name="exam2section2question[12]" value="A" class="mr-2">
+                        (A) some
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[12]" value="B" class="mr-2">
-                        (B) that is not
+                        <input type="radio" required name="exam2section2question[12]" value="B" class="mr-2">
+                        (B) some of
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[12]" value="C" class="mr-2">
-                        (C) not that is
+                        <input type="radio" required name="exam2section2question[12]" value="C" class="mr-2">
+                        (C) some the
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[12]" value="D" class="mr-2">
-                        (D) that not
+                        <input type="radio" required name="exam2section2question[12]" value="D" class="mr-2">
+                        (D) for some
                     </label>
                 </li>
             </ul>
@@ -71,39 +71,32 @@
 
         <!-- Question 13 -->
         <div class="mb-8">
-            <p class="text-lg">13. ____ is rooted in experiments in iron and steel conducted in the nineteenth century.
+            <p class="text-lg">13. The sense of smell functions chemically, _____ the sense of taste, but it is 10,000
+                times more sensitive.
             </p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[13]" value="A" class="mr-2">
-                        (A) While the
-                        history of
-                        twentieth-century architecture
+                        <input type="radio" required name="exam2section2question[13]" value="A" class="mr-2">
+                        (A) as does
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[13]" value="B" class="mr-2">
-                        (B) The history
-                        of
-                        twentieth-century architecture
+                        <input type="radio" required name="exam2section2question[13]" value="B" class="mr-2">
+                        (B) so have
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[13]" value="C" class="mr-2">
-                        (C) That the
-                        history of
-                        twentieth-century architecture
+                        <input type="radio" required name="exam2section2question[13]" value="C" class="mr-2">
+                        (C) which as
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[13]" value="D" class="mr-2">
-                        (D) Both
-                        twentieth-century
-                        architecture and its history
+                        <input type="radio" required name="exam2section2question[13]" value="D" class="mr-2">
+                        (D) by which
                     </label>
                 </li>
             </ul>
@@ -111,37 +104,31 @@
 
         <!-- Question 14 -->
         <div class="mb-8">
-            <p class="text-lg">14. The primary source of energy for tropical cyclones is the latent heat released when
-                ____</p>
+            <p class="text-lg">14. _____ primarily from plant oils, perfumes were used in ancient times as incense in
+                religious rites, in medicines, and later for adornment.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[14]" value="A" class="mr-2">
-                        (A) does water
-                        vapor
-                        condense
+                        <input type="radio" required name="exam2section2question[14]" value="A" class="mr-2">
+                        (A) Made them
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[14]" value="B" class="mr-2">
-                        (B) condensed
-                        water vapor
+                        <input type="radio" required name="exam2section2question[14]" value="B" class="mr-2">
+                        (B) They made
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[14]" value="C" class="mr-2">
-                        (C) water vapor
-                        condenses
+                        <input type="radio" required name="exam2section2question[14]" value="C" class="mr-2">
+                        (C) Made
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[14]" value="D" class="mr-2">
-                        (D) the
-                        condensation of
-                        water vapor
+                        <input type="radio" required name="exam2section2question[14]" value="D" class="mr-2">
+                        (D) By making
                     </label>
                 </li>
             </ul>
@@ -149,33 +136,30 @@
 
         <!-- Question 15 -->
         <div class="mb-8">
-            <p class="text-lg">15. Manufacturing is Canada’s most important economic activity, ____17 percent of the
-                workforce.</p>
+            <p class="text-lg">15. Boise became _____ of the state of Idaho in 1864.</p>
             <ul class="space-y-2 mt-4">
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[15]" value="A" class="mr-2">
-                        (A) engages
+                        <input type="radio" required name="exam2section2question[15]" value="A" class="mr-2">
+                        (A) as the capital
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[15]" value="B" class="mr-2">
-                        (B) and to
-                        engage
+                        <input type="radio" required name="exam2section2question[15]" value="B" class="mr-2">
+                        (B) the capital
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[15]" value="C" class="mr-2">
-                        (C) that it
-                        engage
+                        <input type="radio" required name="exam2section2question[15]" value="C" class="mr-2">
+                        (C) to be the capital
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="radio" required name="exam1section2question[15]" value="D" class="mr-2">
-                        (D) engaging
+                        <input type="radio" required name="exam2section2question[15]" value="D" class="mr-2">
+                        (D) the capital was
                     </label>
                 </li>
             </ul>

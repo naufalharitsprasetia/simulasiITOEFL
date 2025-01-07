@@ -56,11 +56,10 @@
                      or hesitation in speech patterns, and the pitch and melody of the voice also play a role. When
                      speaking to a group, the tone might show nervousness, confidence, or calmness. In one-on-one
                      interactions, the tone can convey feelings and ideas beyond the words themselves, or even
-                     contradict them. Here, it may reveal, consciously or unconsciously, emotions like sympathy,
+                     contradict them. <strong>Here</strong>, it may reveal, consciously or unconsciously, emotions like sympathy,
                      disinterest, fatigue, anxiety, enthusiasm, or excitement, all of which can be detected by an
                      attentive listener. Public speaking or performance involves a specialized form of communication
-                     that relies on specific techniques using voice and gestures. The success of artistic, political, or
-                     pedagogical communication is determined by the motivation drawn from the text, and for singing,
+                     that <strong>relies on</strong> specific techniques using voice and gestures. The success of <strong>artistic, political, or pedagogical communication</strong> is determined by the motivation drawn from the text, and for singing,
                      from the music. This, along with the performer's skills, personality, and ability to create
                      empathy, plays a crucial role in achieving that success.
                      <!-- The full passage continues here --> <br> <br>
@@ -68,8 +67,8 @@
                      and emotional state. A confident, shy, aggressive, outgoing, or exuberant tone of voice can
                      indicate a person's self-image, while the sound of their voice might reveal the persona they
                      present, such as a shy person masking their insecurity with an overly confident front. A speaker's
-                     tone can change based on how they perceive the listener’s receptiveness, interest, or empathy,
-                     either encouraging or discouraging them. Emotional health is also reflected in the voice; happiness
+                     tone can change based on how they <strong>perceive</strong> the listener’s receptiveness, interest, or empathy,
+                     either encouraging or discouraging them. Emotional health is also <strong>reflected</strong> in the voice; happiness
                      is often shown through a free and melodic voice, anger through a constricted and harsh tone, and
                      depression through a dull and lethargic voice.
                  </p>

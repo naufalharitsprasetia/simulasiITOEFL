@@ -50,19 +50,19 @@
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
                      As Philadelphia expanded from a small town to a city in the first half of the eighteenth century,
-                     it became an increasingly vital hub for marketing a vast and growing agricultural region. On market
+                     it became an increasingly vital hub for marketing a vast and growing agricultural <strong>region</strong>. On market
                      days, the already busy city became even more crowded as farmers from up to 24 kilometers away
                      brought their livestock, vegetables, cider, and other goods to sell directly to city residents. The
                      High Street Market was continuously expanded until 1736, eventually stretching from Front Street to
                      Third Street. By 1745, New Market had opened on Second Street between Pine and Cedar, followed by
-                     the Callowhill Market the next year. In addition to market days, Philadelphia continued to host
+                     the Callowhill Market the next year. In addition to market days, Philadelphia continued to <strong>host</strong>
                      twice-yearly fairs, even after similar events were discontinued in other colonial cities. These
                      fairs offered a way for handmade goods from surrounding areas to reach buyers in the city, with
-                     items like Germantown linens and stockings being especially popular.
+                     items like Germantown <strong>linens and stockings</strong> being especially popular.
                      <!-- The full passage continues here --> <br> <br>
-                     Auctions were another common form of occasional trade. Retail merchants opposed these, as well as
+                     Auctions were another common form of occasional trade. Retail merchants <strong>opposed</strong> these, as well as
                      fairs, due to the competition they presented. Although government efforts to eliminate fairs and
-                     auctions were largely unsuccessful, the natural progression of economic development favored the
+                     auctions were largely unsuccessful, the natural progression of <strong>economic development favored</strong> the
                      merchants, as business specialization became more prevalent. Export merchants began to distinguish
                      themselves from import merchants, and specialty shops started to emerge alongside general stores
                      that offered a wide range of products.

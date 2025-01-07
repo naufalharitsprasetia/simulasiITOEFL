@@ -51,8 +51,8 @@
                      Mineral particles in soil vary in size, from tiny clay particles to large boulders. The most common
                      particles—sand, silt, and clay—are primarily studied when examining soil texture. Soil texture
                      refers to the mixture of different particle sizes within a soil sample, which is usually tested by
-                     examining several representative handfuls. To determine soil texture, sand, silt, and clay
-                     particles are separated by size and weight, and their respective weights are then calculated as
+                     examining <strong>several representative handfuls</strong>. To determine soil texture, sand, silt, and clay
+                     particles are <strong>separated</strong> by size and weight, and their respective weights are then calculated as
                      percentages of the total sample weight.
                      <!-- The full passage continues here --> <br> <br>
                      In practical settings, soil texture can be estimated by taking a handful of soil and shaping the
@@ -61,7 +61,7 @@
                      ribbon, which is a flat shape made by pressing a small amount of soil between the thumb and index
                      finger. The way the soil behaves when shaped, if it can be shaped at all, helps determine a general
                      textural classification. The soil's behavior during the hand test is influenced by the amount of
-                     clay present in the sample. Clay particles are very cohesive and, when wet, act like a plastic
+                     clay present in the sample. Clay particles are very cohesive and, when <strong>wet</strong>, act like a plastic
                      material. Therefore, the higher the clay content, the more refined and durable the shapes that can
                      be formed.
                      <br><br>
@@ -70,8 +70,8 @@
                      size, the particles are grouped according to size. Each group can then be weighed to determine the
                      soil texture. While sieves are effective for separating silt, sand, and larger particles, they are
                      not suitable for clay particles because clay is too small to be sieved accurately. In soils with
-                     high clay content, the fine particles are measured based on their settling speed in water. Since
-                     clay particles settle very slowly, they can easily be separated from sand and silt. The water can
+                     high clay content, the <strong>fine</strong> particles are measured based on their settling speed in water. Since
+                     clay particles settle very slowly, <strong>they</strong> can easily be separated from sand and silt. The water can
                      then be removed and evaporated, leaving behind the clay, which can be weighed.
 
                  </p>
@@ -322,7 +322,7 @@
 
                      <!-- Question 29 -->
                      <div class="mb-6">
-                         <p class="text-md">29. The word "they" in line 38 refers to: </p>
+                         <p class="text-md">29. The word "they" in 3rd paragraph refers to: </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>

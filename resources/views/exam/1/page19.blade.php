@@ -49,12 +49,12 @@
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
                      Aviculturists, who raise birds for commercial purposes, have yet to replicate the natural
-                     incubation process of parrot eggs in the wild. They continue to seek better methods to boost egg
+                     incubation process of parrot eggs in the wild. <strong>They</strong> continue to seek better methods to boost egg
                      production and improve chick survival. In the wild, parrots naturally control the temperature and
                      humidity of their nests during incubation. The bird's body heat warms the top of the eggshell,
                      leaving the sides and bottom cooler, which might be crucial for successful hatching. The design of
                      the nest contributes to this temperature difference, with nests made of loosely arranged materials
-                     like sticks, rocks, or dirt maintaining cooler temperatures at the bottom where the egg touches the
+                     like <strong>sticks, rocks, or dirt</strong> maintaining cooler temperatures at the bottom where the egg touches the
                      nest. These nests also help regulate humidity, allowing rain to drain to the bottom, where the
                      water evaporates and increases humidity as it rises and is warmed by the bird.
                      <!-- The full passage continues here --> <br> <br>
@@ -190,7 +190,7 @@
 
                      <!-- Question 14 -->
                      <div class="mb-6">
-                         <p class="text-md">14. According to paragraph 2, sticks, rocks, or dirt are used to:</p>
+                         <p class="text-md">14. According to paragraph 1, sticks, rocks, or dirt are used to:</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>

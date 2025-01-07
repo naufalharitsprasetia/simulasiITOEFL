@@ -51,10 +51,10 @@
                      At the start of the twentieth century, formal education gained greater significance in the United
                      States. With the frontier mostly gone by 1910 and most Americans living in towns and cities,
                      industrialization and a new focus on credentials made education increasingly vital for economic and
-                     social advancement. Schools were also seen as the most significant means for integrating immigrants
+                     social advancement. Schools were also seen as the most significant <strong>means</strong> for integrating immigrants
                      into American society.
                      <!-- The full passage continues here --> <br> <br>
-                     The arrival of many southern and eastern European immigrants around this time led to a significant
+                     The arrival of many southern and eastern European immigrants around this time <strong>led to</strong> a significant
                      expansion in formal schooling. By 1920, most states had made schooling until at least age fourteen
                      compulsory, and the school year was extended. Public schools increasingly influenced students'
                      lives through kindergartens, vacation schools, extracurricular activities, vocational education,
@@ -71,7 +71,7 @@
                      goods and often included activities that generated income, both within and outside the home.
                      However, by the early twentieth century, with overproduction becoming an issue, the ideal American
                      homemaker was seen more as a consumer than a producer. Schools trained women to be efficient
-                     homemakers by focusing on cooking, shopping, decorating, and child care in their own homes, or, if
+                     homemakers by focusing on cooking, shopping, decorating, and child care in <strong>their</strong> own homes, or, if
                      needed, working in the homes of others. Later reforms have made these ideas seem outdated.
                  </p>
              </div>

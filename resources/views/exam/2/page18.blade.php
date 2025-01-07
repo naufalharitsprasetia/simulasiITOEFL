@@ -49,18 +49,18 @@
                  <h1 class="text-xl font-bold mb-4">READING</h1>
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
-                     In the later part of the nineteenth century, the direction of expansion in the United States
+                     In the later part of the nineteenth century, the direction of <strong>expansion</strong> in the United States
                      shifted from the countryside to the city. During the crises of the 1870s and the 1890s, tens of
-                     thousands of families abandoned their farms and ranches and headed for urban areas. Even prosperity
+                     thousands of families <strong>abandoned</strong> their farms and ranches and headed for urban areas. Even prosperity
                      produced migration from the countryside to the city. As pioneers settled rural districts,
                      eventually the number of farms or ranches approached the maximum number the land would support.
                      Landowners sought to increase their productivity through mechanization, and those who were
                      successful invested their returns in the purchase of additional land and equipment, expanding their
                      holdings by buying the farms of less fortunate neighbors, who moved on. Compare this pattern of
                      economic development with that of the city, where innovations in manufacturing led to the creation
-                     of new opportunities and new jobs. But in the countryside, economic development inevitably meant
+                     of new opportunities and new jobs. But in the countryside, economic development <strong>inevitably</strong> meant
                      depopulation. Rural areas in the central part of the country had begun to lose population by the
-                     1880s, and over the next half century most of the rural West was overtaken by this trend. For every
+                     1880s, and over the next half century most of the rural West was overtaken by this <strong>trend</strong>. For every
                      industrial worker who became a farmer, 20 young men from farms rushed to the city to compete for
                      his job.
                      <!-- The full passage continues here --> <br> <br>
@@ -71,7 +71,7 @@
                      featured the presence of many young, unattached men among the migrants but almost no single women.
                      <br><br>
                      What explains the greater rates of female migration to the cities? In the opinion of many
-                     contemporaries, young women were pushed out of the countryside by constricted opportunities,
+                     contemporaries, young women were pushed out of the countryside by <strong>constricted</strong> opportunities,
                      particularly limited educational and vocational options.
                  </p>
              </div>

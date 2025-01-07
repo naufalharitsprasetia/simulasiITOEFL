@@ -55,25 +55,25 @@
                      leaves, and insect wings in rocks. Unlike these kinds of fossils, which are usually
                      mineral replacements of the original structure, amber is entirely organic; its composition from the
                      original tree resin has changed little over millions of years. Even the inclusions of tiny
-                     organisms in amber are strikingly intact. Exquisite preservation is a natural property
+                     organisms in amber are strikingly <strong>intact</strong>. Exquisite preservation is a natural property
                      of certain kinds of resins, although the process is not completely understood
                      <!-- The full passage continues here --> <br> <br>
-                     Hundreds of deposits of amber occur around the world, most of them in trace quantities. Amber is
+                     Hundreds of deposits of amber occur around the world, most of them in <strong>trace</strong> quantities. Amber is
                      found in places where the hardened resin of various extinct plants is preserved, but special
                      conditions are required to preserve this substance over millions of years, and only occasionally
                      has amber survived in quantities large enough to be mined.
                      Only about 20 such rich deposits of amber exist in the world, and the
-                     deposits vary greatly in age. It is a common misconception that amber is derived exclusively from
-                     pine trees; in fact, amber was formed by various conifer trees (only a few of them apparently
+                     deposits vary greatly in age. It is a common <strong>misconception</strong> that amber is derived exclusively from
+                     pine trees; in fact, amber was formed by various conifer trees (only a few of <strong>them</strong> apparently
                      related to pines), as well as by some tropical broad-leaved trees.
                      <!-- The full passage continues here --> <br> <br>
                      Amber is almost always preserved in a sediment that collected at the bottom of an
                      ancient lagoon or river delta at the edge of an ocean or sea. The specific gravity of solid amber
                      is only slightly higher than that of water; although it does not float, it is buoyant and easily
-                     carried by water (amber with bubbles is even more buoyant). Thus, amber would be
+                     carried by water (amber with bubbles is even more buoyant). <strong>Thus</strong>, amber would be
                      carried downriver with logs from fallen amber-producing trees and cast up as beach drift on the
                      shores or in the shallows of a delta into which the river empties.
-                     Over time, sediments would gradually bury the wood and resin. The resin would become
+                     Over time, sediments would gradually <strong>bury</strong> the wood and resin. The resin would become
                      amber, and the wood a blackened, charcoal-like substance called lignite.
                  </p>
              </div>

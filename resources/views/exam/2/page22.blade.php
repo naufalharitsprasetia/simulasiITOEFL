@@ -60,9 +60,9 @@
                     beginning of the Christian era. Before the first, nonfading “solid” green was invented
                     in the early nineteenth century, greens were achieved by the overdyeing or overprinting of yellow
                     and blue. However, yellow dyes, whether from weld or some other plant source such as saffron or
-                    turmeric, invariably fade or disappear. This accounts for the
+                    turmeric, <strong>invariably</strong> fade or disappear. This accounts for the
                     bluish tinge of what were once bright greens in, for example, woven tapestry. The range of natural
-                    colors was hugely expanded and, indeed, superseded by the
+                    colors was hugely expanded and, indeed, <strong>superseded</strong> by the
                     chemical dyes developed during the eighteen hundreds. By 1900 a complete range of synthetic colors
                     had been evolved, many of them reaching a standard of resistance to fading from exposure to light
                     and to washing that greatly exceeded that of natural dyestuffs. Since then, the petroleum industry
@@ -87,7 +87,7 @@
 
                     <!-- Question 43 -->
                     <div class="mb-6">
-                        <p class="text-md">43. The passage mainly discusses the </p>
+                        <p class="text-md">43. The passage mainly discusses about </p>
                         <ul class="space-y-2 mt-4 text-sm">
                             <li>
                                 <label>

@@ -59,13 +59,11 @@
                     languages, bringing into being oral
                     literatures of power and beauty
                     <!-- The full passage continues here --> <br> <br>
-                    Contemporary readers, forgetting the origins of Western epic, lyric, and dramatic forms, are easily
-                    disposed to think of “literature” only as something written. But on reflection it becomes clear that
-                    the more critically useful as well as the more frequently
-                    employed sense of the term concerns the artfulness of the verbal creation, not its mode of
-                    presentation. Ultimately, literature is aesthetically valued, regardless of language,
+                    Contemporary readers, forgetting the origins of Western epic, lyric, and dramatic forms, <strong>are easily disposed</strong> to think of “literature” only as something written. But on reflection it becomes clear that
+                    the more critically useful as well as the more frequently employed sense of the term concerns the artfulness of the verbal creation, not its mode of
+                    presentation. <strong>Ultimately</strong>, literature is aesthetically valued, regardless of language,
                     culture, or mode of presentation, because some significant verbal achievement results from the
-                    struggle in words between tradition and talent. Verbal art has the ability to shape out a compelling
+                    struggle in words between tradition and talent. Verbal art has the ability to shape out a <strong>compelling</strong>
                     inner vision in some skillfully crafted public verbal form.
                     <!-- The full passage continues here --> <br> <br>
                     Of course, the differences between the written and oral modes of expression are not without
@@ -85,7 +83,7 @@
         <!-- Right Column (Questions) -->
         <div class="w-full p-4">
             <div class="scrollable" style="width: 600px;">
-                <div class="bg-white shadow-lg rounded-lg p-6 w-[800px]">
+                <div class="bg-white shadow-lg rounded-lg p-6 w-[1000px]">
                     <h2 class="text-xl font-bold mb-4">Questions 33-42</h2>
 
                     <!-- Question 33 -->

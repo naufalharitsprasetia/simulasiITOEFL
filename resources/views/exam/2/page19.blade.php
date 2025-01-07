@@ -49,11 +49,11 @@
                  <p class="text-justify leading-relaxed w-[400px]">
                      <!-- Add your reading passage here -->
                      The deepest that any person can get below the surface of Earth is to the bottom of the deepest
-                     mine, a mere 4 kilometers; the deepest hole ever drilled into Earth’s crust
+                     mine, a <strong>mere</strong> 4 kilometers; the deepest hole ever drilled into Earth’s crust
                      reached less than 20 kilometers below the surface. Although the details of Earth’s gravitational
                      and magnetic fields give some extra information about what is going on inside Earth, for the most
                      part our understanding of Earth’s interior is still dependent
-                     on the detection of seismic waves, the vibrations caused by earthquakes. These waves travel through
+                     on the detection of <strong>seismic waves</strong>, the vibrations caused by <strong>earthquakes</strong>. These waves travel through
                      Earth and are reflected and refracted by boundaries between different layers of rock.
                      <!-- The full passage continues here --> <br> <br>
                      What the analysis of seismic waves shows is a layered structure built around a solid inner core,
@@ -61,15 +61,15 @@
                      by a liquid outer core, which has a thickness of just over 1,800 kilometers. The whole core is very
                      dense, probably rich in iron, and has a temperature of nearly 5,000 degrees Celsius. The
                      circulation of this electrically conducting material in the liquid outer core is clearly
-                     responsible for the generation of Earth’s magnetic field, but nobody has ever been able to work out
-                     a thoroughly satisfactory model of how this process works.
+                     responsible for the generation of Earth’s <strong>magnetic field</strong>, but nobody has ever been able to work out
+                     a <strong>thoroughly</strong> satisfactory model of how this process works.
                      <!-- The full passage continues here --> <br> <br>
                      The high temperature in the core is in part a result of the fact that the Earth formed as a ball of
-                     molten rock. Once a cool crust had formed around the molten ball of rock, it functioned as an
+                     molten rock. Once a cool crust had formed around the molten ball of rock, <strong>it functioned</strong> as an
                      insulating blanket. Even so, without some continuing injection of heat, the interior of Earth could
                      not still be as hot as it is today, more than four billion years
-                     later. The extra heat comes from radioactive isotopes (originally manufactured by
-                     stars), which decay into stable elements and give out energy as they do so. In about ten
+                     later. The extra heat comes from radioactive isotopes (originally <strong>manufactured</strong> by
+                     stars), which decay into <strong>stable elements</strong> and give out energy as they do so. In about ten
                      billion years, even this source of heat will be used up, and Earth will gradually cool down.
                  </p>
              </div>
@@ -243,7 +243,7 @@
 
                      <!-- Question 16 -->
                      <div class="mb-6">
-                         <p class="text-md">16. The word “it” in line 18 refers to </p>
+                         <p class="text-md">16. The word “it” in the 3rd paragraph on line 4 refers to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
@@ -274,7 +274,7 @@
 
                      <!-- Question 17 -->
                      <div class="mb-6">
-                         <p class="text-md">17. The word “functioned” in line 18 is closest in meaning to</p>
+                         <p class="text-md">17. The word “functioned” in the 3rd paragraph on line 4 is closest in meaning to</p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
@@ -305,7 +305,7 @@
 
                      <!-- Question 18 -->
                      <div class="mb-6">
-                         <p class="text-md">18. The word “manufactured” in line 20 is closest in meaning to </p>
+                         <p class="text-md">18. The word “manufactured” in the 3rd paragraph on line 9 is closest in meaning to </p>
                          <ul class="space-y-2 mt-4 text-sm">
                              <li>
                                  <label>
@@ -370,8 +370,8 @@
 
                      <!-- Question 20 -->
                      <div class="mb-6">
-                         <p class="text-md">20. Look at the terms“seismic waves” (line 6),“earthquakes” (line 6),
-                             “magnetic field” (line 14), and “stable elements” (line 21). Which of these terms is
+                         <p class="text-md">20. Look at the terms“seismic waves” (1st paragraph),“earthquakes” (1st paragraph),
+                             “magnetic field” (2nd paragraph), and “stable elements” (3rd paragraph). Which of these terms is
                              defined in the passage?
                          </p>
                          <ul class="space-y-2 mt-4 text-sm">

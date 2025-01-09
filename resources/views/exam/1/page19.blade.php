@@ -65,7 +65,7 @@
                      nests. In cold weather, it’s crucial to have a thick layer of nesting material to <strong>insulate</strong> the eggs
                      from the cold wooden bottom, as extreme cold can be <strong>fatal</strong> to the embryos. Similarly, these boxes
                      should be shielded from direct sunlight to prevent overheating, which is also deadly for the
-                     embryos. Enough nesting material should be added to ensure the eggs are kept at a stable
+                     embryos. Enough nesting material should be added to <strong>ensure</strong> the eggs are kept at a stable
                      temperature and have a <strong>secure</strong> place to rest.
                  </p>
              </div>

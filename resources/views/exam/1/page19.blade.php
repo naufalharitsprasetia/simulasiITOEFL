@@ -62,11 +62,11 @@
                      environments. However, most commercial incubators heat the eggs evenly from top to bottom, which
                      might not mimic the natural incubation method and could reduce the hatching success rate.
                      Alternatively, when incubators aren’t used, aviculturists sometimes use outdoor wooden boxes as
-                     nests. In cold weather, it’s crucial to have a thick layer of nesting material to insulate the eggs
-                     from the cold wooden bottom, as extreme cold can be fatal to the embryos. Similarly, these boxes
+                     nests. In cold weather, it’s crucial to have a thick layer of nesting material to <strong>insulate</strong> the eggs
+                     from the cold wooden bottom, as extreme cold can be <strong>fatal</strong> to the embryos. Similarly, these boxes
                      should be shielded from direct sunlight to prevent overheating, which is also deadly for the
                      embryos. Enough nesting material should be added to ensure the eggs are kept at a stable
-                     temperature and have a secure place to rest.
+                     temperature and have a <strong>secure</strong> place to rest.
                  </p>
              </div>
          </div>

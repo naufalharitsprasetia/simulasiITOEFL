@@ -83,7 +83,7 @@
         <!-- Right Column (Questions) -->
         <div class="w-full p-4">
             <div class="scrollable" style="width: 600px;">
-                <div class="bg-white shadow-lg rounded-lg p-6 w-[1000px]">
+                <div class="bg-white shadow-lg rounded-lg p-6 w-[1200px]">
                     <h2 class="text-xl font-bold mb-4">Questions 33-42</h2>
 
                     <!-- Question 33 -->

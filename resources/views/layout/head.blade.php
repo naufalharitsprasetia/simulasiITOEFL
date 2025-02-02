@@ -22,7 +22,7 @@
     {{-- Style CSS --}}
     @vite('resources/css/app.css')
     <link rel="icon" href="/img/buku.png" type="image/png">
-    <title>TOEFL Online Practice Test | UNIDA GONTOR</title>
+    <title>Free Practice for English Test</title>
 </head>
 
 <body>

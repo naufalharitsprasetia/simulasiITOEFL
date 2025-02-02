@@ -7,7 +7,7 @@
                 <img src="/img/unida.png" alt="Logo" class="w-16">
             </div> --}}
             <div>
-                <p class="font-bold">TOEFL Online Practice Test</p>
+                <p class="font-bold">Free Practice for English Test </p>
                 <p class="font-medium text-sm italic">"Prepare for Success!"</p>
             </div>
         </div>

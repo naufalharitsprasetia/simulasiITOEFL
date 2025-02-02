@@ -3,7 +3,7 @@
         <div class="relative flex h-16 items-center justify-between">
             <div class="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
                 <div class="flex flex-shrink-0 items-center ml-28">
-                    <h2 class="mx-4 text-third font-poppins font-semibold text-lg">TOEFL Online Practice Test</h2>
+                    <h2 class="mx-4 text-third font-poppins font-semibold text-lg">Free Practice for English Test</h2>
                 </div>
                 <div class="hidden lg:ml-6 lg:block">
                     <div class="ml-10 flex gap-6 items-center">
@@ -14,23 +14,23 @@
                         <a href="/references"
                             class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'references' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }} ">References</a>
                         @auth
-                            @can('admin-only')
-                                <a href="{{ route('admin.index') }}"
-                                    class="rounded-md p-2 text-sm font-medium bg-gray-900 text-white hover:bg-third hover:text-gray-900">Admin</a>
-                            @endcan
-                            <a href="/history"
-                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'history' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">History</a>
-                            <form action="/logout" id="logout-form" method="post">
-                                @csrf
-                                <button type="button" onclick="confirmLogout()"
-                                    class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'logout' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Logout</button>
-                            </form>
-                            <p class="text-third">Welcome Back, {{ auth()->user()->name }} !</p>
+                        @can('admin-only')
+                        <a href="{{ route('admin.index') }}"
+                            class="rounded-md p-2 text-sm font-medium bg-gray-900 text-white hover:bg-third hover:text-gray-900">Admin</a>
+                        @endcan
+                        <a href="/history"
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'history' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">History</a>
+                        <form action="/logout" id="logout-form" method="post">
+                            @csrf
+                            <button type="button" onclick="confirmLogout()"
+                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'logout' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Logout</button>
+                        </form>
+                        <p class="text-third">Welcome Back, {{ auth()->user()->name }} !</p>
                         @else
-                            <a href="/login"
-                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'login' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Login</a>
-                            <a href="/register"
-                                class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'register' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Register</a>
+                        <a href="/login"
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'login' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Login</a>
+                        <a href="/register"
+                            class="rounded-md px-3 py-2 text-sm font-medium {{ $active == 'register' ? 'bg-third text-gray-900' : 'text-third hover:bg-third hover:text-gray-900' }}">Register</a>
                         @endauth
                     </div>
                 </div>
@@ -81,30 +81,30 @@
                 Lainnya</a>
         </div>
         @auth
-            <div class="border-t border-third pb-3 pt-4">
-                <div class="flex items-center px-5">
-                    <div class="flex-shrink-0">
-                        <img class="h-10 w-10 rounded-full" src="/img/avatar.jpg" alt="">
-                    </div>
-                    <div class="ml-3">
-                        <div class="text-base font-medium leading-none text-gray-500">Nama</div>
-                        <div class="text-sm font-medium leading-none text-gray-500">Email</div>
-                    </div>
+        <div class="border-t border-third pb-3 pt-4">
+            <div class="flex items-center px-5">
+                <div class="flex-shrink-0">
+                    <img class="h-10 w-10 rounded-full" src="/img/avatar.jpg" alt="">
                 </div>
-                <div class="mt-3 space-y-1 px-2">
-                    <a href="/dashboard"
-                        class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'dashboard' ? 'bg-third text-white' : 'text-gray-500 hover:bg-third hover:text-white' }}"><i
-                            class="fa-solid fa-table-columns"></i> Dashboard
-                        Admin</a>
-                    <form action="/logout" method="POST" id="logout-form">
-                        @csrf
-                        <button type="button" onclick="confirmLogout()"
-                            class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-third hover:text-white"
-                            role="menuitem" tabindex="-1" id="user-menu-item-2"><i
-                                class="fa-solid fa-right-from-bracket"></i> Sign out</button>
-                    </form>
+                <div class="ml-3">
+                    <div class="text-base font-medium leading-none text-gray-500">Nama</div>
+                    <div class="text-sm font-medium leading-none text-gray-500">Email</div>
                 </div>
             </div>
+            <div class="mt-3 space-y-1 px-2">
+                <a href="/dashboard"
+                    class="block rounded-md px-3 py-2 text-base font-medium {{ $active == 'dashboard' ? 'bg-third text-white' : 'text-gray-500 hover:bg-third hover:text-white' }}"><i
+                        class="fa-solid fa-table-columns"></i> Dashboard
+                    Admin</a>
+                <form action="/logout" method="POST" id="logout-form">
+                    @csrf
+                    <button type="button" onclick="confirmLogout()"
+                        class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-third hover:text-white"
+                        role="menuitem" tabindex="-1" id="user-menu-item-2"><i
+                            class="fa-solid fa-right-from-bracket"></i> Sign out</button>
+                </form>
+            </div>
+        </div>
         @endauth
     </div>
 </nav>

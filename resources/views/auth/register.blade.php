@@ -13,9 +13,8 @@
                     <h1 class="text-xl lg:text-3xl font-semibold pr-3 text-black">Register
                     </h1>
                 </div>
-                <p class="text-gray-500">Enter the TOEFL Simulation by UNIDA Gontor and explore exciting features waiting
-                    for you!
-                </p>
+                <p class="text-gray-500">Enter the Free Practice for English Test and explore exciting features waiting
+                    for you! </p>
             </div>
 
             <form action="/register" method="POST" class="space-y-6">
@@ -31,7 +30,7 @@
                             placeholder="Masukkan nama lengkap"
                             class="w-full px-4 py-3 rounded-lg bg-white border @error('name') input-error @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                         @error('name')
-                            <p class="text-red-500 text-sm mt-2">Full name is invalid.</p>
+                        <p class="text-red-500 text-sm mt-2">Full name is invalid.</p>
                         @enderror
                     </div>
 
@@ -43,20 +42,18 @@
                             placeholder="Masukkan nama pengguna"
                             class="w-full px-4 py-3 rounded-lg bg-white border @error('username') input-error @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                         @error('username')
-                            <p class="text-red-500 text-sm mt-2">Invalid username.</p>
+                        <p class="text-red-500 text-sm mt-2">Invalid username.</p>
                         @enderror
                     </div>
                 </div>
 
                 <!-- Email: full width input -->
                 <div class="relative">
-                    <label for="email"
-                        class="block text-sm lg:text-base font-medium text-gray-700 mb-2">Email</label>
-                    <input type="email" name="email" value="{{ old('email') }}" required
-                        placeholder="Masukkan email"
+                    <label for="email" class="block text-sm lg:text-base font-medium text-gray-700 mb-2">Email</label>
+                    <input type="email" name="email" value="{{ old('email') }}" required placeholder="Masukkan email"
                         class="w-full px-4 py-3 rounded-lg bg-white border @error('email') input-error @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                     @error('email')
-                        <p class="text-red-500 text-sm mt-2">Invalid email.</p>
+                    <p class="text-red-500 text-sm mt-2">Invalid email.</p>
                     @enderror
                 </div>
 
@@ -69,7 +66,7 @@
                         <input type="password" id="password" name="password" required placeholder="Masukkan kata sandi"
                             class="w-full px-4 py-3 rounded-lg bg-white border @error('password') input-error @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                         @error('password')
-                            <p class="text-red-500 text-sm mt-2">Invalid password.</p>
+                        <p class="text-red-500 text-sm mt-2">Invalid password.</p>
                         @enderror
                     </div>
 
@@ -82,15 +79,14 @@
                             placeholder="Konfirmasi kata sandi"
                             class="w-full px-4 py-3 rounded-lg bg-white border @error('password_confirmation') input-error @enderror focus:border-black focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200 ease-in-out">
                         @error('password_confirmation')
-                            <p class="text-red-500 text-sm mt-2">Kata sandi tidak cocok.</p>
+                        <p class="text-red-500 text-sm mt-2">Kata sandi tidak cocok.</p>
                         @enderror
                     </div>
                 </div>
 
                 <!-- Show/Hide Password Checkbox -->
                 <div class="flex items-center">
-                    <input type="checkbox" id="togglePasswordVisibility" onclick="togglePasswordFields()"
-                        class="mr-2">
+                    <input type="checkbox" id="togglePasswordVisibility" onclick="togglePasswordFields()" class="mr-2">
                     <label for="togglePasswordVisibility" class="text-sm lg:text-base text-gray-700">show
                         password</label>
                 </div>

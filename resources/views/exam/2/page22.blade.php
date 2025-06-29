@@ -39,7 +39,7 @@
 </style>
 <div class="begginer-wrapper py-20">
     <div class="title-container font-bold font-poppins mb-6">
-        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">STRUCTURE & WRITTEN EXPRESSION</h1>
+        <h1 class="text-sm rounded-lg bg-primary text-third p-2 inline-block">READING COMPREHENSION</h1>
     </div>
     <div class="body-container flex">
         <!-- Left Column (Reading Passage) -->
